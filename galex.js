@@ -392,7 +392,7 @@ const songsData = {
             album: 'Karu Karu Karupayi',
             duration: '4:25',
             cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Karu-Karu-Karupayi-MassTamilan.dev.mp3'
+            audio: 'songs/Karu-Karu-Karupayi-MassTamilan.dev.mp3'
         },
         {
             title: 'Kondayil Thaazham Poo',
@@ -400,7 +400,34 @@ const songsData = {
             album: 'Kondayil Thaazham Poo',
             duration: '3:50',
             cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Kondayil-Thaazham-Poo.mp3'
+            audio: 'songs/Kondayil-Thaazham-Poo.mp3'
+        }
+    ],
+    'ilaiyaraj'; [
+        {
+            title: 'Sandhana Katrae',
+            artist: 'Ilaiya Raj',
+            album: 'Sandhana Katrae',
+            duration: '3:45',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Sandhana-Katrae.mp3'
+        },
+        {
+            title: 'Sundari Neeyum',
+            artist: 'Ilaiya Raj',
+            album: 'Sundari-Neeyum',
+            duration: '4:10',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Sundari-Neeyum.mp3'
+        
+        },
+        {
+            title:'Thendral vandhu Ennai Thodum',
+            artist: 'Ilaiya Raj',
+            album: 'Thendral vandhu Ennai Thodum',
+            duration: '3:55',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Thendral-vandhu-Ennai-Thodum-Isaimini.mp3'
         }
     ]
 };
@@ -1052,7 +1079,8 @@ function getArtistName(artistId) {
         'aniruth': 'Aniruth',
         'harris jayaraj': 'Harris Jayaraj',
         'D Imman': 'D Imman',
-        'S P B': 'S P B'
+        'S P B': 'S P B',
+        'ilaiyarajA':'ilaiyarajA'
     };
     return names[artistId] || artistId;
 }
