@@ -353,7 +353,7 @@ const songsData = {
             audio:'songs/Thuli_Thuli_Mazhaiyaai.mp3'
         },
         {
-            title;'Yedho Ondru Ennai Thakka',
+            title:'Yedho Ondru Ennai Thakka',
             artist:'Yuvan',
             album:'Paiya',
             duration:'3:50',
@@ -1382,6 +1382,7 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
 
 
 
