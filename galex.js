@@ -1053,7 +1053,7 @@ function populatePlaylists() {
 
 function loadSettings() {
     const savedSettings = JSON.parse(localStorage.getItem('galexSettings')) || {};
-    document.getElementById('autoPlay').checked = savedSettings.autoPlay || false;
+    document.getElementById('autoPlay').checked = savedSettings.autoPlay !== false;
     document.getElementById('showQueue').checked = savedSettings.showQueue !== false;
     document.getElementById('darkMode').checked = savedSettings.darkMode !== false;
     document.getElementById('animations').checked = savedSettings.animations !== false;
@@ -1357,4 +1357,5 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
 
