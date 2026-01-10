@@ -335,6 +335,31 @@ const songsData = {
             duration:'3:55',
             cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',   
             audio:'songs/Poongatre_Poongatre.mp3'
+        },
+        {
+            title: 'Suthuthe Suthuthe Bhoomi',
+            artist: 'Yuvan',
+            album: 'Paiya',
+            duration: '4:05',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Suthuthe_Suthuthe_Bhoomi.mp3'
+        },
+        {
+            title:'Thuli Thuli Mazhaiyaai',
+            artist:'Yuvan',
+            album:'Paiya',
+            duration:'4:20',
+            cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio:'songs/Thuli_Thuli_Mazhaiyaai.mp3'
+        },
+        {
+            title;'Yedho Ondru Ennai Thakka',
+            artist:'Yuvan',
+            album:'Paiya',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio:'songs/Yedho_Ondru_Ennai_Thakka.mp3'
+        
         }
     ]
 };
@@ -1357,5 +1382,6 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
 
 
