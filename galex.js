@@ -81,8 +81,16 @@ const songsData = {
             album: 'Nilavuku En Mel Ennadi Kobam',
             duration: '3:50',
             cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
-            audio: 'songs/Golden Sparrow (From  Nilavuku En Mel Ennadi Kobam ) - G. V. Prakash, Arivu, Dhanush, Sublahshini.mp3'
+            audio: 'songs/Golden_Sparrow.mp3'
         },
+        {
+            title: 'Kaathal Fail',
+            artist: 'GV Prakash Kumar',
+            album: 'Kaathal Fail',
+            duration: '',
+            cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
+            audio: 'songs/Kaathal_Fail.mp3'
+            },
         {
             title: 'Hey Minnale',
             artist: 'GV Prakash Kumar',
@@ -146,40 +154,65 @@ const songsData = {
             duration: '3:50',
             cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
             audio: 'songs/Vaa Vaathi - G. V. Prakash, Shweta Mohan.mp3'
-        },
+        }
     ],
     'hiphopadhi': [
         {
-            title: 'Chennai City Gangstar',
+            title: 'Aathadi',
             artist: 'Hiphop Adhi',
-            album: 'Vanakkam Chennai',
+            album: 'Natpe thunai',
             duration: '3:45',
             cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
-            audio: 'songs/Chennai City Gangsta - Anirudh Ravichander, Hard Kaur, Hiphop Tamizha, Country Chicken.mp3'
+            audio: 'songs/Aathadi-MassTamilan.org.mp3'
         },
         {
-            title: 'Breakup Song',
+            title: 'Kerala Song',
             artist: 'Hiphop Adhi',
-            album: 'Misaiya Murukku',
+            album: 'Natpe thunai',
             duration: '4:10',
             cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
-            audio: 'songs/Breakup Song - From  Naan Sirithal  - Hiphop Tamizha.mp3'
+            audio: 'songs/Kerala-Song-MassTamilan.org.mp3'
         },
         {
-            title: 'Boombastic',
+            title: 'Morattu Single',
             artist: 'Hiphop Adhi',
-            album: 'Kadaisi Ulaga Por',
+            album: 'Natpe thunai',
             duration: '3:55',
             cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
-            audio: 'songs/Boombastic - From  Kadaisi Ulaga Por  - Hiphop Tamizha, Chinna Ponnu, Rajan Chelliah.mp3'
+            audio: 'songs/Morattu-Single-MassTamilan.org.mp3'
         },
         {
-            title: 'Vaadi Pulla Vaadi',
+            title: 'Pallikoodam-the-farewell',
             artist: 'Hiphop Adhi',
             album: 'Meesaya Murukku',
             duration: '4:05',
             cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
-            audio: 'songs/Vaadi Pulla Vaadi - Hiphop Tamizha.mp3'
+            audio: 'songs/Pallikoodam-The-Farewell-MassTamilan.org.mp3'
+        },
+        {
+            title:'Single-Pasanga-MassTamilan',
+            artist: 'Hiphop Adhi',
+            album: 'Natpe thunai',
+            duration: '4:20',
+            cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
+            audio: 'songs/Single-Pasanga-MassTamilan.org.mp3'
+        },
+        {
+            title:'Vengamavan-MassTamilan.org.mp3',
+            artist: 'Hiphop Adhi',
+            album: 'Natpe thunai',
+            duration: '3:50',
+            cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
+            audio: 'songs/Vengamavan-MassTamilan.org.mp3'
+        },
+        {
+            title :'Veedhikor Jaadhi',
+            artist: 'Hiphop Adhi',
+            album: 'Natpe thunai',
+            duration: '4:15',
+            cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
+            audio: 'songs/Veedhikor-Jaadhi-MassTamilan.org.mp3'
+        
         }
     ],
     'vijayantony': [
@@ -201,199 +234,7 @@ const songsData = {
         }
     ],
     'Deva': [
-        {
-            title: 'Aadiyae Attam Enna',
-            artist: 'Deva',
-            album: 'Aadiyae Attam Enna',
-            duration: '4:00',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Aadiyae-Attam-Enna-MassTamilan.fm.mp3'
-        },
-        {
-            title: 'Aaha Yehi Hai II',
-            artist: 'Deva',
-            album: 'Aaha Yehi Hai II',
-            duration: '3:45',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Aaha-Yehi-Hai-II-MassTamilan.com.mp3'
-        },
-        {
-            title: 'Aasaiyil Oor Kaditham',
-            artist: 'Deva',
-            album: 'Aasaiyil Oor Kaditham',
-            duration: '4:20',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Aasaiyil-Oor-Kaditham-MassTamilan.com.mp3'
-        },
-        {
-            title: 'Adiye Flowere (I)',
-            artist: 'Deva',
-            album: 'Adiye Flowere (I)',
-            duration: '3:50',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Adiye-Flowere-(I)-MassTamilan.com.mp3'
-        },
-        {
-            title: 'Alli Alli',
-            artist: 'Deva',
-            album: 'Alli Alli',
-            duration: '4:10',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Alli-Alli.mp3'
-        },
-        {
-            title: 'Anju Pathu Kadanai',
-            artist: 'Deva',
-            album: 'Anju Pathu Kadanai',
-            duration: '3:55',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Anju-Pathu-Kadanai-MassTamilan.com.mp3'
-        },
-        {
-            title: 'Annamalai Annamalai',
-            artist: 'Deva',
-            album: 'Annamalai Annamalai',
-            duration: '4:25',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Annamalai-Annamalai.mp3'
-        },
-        {
-            title: 'Arumugam',
-            artist: 'Deva',
-            album: 'Arumugam',
-            duration: '4:15',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Arumugam-MassTamilan.io.mp3'
-        },
-        {
-            title: 'Athanda Ithanda',
-            artist: 'Deva',
-            album: 'Athanda Ithanda',
-            duration: '4:05',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Athanda-Ithanda.mp3'
-        },
-        {
-            title: 'Australia',
-            artist: 'Deva',
-            album: 'Australia',
-            duration: '3:35',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Australia.mp3'
-        },
-        {
-            title: 'Azhage Bhramanidam',
-            artist: 'Deva',
-            album: 'Azhage Bhramanidam',
-            duration: '4:00',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Azhage-Bhramanidam.mp3'
-        },
-        {
-            title: 'Azhagu Azhagu Nee',
-            artist: 'Deva',
-            album: 'Azhagu Azhagu Nee',
-            duration: '4:20',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Azhagu-Azhagu-Nee.mp3',
-        },
-        {
-            title: 'Baatcha Paaru',
-            artist: 'Deva',
-            album: 'Baatcha Paaru',
-            duration: '3:50',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Baatcha-Paaru.mp3',
-        },
-        {
-            title: 'Chinnanchiru Poove',
-            artist: 'Deva',
-            album: 'Chinnanchiru Poove',
-            duration: '4:10',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Chinnanchiru-Poove-MassTamilan.fm.mp3'
-        },
-        {
-            title: 'Chitraiyae Adi Chitraiyae',
-            artist: 'Deva',
-            album: 'Chitraiyae Adi Chitraiyae',
-            duration: '4:30',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Chitraiyae-Adi-Chitraiyae-MassTamilan.fm.mp3'
-        },
-        {
-            title: 'Ele Elanguyile',
-            artist: 'Deva',
-            album: 'Ele Elanguyile',
-            duration: '3:55',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Ele-Elanguyile-MassTamilan.fm.mp3'
-
-        },
-        {
-            title: 'Endhan Rajadhi Mass',
-            artist: 'Deva',
-            album: 'Endhan Rajadhi Mass',
-            duration: '4:15',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Endhan-Rajadhi-MassTamilan.io.mp3'
-        },
-        {
-            title: 'Enna Idhu Vayasu Mass',
-            artist: 'Deva',
-            album: 'Enna Idhu Vayasu Mass',
-            duration: '4:05',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Enna-Idhu-Vayasu-MassTamilan.com.mp3'
-        },
-        {
-            title: 'French Classile',
-            artist: 'Deva',
-            album: 'French Classile',
-            duration: '3:40',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/French-Classile-MassTamilan.com.mp3'
-        },
-        {
-            title: 'Hip Hip',
-            artist: 'Deva',
-            album: 'Hip Hip',
-            duration: '4:20',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Hip-Hip-MassTamilan.com.mp33'
-        },
-        {
-            title: 'I Love You',
-            artist: 'Deva',
-            album: 'I Love You',
-            duration: '4:00',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/I-Love-You.mp3'
-        },
-        {
-            title: 'Kaadhal Kiligale',
-            artist: 'Deva',
-            album: 'Kaadhal Kiligale',
-            duration: '3:55',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Kaadhal-Kiligale-MassTamilan.fm.mp3'
-        },
-        {
-            title: 'Karthigai Mass',
-            artist: 'Deva',
-            album: 'Karthigai Mass',
-            duration: '4:10',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Deva/Karthigai-MassTamilan.com.mp3'
-        },
-        {
-            title: 'Karu Karu Karupayi',
-            artist: 'Deva',
-            album: 'Karu Karu Karupayi',
-            duration: '4:25',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Karu-Karu-Karupayi-MassTamilan.dev.mp3'
-        },
+        
         {
             title: 'Kondayil Thaazham Poo',
             artist: 'Deva',
@@ -403,7 +244,7 @@ const songsData = {
             audio: 'songs/Kondayil-Thaazham-Poo.mp3'
         }
     ],
-    'ilaiyaraj': [
+    'ilaiyaraja': [
         {
             title: 'Sandhana Katrae',
             artist: 'Ilaiya Raj',
@@ -428,9 +269,76 @@ const songsData = {
             duration: '3:55',
             cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
             audio: 'songs/Thendral-vandhu-Ennai-Thodum-Isaimini.mp3'
+        },
+        {
+            title:'Pothi Vacha Malliga Mottu',
+            artist: 'Ilaiya Raj',
+            album: 'Pothi Vacha Malliga Mottu',
+            duration: '4:05',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Pothi-Vacha-Malliga-Mottu.mp3'
+        },
+        {
+            title:'Putham Puthu',
+            artist: 'Ilaiya Raj',
+            album: 'Putham Puthu',
+            duration: '4:20',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Putham-Puthu.mp3'
+        },
+        {
+            title:'Puthiya-Poovithu-Poothathu',
+            artist: 'Ilaiya Raj',
+            album: 'Puthiya-Poovithu-Poothathu',
+            duration: '3:50', 
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Puthiya-Poovithu-Poothathu.mp3'
+           },
+           {
+            title:'Sandhana-Katrae',
+            artist: 'Ilaiya Raj',
+            album: 'Sandhana-Katrae',
+            duration: '4:15',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Sandhana-Katrae.mp3'
+           },
+           {
+            title:'Sundari-Neeyum',
+            artist: 'Ilaiya Raj',
+            album: 'Sundari-Neeyum',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/Sundari-Neeyum.mp3'
+           }
+    ],
+    'yuvan': [
+        {  
+            title:'Adada Mazhaida',
+            artist:'Yuvan',
+            album:'Paiya',
+            duration:'3:45',
+            cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio:'songs/Adada_Mazhaida.mp3'
+        },
+        {
+            title: 'En Kadhal Solla',
+            artist: 'Yuvan',
+            album: 'Paiya',
+            duration: '4:10',
+            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            audio: 'songs/En_Kadhal_Solla.mp3'
+        },
+        {
+            title:'Poongatre Poongatre',
+            artist:'Yuvan',
+            album:'Paiya',
+            duration:'3:55',
+            cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',   
+            audio:'songs/Poongatre_Poongatre.mp3'
         }
     ]
 };
+
 
 // Sample playlists
 const samplePlaylists = [
@@ -527,7 +435,6 @@ function setupAudioPlayer() {
 }
 
 function setupEventListeners() {
-    // Login/Signup
     loginBtn.onclick = () => {
         account.classList.add('show');
         loginDiv.classList.add('show');
@@ -641,6 +548,8 @@ function setupEventListeners() {
     document.getElementById('vijayantony').onclick = () => showArtistSongs('vijayantony');
     document.getElementById('Deva').onclick = () => showArtistSongs('Deva');
     document.getElementById('ilaiyaraja').onclick = () => showArtistSongs('ilaiyaraja');
+    document.getElementById('yuvan').onclick = () => showArtistSongs('yuvan');
+
 
     // Navigation buttons
     likedPlaylistBtn.onclick = () => {
@@ -1081,7 +990,7 @@ function getArtistName(artistId) {
         'harris jayaraj': 'Harris Jayaraj',
         'D Imman': 'D Imman',
         'S P B': 'S P B',
-        'ilaiyarajA':'ilaiyarajA'
+        'ilaiyaraja':'ilaiyaraja'
     };
     return names[artistId] || artistId;
 }
@@ -1443,4 +1352,3 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
-
