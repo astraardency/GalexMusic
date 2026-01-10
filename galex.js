@@ -695,19 +695,24 @@ function setupEventListeners() {
 }
 
 function handleSongEnd() {
-    switch (repeatMode) {
-        case 'one':
-            audioPlayer.currentTime = 0;
-            audioPlayer.play().catch(e => console.error('Play error:', e));
-            break;
-        case 'all':
-            playNext();
-            break;
-        default:
-            isPlaying = false;
-            document.querySelector('.play-btn').innerHTML = '<i class="fas fa-play"></i>';
-            document.getElementById('playerCover').classList.remove('playing');
-            break;
+    // 1. Check if Auto-play is turned ON in settings
+    const isAutoPlayOn = document.getElementById('autoPlay').checked;
+
+    // 2. Logic to decide what to do next
+    if (repeatMode === 'one') {
+        // If Repeat One is active: Replay the current song
+        audioPlayer.currentTime = 0;
+        audioPlayer.play().catch(e => console.error('Play error:', e));
+    } 
+    else if (repeatMode === 'all' || isAutoPlayOn) { 
+        // If Repeat All is active OR Auto-play is ON: Play the next song
+        playNext();
+    } 
+    else {
+        // Otherwise: Stop playing
+        isPlaying = false;
+        document.querySelector('.play-btn').innerHTML = '<i class="fas fa-play"></i>';
+        document.getElementById('playerCover').classList.remove('playing');
     }
 }
 
@@ -1352,3 +1357,4 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
