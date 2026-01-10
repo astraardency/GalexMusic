@@ -640,6 +640,7 @@ function setupEventListeners() {
     document.getElementById('GVPrakash').onclick = () => showArtistSongs('GVPrakash');
     document.getElementById('vijayantony').onclick = () => showArtistSongs('vijayantony');
     document.getElementById('Deva').onclick = () => showArtistSongs('Deva');
+    document.getElementById('ilaiyaraja').onclick = () => showArtistSongs('ilaiyaraja');
 
     // Navigation buttons
     likedPlaylistBtn.onclick = () => {
@@ -1442,3 +1443,4 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
