@@ -234,7 +234,6 @@ const songsData = {
         }
     ],
     'Deva': [
-        
         {
             title: 'Kondayil Thaazham Poo',
             artist: 'Deva',
@@ -359,7 +358,6 @@ const songsData = {
             duration:'3:50',
             cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
             audio:'songs/Yedho_Ondru_Ennai_Thakka.mp3'
-        
         }
     ]
 };
@@ -1382,7 +1380,3 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
-
-
-
-
