@@ -403,7 +403,7 @@ const songsData = {
             audio: 'songs/Kondayil-Thaazham-Poo.mp3'
         }
     ],
-    'ilaiyaraj'; [
+    'ilaiyaraj': [
         {
             title: 'Sandhana Katrae',
             artist: 'Ilaiya Raj',
@@ -1442,3 +1442,4 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
