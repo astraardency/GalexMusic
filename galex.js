@@ -187,7 +187,7 @@ const songsData = {
             album: 'Meesaya Murukku',
             duration: '4:05',
             cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
-            audio: 'songs/Pallikoodam-The-Farewell-Song-MassTamilan.org.mp3'
+            audio: 'songs/Pallikoodam-The-Farewell-MassTamilan.org.mp3'
         },
         {
             title:'Single-Pasanga-MassTamilan',
@@ -235,13 +235,93 @@ const songsData = {
     ],
     'Deva': [
         {
-            title: 'Kondayil Thaazham Poo',
+            title: 'Aagaasa-Vaanin',
+            artist: 'deva',
+            album: 'Priyamudan',
+            duration: '5:54',
+            cover:'https://th.bing.com/th/id/OIP.ysZTqJWqRnYVEQxzw5BGngAAAA?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Aagaasa-Vaanin-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Bharathikku-Kannamma',
             artist: 'Deva',
-            album: 'Kondayil Thaazham Poo',
-            duration: '3:50',
-            cover: 'https://i.pinimg.com/736x/e1/d8/37/e1d837f583ddc85852f262b90648cb4b.jpg',
-            audio: 'songs/Kondayil-Thaazham-Poo.mp3'
-        }
+            album:'Priyamudan',
+            duration: '5:01',
+            cover:'https://th.bing.com/th/id/OIP.ysZTqJWqRnYVEQxzw5BGngAAAA?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Bharathikku-Kannamma-(V2)-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Hello-Maruthi',
+            artist:'Deva',
+            album: 'Priiyamudan',
+            duration: '5:27',
+            cover:'https://th.bing.com/th/id/OIP.ysZTqJWqRnYVEQxzw5BGngAAAA?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio:'songs/Hello-Maruthi-MassTamilan.com.mp3'
+        },
+        {
+            title:'Mouriya-Mouriya',
+            artist:'deva',
+            album: 'priyamudan',
+            duration: '5:36',
+            cover:'https://th.bing.com/th/id/OIP.ysZTqJWqRnYVEQxzw5BGngAAAA?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio:'songs/Mouriya-Mouriya-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Pooja-Vaa-Pooja-Vaa',
+            artist:'Deva',
+            album: 'priyamudan',
+            duration: '5:36',
+            cover:'https://th.bing.com/th/id/OIP.ysZTqJWqRnYVEQxzw5BGngAAAA?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio:'songs/Pooja-Vaa-Pooja-Vaa-MassTamilan.com.mp3'
+        },
+        {
+            title: 'White-Lagaan',
+            artist:'Deva',
+            album: 'priyamudan',
+            duration: '5:36',
+            cover:'https://th.bing.com/th/id/OIP.ysZTqJWqRnYVEQxzw5BGngAAAA?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio:'songs/White-Lagaan-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Anbe-Anbe-En-Anbe',
+            artist:'Deva',
+            album: 'Nenjinile',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Anbe-Anbe-En-Anbe.mp3'
+        },
+        {
+            title: 'Madras-Thosth',
+            artist:'Deva',
+            album: 'Nenjinile',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Madras-Thosth.mp3'
+        },
+        {
+            title: 'Manase-Manase',
+            artist:'Deva',
+            album: 'Nenjinile',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Manase-Manase.mp3'
+        },
+        {
+            title: 'Prime-Minister',
+            artist:'Deva',
+            album: 'Nenjinile',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Prime-Minister.mp3'
+        },
+        {
+            title: 'Thanga-Nirathuku',
+            artist:'Deva',
+            album: 'Nenjinile',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Thanga-Nirathuku.mp3'
+        },
     ],
     'ilaiyaraja': [
         {
@@ -1380,4 +1460,3 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
-
