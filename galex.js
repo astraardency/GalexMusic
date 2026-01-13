@@ -649,6 +649,54 @@ const songsData = {
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
             audio: 'songs/Yaro-Yarodi.mp3' 
+        },
+        {
+            title: 'Ennai-Kaanavillaiye',
+            artist: 'ARR',
+            album: 'Kadhal Desam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
+            audio:'songs/Ennai-Kaanavillaiye.mp3'
+        },
+        {
+            title: 'Hello-Doctor',
+            artist: 'ARR',
+            album: 'Kadhal Desam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
+            audio:'songs/Hello-Doctor.mp3'
+        },
+        {
+            title: 'Kalluri-Salai',
+            artist: 'ARR',
+            album: 'Kadhal Desam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
+            audio:'songs/Kalluri-Salai.mp3'
+        },
+        {
+            title: 'Mustafa-Mustafa',
+            artist: 'ARR',
+            album: 'Kadhal Desam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
+            audio:'songs/Mustafa-Mustafa.mp3'
+        },
+        {
+            title: 'Oh-Vennila',
+            artist: 'ARR',
+            album: 'Kadhal Desam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
+            audio:'songs/Oh-Vennila.mp3'
+        },
+        {
+            title: 'Thendrale',
+            artist: 'ARR',
+            album: 'Kadhal Desam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
+            audio:'songs/Thendrale.mp3'
         }
     ]
 };
@@ -1673,3 +1721,4 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
