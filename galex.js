@@ -611,14 +611,6 @@ const songsData = {
             audio: 'songs/Kadhal-Sadugudu.mp3' 
         },
         {
-            title: 'Kadhal-Sadugudu',
-            artist: 'ARR',
-            album: 'Alaipayuthey',
-            duration: '5:00',
-            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
-            audio: 'songs/Kadhal-Sadugudu.mp3' 
-        },
-        {
             title: 'Pachchai-Nirame',
             artist: 'ARR',
             album: 'Alaipayuthey',
@@ -1513,12 +1505,10 @@ function displayLikedSongs() {
     currentUser.likedSongs.forEach((song, index) => {
         const li = document.createElement('li');
         li.className = 'song-item';
+        
+        // MODIFIED: Pass 'liked_songs' as the artistId and the current index in the liked list
         li.onclick = () => {
-            const artist = song.originalArtist;
-            const songIndex = song.originalIndex;
-            if (artist && songIndex !== undefined) {
-                playSong(artist, songIndex);
-            }
+            playSong('liked_songs', index);
         };
 
         li.innerHTML = `
@@ -1565,12 +1555,24 @@ function removeFromLiked(songTitle, songArtist, event) {
 }
 
 function playSong(artistId, songIndex) {
-    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : songsData[artistId];
+    // MODIFIED: Use the helper to get songs from either songsData OR likedSongs
+    let songs;
+    
+    // If we are already shuffling the current context, keep using shuffled playlist
+    if (shuffleMode && shuffledPlaylist.length && currentArtist === artistId) {
+        songs = shuffledPlaylist;
+    } else {
+        songs = getContextSongs(artistId);
+    }
+
+    // Safety check
+    if (!songs || !songs[songIndex]) return;
+
     const song = songs[songIndex];
 
     currentSong = song;
     currentSongIndex = songIndex;
-    currentArtist = artistId;
+    currentArtist = artistId; // This will now be 'liked_songs' if playing from there
 
     document.getElementById('playerTitle').textContent = song.title;
     document.getElementById('playerArtist').textContent = `${song.artist} • ${song.album}`;
@@ -1597,10 +1599,22 @@ function playSong(artistId, songIndex) {
         item.classList.remove('active');
     });
 
-    const activeSong = document.querySelector(`.song-item[data-artist="${artistId}"][data-index="${songIndex}"]`);
-    if (activeSong) activeSong.classList.add('active');
+    // Highlight logic specific to liked songs view vs artist view
+    if (artistId === 'liked_songs') {
+         // If in liked view, highlight by index only (since there are no data-artist attributes)
+         const likedItems = document.querySelectorAll('#likedSongsList .song-item');
+         if (likedItems[songIndex]) likedItems[songIndex].classList.add('active');
+    } else {
+        const activeSong = document.querySelector(`.song-item[data-artist="${artistId}"][data-index="${songIndex}"]`);
+        if (activeSong) activeSong.classList.add('active');
+    }
 }
-
+function getContextSongs(contextId) {
+    if (contextId === 'liked_songs') {
+        return currentUser ? currentUser.likedSongs : [];
+    }
+    return songsData[contextId] || [];
+}
 function togglePlay() {
     if (!currentSong) {
         const firstArtist = Object.keys(songsData)[0];
@@ -1721,5 +1735,3 @@ function toggleCurrentSongLike() {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
-
-
