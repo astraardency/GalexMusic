@@ -194,6 +194,54 @@ const songsData = {
             duration: '3:50',
             cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
             audio: 'songs/Vaa Vaathi - G. V. Prakash, Shweta Mohan.mp3'
+        },
+        {
+            title: 'Adiye',
+            artist: 'GV Prakash Kumar',
+            album: 'Bachelor',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/f7/2d/8b/f72d8b58744af5a9c6038de588d574bc.jpg',
+            audio: 'songs/Adiye-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Kaadhal Kanmani',
+            artist: 'GV Prakash Kumar',
+            album: 'Bachelor',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/f7/2d/8b/f72d8b58744af5a9c6038de588d574bc.jpg',
+            audio: 'songs/Kaadhal-Kanmani-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Kavan',
+            artist: 'GV Prakash Kumar',
+            album: 'Bachelor',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/f7/2d/8b/f72d8b58744af5a9c6038de588d574bc.jpg',
+            audio: 'songs/Kavan-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Life Of Bachelor',
+            artist: 'GV Prakash Kumar',
+            album: 'Bachelor',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/f7/2d/8b/f72d8b58744af5a9c6038de588d574bc.jpg',
+            audio: 'songs/Life-Of-Bachelor-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Miss You Baby',
+            artist: 'GV Prakash Kumar',
+            album: 'Bachelor',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/f7/2d/8b/f72d8b58744af5a9c6038de588d574bc.jpg',
+            audio: 'songs/Miss-You-Baby-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Pachigalam Paravaigalam',
+            artist: 'GV Prakash Kumar',
+            album: 'Bachelor',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/f7/2d/8b/f72d8b58744af5a9c6038de588d574bc.jpg',
+            audio: 'songs/Pachigalam-Paravaigalam-MassTamilan.fm.mp3'
         }
     ],
     'hiphopadhi': [
@@ -484,7 +532,7 @@ const songsData = {
             artist:'Yuvan',
             album:'Paiya',
             duration:'3:45',
-            cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            cover:'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
             audio:'songs/Adada_Mazhaida.mp3'
         },
         {
@@ -492,7 +540,7 @@ const songsData = {
             artist: 'Yuvan',
             album: 'Paiya',
             duration: '4:10',
-            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            cover: 'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
             audio: 'songs/En_Kadhal_Solla.mp3'
         },
         {
@@ -500,7 +548,7 @@ const songsData = {
             artist:'Yuvan',
             album:'Paiya',
             duration:'3:55',
-            cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',   
+            cover:'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',   
             audio:'songs/Poongatre_Poongatre.mp3'
         },
         {
@@ -508,7 +556,7 @@ const songsData = {
             artist: 'Yuvan',
             album: 'Paiya',
             duration: '4:05',
-            cover: 'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            cover: 'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
             audio: 'songs/Suthuthe_Suthuthe_Bhoomi.mp3'
         },
         {
@@ -516,7 +564,7 @@ const songsData = {
             artist:'Yuvan',
             album:'Paiya',
             duration:'4:20',
-            cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            cover:'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
             audio:'songs/Thuli_Thuli_Mazhaiyaai.mp3'
         },
         {
@@ -524,7 +572,7 @@ const songsData = {
             artist:'Yuvan',
             album:'Paiya',
             duration:'3:50',
-            cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
+            cover:'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
             audio:'songs/Yedho_Ondru_Ennai_Thakka.mp3'
         }
     ],
@@ -649,7 +697,544 @@ const songsData = {
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
             audio: 'songs/Yaro-Yarodi.mp3' 
+        },
+        {
+            title: 'Chinna-Chinna-Asai',
+            artist: 'ARR',
+            album: 'Roja',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Chinna-Chinna-Asai.mp3' 
+        },
+        {
+            title: 'Kadhal-Rojave',
+            artist: 'ARR',
+            album: 'Roja',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Kadhal-Rojave.mp3' 
+        },
+        {
+            title: 'Pudhu-Vellai-Mazhai',
+            artist: 'ARR',
+            album: 'Roja',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Pudhu-Vellai-Mazhai.mp3' 
+        },
+        {
+            title: 'Rukkumani-Rukkumani',
+            artist: 'ARR',
+            album: 'Roja',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Rukkumani-Rukkumani.mp3' 
+        },
+        {
+            title: 'Thamizha-Thamizha',
+            artist: 'ARR',
+            album: 'Roja',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/52/92/07/529207df7c4bc295b64ff00c1a09a38d.jpg',
+            audio: 'songs/Thamizha-Thamizha.mp3' 
+        },
+        {
+            title: 'Ale-Ale',
+            artist: 'ARR',
+            album: 'Boys',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/52/92/07/529207df7c4bc295b64ff00c1a09a38d.jpg',
+            audio: 'songs/Ale-Ale.mp3' 
+        },
+        {
+            title: 'Boom-Boom',
+            artist: 'ARR',
+            album: 'Boys',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/52/92/07/529207df7c4bc295b64ff00c1a09a38d.jpg',
+            audio: 'songs/Boom-Boom.mp3' 
+        },
+        {
+            title: 'Break-The-Rules',
+            artist: 'ARR',
+            album: 'Boys',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/52/92/07/529207df7c4bc295b64ff00c1a09a38d.jpg',
+            audio: 'songs/Break-The-Rules.mp3' 
+        },
+        {
+            title: 'Dating',
+            artist: 'ARR',
+            album: 'Boys',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/52/92/07/529207df7c4bc295b64ff00c1a09a38d.jpg',
+            audio: 'songs/Dating.mp3' 
+        },
+        {
+            title: 'Girlfriend',
+            artist: 'ARR',
+            album: 'Boys',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/52/92/07/529207df7c4bc295b64ff00c1a09a38d.jpg',
+            audio: 'songs/Girlfriend.mp3' 
+        },
+        {
+            title: 'Please-Sir',
+            artist: 'ARR',
+            album: 'Boys',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/52/92/07/529207df7c4bc295b64ff00c1a09a38d.jpg',
+            audio: 'songs/Please-Sir.mp3' 
+        },
+        {
+            title: 'Secret-Of-Succes',
+            artist: 'ARR',
+            album: 'Boys',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/52/92/07/529207df7c4bc295b64ff00c1a09a38d.jpg',
+            audio: 'songs/Secret-Of-Succes.mp3' 
+        },
+        {
+            title: 'Bhoomi Bhoomi',
+            artist: 'ARR',
+            album: 'Chekka Chivantha Vaanam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/6c/2a/5f/6c2a5f22394fd05ea33b35f995bd73db.jpg',
+            audio: 'songs/Bhoomi-Bhoomi-MassTamilan.com.mp3' 
+        },
+        {
+            title: 'Hayati',
+            artist: 'ARR',
+            album: 'Chekka Chivantha Vaanam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/6c/2a/5f/6c2a5f22394fd05ea33b35f995bd73db.jpg',
+            audio: 'songs/Hayati-MassTamilan.com.mp3' 
+        },
+        {
+            title: 'Kalla Kalavaani',
+            artist: 'ARR',
+            album: 'Chekka Chivantha Vaanam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/6c/2a/5f/6c2a5f22394fd05ea33b35f995bd73db.jpg',
+            audio: 'songs/Kalla-Kalavaani-MassTamilan.com.mp3' 
+        },
+        {
+            title: 'Madura Marikozhundhae',
+            artist: 'ARR',
+            album: 'Chekka Chivantha Vaanam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/6c/2a/5f/6c2a5f22394fd05ea33b35f995bd73db.jpg',
+            audio: 'songs/Madura-Marikozhundhae-MassTamilan.com.mp3' 
+        },
+        {
+            title: 'Mazhai Kuruvi',
+            artist: 'ARR',
+            album: 'Chekka Chivantha Vaanam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/6c/2a/5f/6c2a5f22394fd05ea33b35f995bd73db.jpg',
+            audio: 'songs/Mazhai-Kuruvi-MassTamilan.com.mp3' 
+        },
+        {
+            title: 'Praaptham',
+            artist: 'ARR',
+            album: 'Chekka Chivantha Vaanam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/6c/2a/5f/6c2a5f22394fd05ea33b35f995bd73db.jpg',
+            audio: 'songs/Praaptham-MassTamilan.com.mp3' 
+        },
+        {
+            title: 'Sevandhu Pochu Nenju',
+            artist: 'ARR',
+            album: 'Chekka Chivantha Vaanam',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/6c/2a/5f/6c2a5f22394fd05ea33b35f995bd73db.jpg',
+            audio: 'songs/Sevandhu-Pochu-Nenju-MassTamilan.com.mp3' 
+        },
+        {
+            title: 'Adi Manja Kilange',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Adi-Manja-Kilange.mp3' 
+        },
+        {
+            title: 'Chotta Chotta Nanayuthu',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Chotta-Chotta-Nanayuthu.mp3' 
+        },
+        {
+            title: 'Eechi-Elemichhi',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Eechi-Elemichhi.mp3' 
+        },
+        {
+            title: 'Karisal-tharisal',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Karisal-tharisal.mp3' 
+        },
+        {
+            title: 'Kizhakke Nandavanam',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Kizhakke-Nandavanam.mp3' 
+        },
+        {
+            title: 'Kulirudhu-Kulirudhu',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Kulirudhu-Kulirudhu.mp3' 
+        },
+        {
+            title: 'Sengatrae',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Sengatrae.mp3' 
+        },
+        {
+            title: 'Sotta Sotta',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Sotta-Sotta.mp3' 
+        },
+        {
+            title: 'Thirupachi Aruvale',
+            artist: 'ARR',
+            album: 'Taj Mahal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/5d/c1/7d/5dc17de790161f48a96b809d272f318e.jpg',
+            audio: 'songs/Thirupachi-Aruvale.mp3' 
+        },
+        {
+            title: 'Aila Aila',
+            artist: 'ARR',
+            album: 'I',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/d3/45/dc/d345dc061cd557935a8f292fa4a5653c.jpg',
+            audio: 'songs/Aila-Aila.mp3' 
+        },
+        {
+            title: 'Ennodu Nee Irundhal',
+            artist: 'ARR',
+            album: 'I',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/d3/45/dc/d345dc061cd557935a8f292fa4a5653c.jpg',
+            audio: 'songs/Ennodu-Nee-Irundhal.mp3' 
+        },
+        {
+            title: 'Ladio',
+            artist: 'ARR',
+            album: 'I',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/d3/45/dc/d345dc061cd557935a8f292fa4a5653c.jpg',
+            audio: 'songs/Ladio.mp3' 
+        },
+        {
+            title: 'Mersalayitten',
+            artist: 'ARR',
+            album: 'I',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/d3/45/dc/d345dc061cd557935a8f292fa4a5653c.jpg',
+            audio: 'songs/Mersalayitten.mp3' 
+        },
+        {
+            title: 'Pookkale-Satru',
+            artist: 'ARR',
+            album: 'I',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/d3/45/dc/d345dc061cd557935a8f292fa4a5653c.jpg',
+            audio: 'songs/Pookkale-Satru.mp3' 
+        },
+        {
+            title: 'Ennavale Adi Ennavale',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Ennavale-Adi-Ennavale.mp3' 
+        },
+        {
+            title: 'Erani Kuradhani',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Erani-Kuradhani-MassTamilan.dev.mp3' 
+        },
+        {
+            title: 'Indiraiyo Ival Sundariyo',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Indiraiyo-Ival-Sundariyo-MassTamilan.dev.mp3' 
+        },
+        {
+            title: 'Kaatru Kuthirayile',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Kaatru-Kuthirayile-MassTamilan.dev.mp3' 
+        },
+        {
+            title: 'Kadhalikum Pennin',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Kadhalikum-Pennin-MassTamilan.dev.mp3' 
+        },
+        {
+            title: 'Kollayile Thennai',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Kollayile-Thennai-MassTamilan.dev.mp3' 
+        },
+        {
+            title: 'Mukkala Mukkabala',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Mukkala-Mukkabala-MassTamilan.dev.mp3' 
+        },
+        {
+            title: 'Pettai Rap',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Pettai-Rap-MassTamilan.dev.mp3' 
+        },
+        {
+            title: 'Urvashi Urvashi',
+            artist: 'ARR',
+            album: 'Kadhalan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/1a/eb/77/1aeb77b6cf8d71613c859b9122ec0ce5.jpg',
+            audio: 'songs/Urvashi-Urvashi-MassTamilan.dev.mp3' 
+        },
+        {
+            title: 'En Uyire',
+            artist: 'ARR',
+            album: 'Uyire',
+            duration: '5:00',
+            cover:'https://m.media-amazon.com/images/I/81JQ+w6mgGL._RI_.jpg',
+            audio: 'songs/En-Uyire.mp3' 
+        },
+        {
+            title: 'Nenjinile-Nenjinile',
+            artist: 'ARR',
+            album: 'Uyire',
+            duration: '5:00',
+            cover:'https://m.media-amazon.com/images/I/81JQ+w6mgGL._RI_.jpg',
+            audio: 'songs/Nenjinile-Nenjinile.mp3' 
+        },
+        {
+            title: 'Poongkaatrilae',
+            artist: 'ARR',
+            album: 'Uyire',
+            duration: '5:00',
+            cover:'https://m.media-amazon.com/images/I/81JQ+w6mgGL._RI_.jpg',
+            audio: 'songs/Poongkaatrilae.mp3' 
+        },
+        {
+            title: 'Sandhosa Kanneere',
+            artist: 'ARR',
+            album: 'Uyire',
+            duration: '5:00',
+            cover:'https://m.media-amazon.com/images/I/81JQ+w6mgGL._RI_.jpg',
+            audio: 'songs/Sandhosa-Kanneere.mp3' 
+        },
+        {
+            title: 'Thaiyya Thaiyya',
+            artist: 'ARR',
+            album: 'Uyire',
+            duration: '5:00',
+            cover:'https://m.media-amazon.com/images/I/81JQ+w6mgGL._RI_.jpg',
+            audio: 'songs/Thaiyya-Thaiyya.mp3' 
+        },
+        {
+            title: 'Aararo',
+            artist: 'ARR',
+            album: '24',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9a/34/f7/9a34f7b1ac512cbf6368b23e9a80def3.jpg',
+            audio: 'songs/Aararo.mp3' 
+        },
+        {
+            title: 'Kaalam Yen Kadhali',
+            artist: 'ARR',
+            album: '24',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9a/34/f7/9a34f7b1ac512cbf6368b23e9a80def3.jpg',
+            audio: 'songs/Kaalam-Yen-Kadhali.mp3' 
+        },
+        {
+            title: 'Mei Nigara',
+            artist: 'ARR',
+            album: '24',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9a/34/f7/9a34f7b1ac512cbf6368b23e9a80def3.jpg',
+            audio: 'songs/Mei-Nigara.mp3' 
+        },
+        {
+            title: 'My Twin Brother',
+            artist: 'ARR',
+            album: '24',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9a/34/f7/9a34f7b1ac512cbf6368b23e9a80def3.jpg',
+            audio: 'songs/My-Twin-Brother.mp3' 
+        },
+        {
+            title: 'Naan Un',
+            artist: 'ARR',
+            album: '24',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9a/34/f7/9a34f7b1ac512cbf6368b23e9a80def3.jpg',
+            audio: 'songs/Naan-Un.mp3' 
+        },
+        {
+            title: 'Punnagaiye',
+            artist: 'ARR',
+            album: '24',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9a/34/f7/9a34f7b1ac512cbf6368b23e9a80def3.jpg',
+            audio: 'songs/Punnagaiye.mp3' 
+        },
+        {
+            title: 'Anjathe Jeeva',
+            artist: 'ARR',
+            album: 'Jodi',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/45/c3/91/45c391211ed5210d00438dae2df65c99.jpg',
+            audio: 'songs/Anjathe-Jeeva.mp3' 
+        },
+        {
+            title: 'Kadhal Kaditham',
+            artist: 'ARR',
+            album: 'Jodi',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/45/c3/91/45c391211ed5210d00438dae2df65c99.jpg',
+            audio: 'songs/Kadhal-Kaditham.mp3' 
+        },
+        {
+            title: 'Kai Thatti Thatti',
+            artist: 'ARR',
+            album: 'Jodi',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/45/c3/91/45c391211ed5210d00438dae2df65c99.jpg',
+            audio: 'songs/Kai-Thatti-Thatti.mp3' 
+        },
+        {
+            title: 'Mel Nattu Isai',
+            artist: 'ARR',
+            album: 'Jodi',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/45/c3/91/45c391211ed5210d00438dae2df65c99.jpg',
+            audio: 'songs/Mel-Nattu-Isai.mp3' 
+        },
+        {
+            title: 'Oru Poiyavathu',
+            artist: 'ARR',
+            album: 'Jodi',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/45/c3/91/45c391211ed5210d00438dae2df65c99.jpg',
+            audio: 'songs/Oru-Poiyavathu.mp3' 
+        },
+        {
+            title: 'Vanna Poonkavai',
+            artist: 'ARR',
+            album: 'Jodi',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/45/c3/91/45c391211ed5210d00438dae2df65c99.jpg',
+            audio: 'songs/Vanna-Poonkavai.mp3' 
+        },
+        {
+            title: 'Velli Malare',
+            artist: 'ARR',
+            album: 'Jodi',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/45/c3/91/45c391211ed5210d00438dae2df65c99.jpg',
+            audio: 'songs/Velli-Malare.mp3' 
+        },
+        {
+            title: 'Anbendra',
+            artist: 'ARR',
+            album: 'minsara kanavu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/40/9f/ab/409fabc5869cde849521f2a0c1fd8965.jpg',
+            audio: 'songs/Anbendra.mp3' 
+        },
+        {
+            title: 'Manna Madurai',
+            artist: 'ARR',
+            album: 'minsara kanavu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/40/9f/ab/409fabc5869cde849521f2a0c1fd8965.jpg',
+            audio: 'songs/Manna-Madurai.mp3' 
+        },
+        {
+            title: 'Poo Pookum Osai',
+            artist: 'ARR',
+            album: 'minsara kanavu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/40/9f/ab/409fabc5869cde849521f2a0c1fd8965.jpg',
+            audio: 'songs/Poo-Pookum-Osai.mp3' 
+        },
+        {
+            title: 'Strawberry Kannae',
+            artist: 'ARR',
+            album: 'minsara kanavu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/40/9f/ab/409fabc5869cde849521f2a0c1fd8965.jpg',
+            audio: 'songs/Strawberry-Kannae.mp3' 
+        },
+        {
+            title: 'Thanga Thamarai',
+            artist: 'ARR',
+            album: 'minsara kanavu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/40/9f/ab/409fabc5869cde849521f2a0c1fd8965.jpg',
+            audio: 'songs/Thanga-Thamarai.mp3' 
+        },
+        {
+            title: 'Vennilavae',
+            artist: 'ARR',
+            album: 'minsara kanavu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/40/9f/ab/409fabc5869cde849521f2a0c1fd8965.jpg',
+            audio: 'songs/Vennilavae.mp3' 
+        },
+        {
+            title: 'Yen Azhagu Enna',
+            artist: 'ARR',
+            album: 'minsara kanavu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/40/9f/ab/409fabc5869cde849521f2a0c1fd8965.jpg',
+            audio: 'songs/Yen-Azhagu-Enna.mp3' 
         }
+        
     ]
 };
 
@@ -659,37 +1244,31 @@ const samplePlaylists = [
     {
         id: 'favorites',
         name: 'My Favorites',
-        count: 12,
         icon: 'fas fa-heart'
     },
     {
         id: 'tamil_hits',
         name: 'Tamil Hits',
-        count: 25,
         icon: 'fas fa-bolt'
     },
     {
         id: 'workout',
         name: 'Workout Mix',
-        count: 18,
         icon: 'fas fa-running'
     },
     {
         id: 'chill',
         name: 'Chill Vibes',
-        count: 15,
         icon: 'fas fa-coffee'
     },
     {
         id: 'party',
         name: 'Party Time',
-        count: 22,
         icon: 'fas fa-glass-cheers'
     },
     {
         id: 'old_is_gold',
         name: 'Old is Gold',
-        count: 30,
         icon: 'fas fa-crown'
     }
 ];
