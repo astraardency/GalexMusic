@@ -44,6 +44,46 @@ const songsData = {
             audio: 'songs/Pookkal Pookkum - G. V. Prakash, Roop Kumar Rathod, Harini, Andrea Jeremiah.mp3'
         },
         {
+            title:'Gum-Zaare',
+            artist:'GV Prakash kumar',
+            album:'Kadavul-Irukaan-Kumaru',
+            duration:'3:56',
+            cover:'https://i.pinimg.com/1200x/d1/fe/ee/d1feee5bdeb4d8f7b6900407f3f4a4bc.jpg',
+            audio:'songs/Gum-Zaare.mp3'
+        },
+        {
+            title:'Hey-Pathu-Podi',
+            artist:'GV Prakash kumar',
+            album:'Kadavul-Irukaan-Kumaru',
+            duration:'3:56',
+            cover:'https://i.pinimg.com/1200x/d1/fe/ee/d1feee5bdeb4d8f7b6900407f3f4a4bc.jpg',
+            audio:'songs/Hey-Pathu-Podi.mp3'
+        },
+        {
+            title:'Iravinil-Aattam',
+            artist:'GV Prakash kumar',
+            album:'Kadavul-Irukaan-Kumaru',
+            duration:'3:56',
+            cover:'https://i.pinimg.com/1200x/d1/fe/ee/d1feee5bdeb4d8f7b6900407f3f4a4bc.jpg',
+            audio:'songs/Iravinil-Aattam.mp3'
+        },
+        {
+            title:'Locality-Boys',
+            artist:'GV Prakash kumar',
+            album:'Kadavul-Irukaan-Kumaru',
+            duration:'3:56',
+            cover:'https://i.pinimg.com/1200x/d1/fe/ee/d1feee5bdeb4d8f7b6900407f3f4a4bc.jpg',
+            audio:'songs/Locality-Boys.mp3'
+        },
+        {
+            title:'Nee-Pona-Theruvula',
+            artist:'GV Prakash kumar',
+            album:'Kadavul-Irukaan-Kumaru',
+            duration:'3:56',
+            cover:'https://i.pinimg.com/1200x/d1/fe/ee/d1feee5bdeb4d8f7b6900407f3f4a4bc.jpg',
+            audio:'songs/Nee-Pona-Theruvula.mp3'
+        },
+        {
             title: 'Engeyum Eppothum',
             artist: 'GV Prakash Kumar',
             album: 'Darling',
@@ -322,6 +362,54 @@ const songsData = {
             cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
             audio:'songs/Thanga-Nirathuku.mp3'
         },
+        {
+            title: 'Australia',
+            artist:'Deva',
+            album: 'Citizen',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Australia.mp3'
+        },
+        {
+            title: 'I-Love-You',
+            artist:'Deva',
+            album: 'Citizen',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/I-Love-You.mp3'
+        },
+        {
+            title: 'Merkey',
+            artist:'Deva',
+            album: 'Citizen',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Merkey.mp3'
+        },
+        {
+            title: 'Pookara',
+            artist:'Deva',
+            album: 'Citizen',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Pookara.mp3'
+        },
+        {
+            title: 'Sikki-Mukki',
+            artist:'Deva',
+            album: 'Citizen',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Sikki-Mukki.mp3'
+        },
+        {
+            title: 'Merkey-Uthikkum',
+            artist:'Deva',
+            album: 'Citizen',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
+            audio:'songs/Merkey-Uthikkum.mp3'
+        }
     ],
     'ilaiyaraja': [
         {
@@ -438,6 +526,129 @@ const songsData = {
             duration:'3:50',
             cover:'https://i.pinimg.com/1200x/99/c9/cc/99c9ccbf594b8f64ec3892aac165b71f.jpg',
             audio:'songs/Yedho_Ondru_Ennai_Thakka.mp3'
+        }
+    ],
+    'ARR': [
+       
+         {
+            title: 'Nenichapadi',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Nenichapadi.mp3'
+        }, 
+        {
+            title: 'Roja-Roja',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Roja-Roja.mp3'
+        },
+        {
+            title: 'Enna-Vilai',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Enna-Vilai.mp3'
+        },
+        {
+            title: 'Kaathalenum',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Kaathalenum.mp3'
+        },
+        {
+            title: 'Dhandiya',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Dhandiya.mp3' 
+        },
+        {
+            title: 'Oh-Maria-Oh-Maria',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Oh-Maria-Oh-Maria.mp3' 
+        },
+        {
+            title: 'Alaipayuthey-Kanna',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Alaipayuthey-Kanna.mp3' 
+        },
+        {
+            title: 'Endrendrum-Punnagai',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Endrendrum-Punnagai.mp3' 
+        },
+        {
+            title: 'Evano-Oruvan-Vasikiran',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Evano-Oruvan-Vasikiran.mp3' 
+        },
+        {
+            title: 'Kadhal-Sadugudu',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Kadhal-Sadugudu.mp3' 
+        },
+        {
+            title: 'Kadhal-Sadugudu',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Kadhal-Sadugudu.mp3' 
+        },
+        {
+            title: 'Pachchai-Nirame',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Pachchai-Nirame.mp3' 
+        },
+        {
+            title: 'September-Madham',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/September-Madham.mp3' 
+        },
+        {
+            title: 'Snehidhane',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Snehidhane.mp3' 
+        },
+        {
+            title: 'Yaro-Yarodi',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Yaro-Yarodi.mp3' 
         }
     ]
 };
@@ -652,6 +863,7 @@ function setupEventListeners() {
     document.getElementById('Deva').onclick = () => showArtistSongs('Deva');
     document.getElementById('ilaiyaraja').onclick = () => showArtistSongs('ilaiyaraja');
     document.getElementById('yuvan').onclick = () => showArtistSongs('yuvan');
+    document.getElementById('ARR').onclick = () => showArtistSongs('ARR');
 
 
     // Navigation buttons
@@ -1098,7 +1310,8 @@ function getArtistName(artistId) {
         'harris jayaraj': 'Harris Jayaraj',
         'D Imman': 'D Imman',
         'S P B': 'S P B',
-        'ilaiyaraja':'ilaiyaraja'
+        'ilaiyaraja':'ilaiyaraja',
+        'ARR':'ARR'
     };
     return names[artistId] || artistId;
 }
