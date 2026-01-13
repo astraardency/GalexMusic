@@ -611,6 +611,14 @@ const songsData = {
             audio: 'songs/Kadhal-Sadugudu.mp3' 
         },
         {
+            title: 'Kadhal-Sadugudu',
+            artist: 'ARR',
+            album: 'Alaipayuthey',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
+            audio: 'songs/Kadhal-Sadugudu.mp3' 
+        },
+        {
             title: 'Pachchai-Nirame',
             artist: 'ARR',
             album: 'Alaipayuthey',
@@ -641,54 +649,6 @@ const songsData = {
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
             audio: 'songs/Yaro-Yarodi.mp3' 
-        },
-        {
-            title: 'Ennai-Kaanavillaiye',
-            artist: 'ARR',
-            album: 'Kadhal Desam',
-            duration: '5:00',
-            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
-            audio:'songs/Ennai-Kaanavillaiye.mp3'
-        },
-        {
-            title: 'Hello-Doctor',
-            artist: 'ARR',
-            album: 'Kadhal Desam',
-            duration: '5:00',
-            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
-            audio:'songs/Hello-Doctor.mp3'
-        },
-        {
-            title: 'Kalluri-Salai',
-            artist: 'ARR',
-            album: 'Kadhal Desam',
-            duration: '5:00',
-            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
-            audio:'songs/Kalluri-Salai.mp3'
-        },
-        {
-            title: 'Mustafa-Mustafa',
-            artist: 'ARR',
-            album: 'Kadhal Desam',
-            duration: '5:00',
-            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
-            audio:'songs/Mustafa-Mustafa.mp3'
-        },
-        {
-            title: 'Oh-Vennila',
-            artist: 'ARR',
-            album: 'Kadhal Desam',
-            duration: '5:00',
-            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
-            audio:'songs/Oh-Vennila.mp3'
-        },
-        {
-            title: 'Thendrale',
-            artist: 'ARR',
-            album: 'Kadhal Desam',
-            duration: '5:00',
-            cover:'https://i.pinimg.com/1200x/0b/98/92/0b9892e39db29067704c58e0a54553bb.jpg',
-            audio:'songs/Thendrale.mp3'
         }
     ]
 };
@@ -1050,21 +1010,16 @@ function setupEventListeners() {
 }
 
 function handleSongEnd() {
-    // 1. Check if Auto-play is turned ON in settings
     const isAutoPlayOn = document.getElementById('autoPlay').checked;
 
-    // 2. Logic to decide what to do next
     if (repeatMode === 'one') {
-        // If Repeat One is active: Replay the current song
         audioPlayer.currentTime = 0;
         audioPlayer.play().catch(e => console.error('Play error:', e));
     } 
     else if (repeatMode === 'all' || isAutoPlayOn) { 
-        // If Repeat All is active OR Auto-play is ON: Play the next song
         playNext();
     } 
     else {
-        // Otherwise: Stop playing
         isPlaying = false;
         document.querySelector('.play-btn').innerHTML = '<i class="fas fa-play"></i>';
         document.getElementById('playerCover').classList.remove('playing');
@@ -1107,10 +1062,18 @@ function toggleShuffle() {
     }
 }
 
+// HELPER FUNCTION: Get songs based on context (Artist ID or 'liked_songs')
+function getContextSongs(contextId) {
+    if (contextId === 'liked_songs') {
+        return currentUser ? currentUser.likedSongs : [];
+    }
+    return songsData[contextId] || [];
+}
+
 function createShuffledPlaylist() {
     if (!currentArtist) return;
 
-    originalPlaylist = [...songsData[currentArtist]];
+    originalPlaylist = [...getContextSongs(currentArtist)];
     shuffledPlaylist = [...originalPlaylist];
 
     // Fisher-Yates shuffle
@@ -1119,13 +1082,11 @@ function createShuffledPlaylist() {
         [shuffledPlaylist[i], shuffledPlaylist[j]] = [shuffledPlaylist[j], shuffledPlaylist[i]];
     }
 
-    // Find current song index in shuffled playlist
     if (currentSong) {
         const currentIndex = shuffledPlaylist.findIndex(
             song => song.title === currentSong.title && song.artist === currentSong.artist
         );
         if (currentIndex > -1) {
-            // Move current song to the beginning
             const [current] = shuffledPlaylist.splice(currentIndex, 1);
             shuffledPlaylist.unshift(current);
             currentSongIndex = 0;
@@ -1158,7 +1119,9 @@ function updateQueueDisplay() {
         return;
     }
 
-    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : songsData[currentArtist];
+    const baseSongs = getContextSongs(currentArtist);
+    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : baseSongs;
+    
     const startIndex = currentSongIndex + 1;
     const endIndex = Math.min(startIndex + 3, songs.length);
 
@@ -1506,7 +1469,7 @@ function displayLikedSongs() {
         const li = document.createElement('li');
         li.className = 'song-item';
         
-        // MODIFIED: Pass 'liked_songs' as the artistId and the current index in the liked list
+        // Use 'liked_songs' as the context ID
         li.onclick = () => {
             playSong('liked_songs', index);
         };
@@ -1555,7 +1518,6 @@ function removeFromLiked(songTitle, songArtist, event) {
 }
 
 function playSong(artistId, songIndex) {
-    // MODIFIED: Use the helper to get songs from either songsData OR likedSongs
     let songs;
     
     // If we are already shuffling the current context, keep using shuffled playlist
@@ -1565,14 +1527,13 @@ function playSong(artistId, songIndex) {
         songs = getContextSongs(artistId);
     }
 
-    // Safety check
     if (!songs || !songs[songIndex]) return;
 
     const song = songs[songIndex];
 
     currentSong = song;
     currentSongIndex = songIndex;
-    currentArtist = artistId; // This will now be 'liked_songs' if playing from there
+    currentArtist = artistId;
 
     document.getElementById('playerTitle').textContent = song.title;
     document.getElementById('playerArtist').textContent = `${song.artist} • ${song.album}`;
@@ -1599,9 +1560,7 @@ function playSong(artistId, songIndex) {
         item.classList.remove('active');
     });
 
-    // Highlight logic specific to liked songs view vs artist view
     if (artistId === 'liked_songs') {
-         // If in liked view, highlight by index only (since there are no data-artist attributes)
          const likedItems = document.querySelectorAll('#likedSongsList .song-item');
          if (likedItems[songIndex]) likedItems[songIndex].classList.add('active');
     } else {
@@ -1609,12 +1568,7 @@ function playSong(artistId, songIndex) {
         if (activeSong) activeSong.classList.add('active');
     }
 }
-function getContextSongs(contextId) {
-    if (contextId === 'liked_songs') {
-        return currentUser ? currentUser.likedSongs : [];
-    }
-    return songsData[contextId] || [];
-}
+
 function togglePlay() {
     if (!currentSong) {
         const firstArtist = Object.keys(songsData)[0];
@@ -1637,7 +1591,11 @@ function togglePlay() {
 function playPrev() {
     if (!currentArtist) return;
 
-    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : songsData[currentArtist];
+    const baseSongs = getContextSongs(currentArtist);
+    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : baseSongs;
+    
+    if (songs.length === 0) return;
+
     currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
     playSong(currentArtist, currentSongIndex);
 }
@@ -1645,7 +1603,11 @@ function playPrev() {
 function playNext() {
     if (!currentArtist) return;
 
-    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : songsData[currentArtist];
+    const baseSongs = getContextSongs(currentArtist);
+    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : baseSongs;
+
+    if (songs.length === 0) return;
+
     currentSongIndex = (currentSongIndex + 1) % songs.length;
     playSong(currentArtist, currentSongIndex);
 }
@@ -1714,20 +1676,30 @@ function setupKeyboardShortcuts() {
 function toggleCurrentSongLike() {
     if (!currentUser || !currentSong || !currentArtist) return;
 
-    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : songsData[currentArtist];
+    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : getContextSongs(currentArtist);
     const songIndex = songs.findIndex(
         song => song.title === currentSong.title && song.artist === currentSong.artist
     );
 
     if (songIndex !== -1) {
-        const songElement = document.querySelector(`.song-item[data-artist="${currentArtist}"][data-index="${songIndex}"]`);
-        if (songElement) {
-            const likeBtn = songElement.querySelector('.like-btn');
-            const fakeEvent = {
-                target: likeBtn,
-                stopPropagation: () => { }
-            };
-            toggleLikeSong(currentArtist, songIndex, fakeEvent);
+        if (currentArtist === 'liked_songs') {
+             // Removing from liked songs while playing from liked songs context
+             const fakeEvent = {
+                 target: document.createElement('div'), // dummy
+                 stopPropagation: () => { }
+             };
+             removeFromLiked(currentSong.title, currentSong.artist, fakeEvent);
+        } else {
+             // Normal toggle
+             const songElement = document.querySelector(`.song-item[data-artist="${currentArtist}"][data-index="${songIndex}"]`);
+             if (songElement) {
+                 const likeBtn = songElement.querySelector('.like-btn');
+                 const fakeEvent = {
+                     target: likeBtn,
+                     stopPropagation: () => { }
+                 };
+                 toggleLikeSong(currentArtist, songIndex, fakeEvent);
+             }
         }
     }
 }
