@@ -36,12 +36,60 @@ const queueList = document.getElementById('queueList');
 const songsData = {
     'GVPrakash': [
         {
-            title: 'Pookkal Pookkum',
+            title: 'Pookal Pookum',
             artist: 'GV Prakash Kumar',
-            album: 'Madharasa pattinam',
+            album: 'Madharasapattinam',
             duration: '4:32',
-            cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
-            audio: 'songs/Pookkal Pookkum - G. V. Prakash, Roop Kumar Rathod, Harini, Andrea Jeremiah.mp3'
+            cover: 'https://i.pinimg.com/736x/5e/04/99/5e049992ef02750dad84fe7d44c061bc.jpg',
+            audio: 'songs/Pookal Pookum.mp3'
+        },
+        {
+            title: 'Vaamma Duraiyamma',
+            artist: 'GV Prakash Kumar',
+            album: 'Madharasapattinam',
+            duration: '4:32',
+            cover: 'https://i.pinimg.com/736x/5e/04/99/5e049992ef02750dad84fe7d44c061bc.jpg',
+            audio: 'songs/Vaamma Duraiyamma.mp3'
+        },
+        {
+            title: 'Meghame O Meghame',
+            artist: 'GV Prakash Kumar',
+            album: 'Madharasapattinam',
+            duration: '4:32',
+            cover: 'https://i.pinimg.com/736x/5e/04/99/5e049992ef02750dad84fe7d44c061bc.jpg',
+            audio: 'songs/Meghame O Meghame.mp3'
+        },
+        {
+            title: 'The Dance Theme of Madharasapattinam',
+            artist: 'GV Prakash Kumar',
+            album: 'Madharasapattinam',
+            duration: '4:32',
+            cover: 'https://i.pinimg.com/736x/5e/04/99/5e049992ef02750dad84fe7d44c061bc.jpg',
+            audio: 'songs/The Dance Theme of Madharasapattinam.mp3'
+        },
+        {
+            title: 'Kaatrile',
+            artist: 'GV Prakash Kumar',
+            album: 'Madharasapattinam',
+            duration: '4:32',
+            cover: 'https://i.pinimg.com/736x/5e/04/99/5e049992ef02750dad84fe7d44c061bc.jpg',
+            audio: 'songs/Kaatrile.mp3'
+        },
+        {
+            title: 'Aaruyire',
+            artist: 'GV Prakash Kumar',
+            album: 'Madharasapattinam',
+            duration: '4:32',
+            cover: 'https://i.pinimg.com/736x/5e/04/99/5e049992ef02750dad84fe7d44c061bc.jpg',
+            audio: 'songs/Aaruyire.mp3'
+        },
+        {
+            title: 'Feel of Love',
+            artist: 'GV Prakash Kumar',
+            album: 'Madharasapattinam',
+            duration: '4:32',
+            cover: 'https://i.pinimg.com/736x/5e/04/99/5e049992ef02750dad84fe7d44c061bc.jpg',
+            audio: 'songs/Feel of Love.mp3'
         },
         {
             title:'Gum-Zaare',
@@ -242,6 +290,214 @@ const songsData = {
             duration: '3:50',
             cover: 'https://i.pinimg.com/1200x/f7/2d/8b/f72d8b58744af5a9c6038de588d574bc.jpg',
             audio: 'songs/Pachigalam-Paravaigalam-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'A Square B Square (Female-Version)',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/A-Square-B-Square-(Female-Version)-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Enakku-Thaan',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/Enakku-Thaan-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Kannum Kannum Plus',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/Kannum-Kannum-Plus-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Nenjellam Nindrayae',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/Nenjellam-Nindrayae-MassTamilan.org.mp3'
+        },
+        {
+            title: 'A Square B Square (Male-Version)',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/A-Square-B-Square-(Male-Version)-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Oh Balu',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/Oh-Balu-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Oru Vaanam',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/Oru-Vaanam-MassTamilan.org.mp3'
+        },
+        {
+            title: 'That Is Mahalakshmi',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/That-Is-Mahalakshmi-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Thiru Thiru Gananatha',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/Thiru-Thiru-Gananatha-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Yeanadi Yeanadi',
+            artist: 'GV Prakash Kumar',
+            album: '100% Kadhal',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/df/0f/11/df0f114c63239715c913117d1322d636.jpg',
+            audio: 'songs/Yeanadi-Yeanadi-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Avatha Paiyya',
+            artist: 'GV Prakash Kumar',
+            album: 'Paradesi',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/8d/bf/16/8dbf1691a58b2dd05f4836f7b9939b9c.jpg',
+            audio: 'songs/Avatha-Paiyya.mp3'
+        },
+        {
+            title: 'Or Mirugam',
+            artist: 'GV Prakash Kumar',
+            album: 'Paradesi',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/8d/bf/16/8dbf1691a58b2dd05f4836f7b9939b9c.jpg',
+            audio: 'songs/Or-Mirugam.mp3'
+        },
+        {
+            title: 'Sengaade',
+            artist: 'GV Prakash Kumar',
+            album: 'Paradesi',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/8d/bf/16/8dbf1691a58b2dd05f4836f7b9939b9c.jpg',
+            audio: 'songs/Sengaade.mp3'
+        },
+        {
+            title: 'Senneer Thaana',
+            artist: 'GV Prakash Kumar',
+            album: 'Paradesi',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/8d/bf/16/8dbf1691a58b2dd05f4836f7b9939b9c.jpg',
+            audio: 'songs/Senneer-Thaana.mp3'
+        },
+        {
+            title: 'Thannai Thaane',
+            artist: 'GV Prakash Kumar',
+            album: 'Paradesi',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/1200x/8d/bf/16/8dbf1691a58b2dd05f4836f7b9939b9c.jpg',
+            audio: 'songs/Thannai-Thaane.mp3'
+        },
+        {
+            title: 'Edhai Ninaithom',
+            artist: 'GV Prakash Kumar',
+            album: 'Kaaka Muttai',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/be/9f/01/be9f01c2ad236427ee053d0fd2a309c8.jpg',
+            audio: 'songs/Edhai-Ninaithom.mp3'
+        },
+        {
+            title: 'Karuppu Karuppu',
+            artist: 'GV Prakash Kumar',
+            album: 'Kaaka Muttai',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/be/9f/01/be9f01c2ad236427ee053d0fd2a309c8.jpg',
+            audio: 'songs/Karuppu-Karuppu.mp3'
+        },
+        {
+            title: 'Manjave Kanjachu',
+            artist: 'GV Prakash Kumar',
+            album: 'Kaaka Muttai',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/be/9f/01/be9f01c2ad236427ee053d0fd2a309c8.jpg',
+            audio: 'songs/Manjave-Kanjachu.mp3'
+        },
+        {
+            title: 'Sel Sel',
+            artist: 'GV Prakash Kumar',
+            album: 'Kaaka Muttai',
+            duration: '3:50',
+            cover: 'https://i.pinimg.com/736x/be/9f/01/be9f01c2ad236427ee053d0fd2a309c8.jpg',
+            audio: 'songs/Sel-Sel.mp3'
+        },
+        {
+            title: 'IKMS Theme',
+            artist: 'GV Prakash Kumar',
+            album: 'Irumbu Kottai Murattu Singam',
+            duration: '3:50',
+            cover: 'https://c.saavncdn.com/641/Irumbu-Kottai-Murattu-Singam-Tamil-2010-20200518122619-500x500.jpg',
+            audio: 'songs/IKMS-Theme.mp3'
+        },
+        {
+            title: 'Ilanthamizha',
+            artist: 'GV Prakash Kumar',
+            album: 'Irumbu Kottai Murattu Singam',
+            duration: '3:50',
+            cover: 'https://c.saavncdn.com/641/Irumbu-Kottai-Murattu-Singam-Tamil-2010-20200518122619-500x500.jpg',
+            audio: 'songs/Ilanthamizha.mp3'
+        },
+        {
+            title: 'Kanna Nee Ennai',
+            artist: 'GV Prakash Kumar',
+            album: 'Irumbu Kottai Murattu Singam',
+            duration: '3:50',
+            cover: 'https://c.saavncdn.com/641/Irumbu-Kottai-Murattu-Singam-Tamil-2010-20200518122619-500x500.jpg',
+            audio: 'songs/Kanna-Nee-Ennai.mp3'
+        },
+        {
+            title: 'Nenjam Nenjam',
+            artist: 'GV Prakash Kumar',
+            album: 'Irumbu Kottai Murattu Singam',
+            duration: '3:50',
+            cover: 'https://c.saavncdn.com/641/Irumbu-Kottai-Murattu-Singam-Tamil-2010-20200518122619-500x500.jpg',
+            audio: 'songs/Nenjam-Nenjam.mp3'
+        },
+        {
+            title: 'Raja Singam',
+            artist: 'GV Prakash Kumar',
+            album: 'Irumbu Kottai Murattu Singam',
+            duration: '3:50',
+            cover: 'https://c.saavncdn.com/641/Irumbu-Kottai-Murattu-Singam-Tamil-2010-20200518122619-500x500.jpg',
+            audio: 'songs/Raja-Singam.mp3'
+        },
+        {
+            title: 'Vellaikari Nee',
+            artist: 'GV Prakash Kumar',
+            album: 'Irumbu Kottai Murattu Singam',
+            duration: '3:50',
+            cover: 'https://c.saavncdn.com/641/Irumbu-Kottai-Murattu-Singam-Tamil-2010-20200518122619-500x500.jpg',
+            audio: 'songs/Vellaikari-Nee.mp3'
+        },
+        {
+            title: 'War-Theme',
+            artist: 'GV Prakash Kumar',
+            album: 'Irumbu Kottai Murattu Singam',
+            duration: '3:50',
+            cover: 'https://c.saavncdn.com/641/Irumbu-Kottai-Murattu-Singam-Tamil-2010-20200518122619-500x500.jpg',
+            audio: 'songs/War-Theme.mp3'
         }
     ],
     'hiphopadhi': [
@@ -300,7 +556,54 @@ const songsData = {
             duration: '4:15',
             cover: 'https://wallpapercave.com/wp/wp10063354.jpg',
             audio: 'songs/Veedhikor-Jaadhi-MassTamilan.org.mp3'
-        
+        },
+        {
+            title :'Ajukku Gumukku',
+            artist: 'Hiphop Adhi',
+            album: 'Naan Sirithal',
+            duration: '4:15',
+            cover: 'https://i.pinimg.com/1200x/be/da/ed/bedaeda271cb522a18287536b5cad0b1.jpg',
+            audio: 'songs/Ajukku-Gumukku-MassTamilan.io.mp3'
+        },
+        {
+            title :'Breakup Song',
+            artist: 'Hiphop Adhi',
+            album: 'Naan Sirithal',
+            duration: '4:15',
+            cover: 'https://i.pinimg.com/1200x/be/da/ed/bedaeda271cb522a18287536b5cad0b1.jpg',
+            audio: 'songs/Breakup-Song-MassTamilan.io.mp3'
+        },
+        {
+            title :'Dhom Dhom',
+            artist: 'Hiphop Adhi',
+            album: 'Naan Sirithal',
+            duration: '4:15',
+            cover: 'https://i.pinimg.com/1200x/be/da/ed/bedaeda271cb522a18287536b5cad0b1.jpg',
+            audio: 'songs/Dhom-Dhom-MassTamilan.io.mp3'
+        },
+        {
+            title :'Happy Birthday',
+            artist: 'Hiphop Adhi',
+            album: 'Naan Sirithal',
+            duration: '4:15',
+            cover: 'https://i.pinimg.com/1200x/be/da/ed/bedaeda271cb522a18287536b5cad0b1.jpg',
+            audio: 'songs/Happy-Birthday-MassTamilan.io.mp3'
+        },
+        {
+            title :'Keka Beka',
+            artist: 'Hiphop Adhi',
+            album: 'Naan Sirithal',
+            duration: '4:15',
+            cover: 'https://i.pinimg.com/1200x/be/da/ed/bedaeda271cb522a18287536b5cad0b1.jpg',
+            audio: 'songs/Keka-Beka-MassTamilan.io.mp3'
+        },
+        {
+            title :'Naan Siricha',
+            artist: 'Hiphop Adhi',
+            album: 'Naan Sirithal',
+            duration: '4:15',
+            cover: 'https://i.pinimg.com/1200x/be/da/ed/bedaeda271cb522a18287536b5cad0b1.jpg',
+            audio: 'songs/Naan-Siricha-MassTamilan.io.mp3'
         }
     ],
     'vijayantony': [
@@ -457,6 +760,118 @@ const songsData = {
             duration: '5:36',
             cover:'https://i.pinimg.com/736x/78/cc/2a/78cc2aafdc511092ce06cc3a37cdc074.jpg',
             audio:'songs/Merkey-Uthikkum.mp3'
+        },
+        {
+            title: 'Ennavale Ennavale',
+            artist:'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio:'songs/Ennavale-Ennavale.mp3'
+        },
+        {
+            title: 'Malligaiye Malligaiye',
+            artist:'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio:'songs/Malligaiye-Malligaiye.mp3'
+        },
+        {
+            title: 'Manisha Manisha',
+            artist:'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio:'songs/Manisha-Manisha.mp3'
+        },
+        {
+            title: 'Pottu Vaithu',
+            artist:'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio:'songs/Pottu-Vaithu.mp3'
+        },
+        {
+            title: 'Un Marbil',
+            artist:'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio:'songs/Un-Marbil.mp3'
+        },
+        {
+            title: 'Unnai Ninaithu naan',
+            artist:'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio:'songs/Unnai-Ninaithu-naan.mp3'
+        },
+        {
+            title: 'Vanna Nilave',
+            artist:'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio:'songs/Vanna-Nilave.mp3'
+        },
+        {
+            title: 'Alli Alli',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Alli-Alli.mp3'
+        },
+        {
+            title: 'Athanda Ithanda',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Athanda-Ithanda.mp3'
+        },
+        {
+            title: 'Mathadu Mathadu',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Mathadu-Mathadu.mp3'
+        },
+        {
+            title: 'Nagumo',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Nagumo.mp3'
+        },
+        {
+            title: 'Singam Ondru',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Singam-Ondru.mp3'
+        },
+        {
+            title: 'Thalai Magane',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Thalai-Magane.mp3'
+        },
+        {
+            title: 'Thalai Magane Sad',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Thalai-Magane-Sad.mp3'
         }
     ],
     'ilaiyaraja': [
@@ -595,7 +1010,7 @@ const songsData = {
             audio: 'songs/Roja-Roja.mp3'
         },
         {
-            title: 'Enna-Vilai',
+            title: 'Enna Vilai',
             artist: 'ARR',
             album: 'Kadhalar dhinam',
             duration: '5:00',
@@ -649,14 +1064,6 @@ const songsData = {
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
             audio: 'songs/Evano-Oruvan-Vasikiran.mp3' 
-        },
-        {
-            title: 'Kadhal-Sadugudu',
-            artist: 'ARR',
-            album: 'Alaipayuthey',
-            duration: '5:00',
-            cover:'https://i.pinimg.com/736x/d0/a2/60/d0a2608e3ccd6487a4ade9409adc45c3.jpg',
-            audio: 'songs/Kadhal-Sadugudu.mp3' 
         },
         {
             title: 'Kadhal-Sadugudu',
@@ -1233,8 +1640,407 @@ const songsData = {
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/40/9f/ab/409fabc5869cde849521f2a0c1fd8965.jpg',
             audio: 'songs/Yen-Azhagu-Enna.mp3' 
+        },
+        {
+            title: 'Adiye(from:kadal)',
+            artist: 'ARR',
+            album: 'Kadal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/55/27/65/552765f264ee4cdfd5f8ad065663a088.jpg',
+            audio: 'songs/Adiye.mp3' 
+        },
+        {
+            title: 'Anbin Vasale',
+            artist: 'ARR',
+            album: 'Kadal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/55/27/65/552765f264ee4cdfd5f8ad065663a088.jpg',
+            audio: 'songs/Anbin-Vasale.mp3' 
+        },
+        {
+            title: 'Chithirai Nela',
+            artist: 'ARR',
+            album: 'Kadal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/55/27/65/552765f264ee4cdfd5f8ad065663a088.jpg',
+            audio: 'songs/Chithirai-Nela.mp3' 
+        },
+        {
+            title: 'Elay Keechan',
+            artist: 'ARR',
+            album: 'Kadal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/55/27/65/552765f264ee4cdfd5f8ad065663a088.jpg',
+            audio: 'songs/Elay-Keechan.mp3' 
+        },
+        {
+            title: 'Magudi Magudi',
+            artist: 'ARR',
+            album: 'Kadal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/55/27/65/552765f264ee4cdfd5f8ad065663a088.jpg',
+            audio: 'songs/Magudi-Magudi.mp3' 
+        },
+        {
+            title: 'Moongil Thottam',
+            artist: 'ARR',
+            album: 'Kadal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/55/27/65/552765f264ee4cdfd5f8ad065663a088.jpg',
+            audio: 'songs/Moongil-Thottam.mp3' 
+        },
+        {
+            title: 'Nenjukkule',
+            artist: 'ARR',
+            album: 'Kadal',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/55/27/65/552765f264ee4cdfd5f8ad065663a088.jpg',
+            audio: 'songs/Nenjukkule.mp3' 
+        },
+        {
+            title: 'Kaattu Sirukki',
+            artist: 'ARR',
+            album: 'Raavanan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9d/f1/e2/9df1e2d373acca3d900efdf776fe4daa.jpg',
+            audio: 'songs/Kaattu-Sirukki.mp3' 
+        },
+        {
+            title: 'Kalvare Kalvare',
+            artist: 'ARR',
+            album: 'Raavanan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9d/f1/e2/9df1e2d373acca3d900efdf776fe4daa.jpg',
+            audio: 'songs/Kalvare-Kalvare.mp3' 
+        },
+        {
+            title: 'Kattu Sirukki Slow Version',
+            artist: 'ARR',
+            album: 'Raavanan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9d/f1/e2/9df1e2d373acca3d900efdf776fe4daa.jpg',
+            audio: 'songs/Kattu-Sirukki-Slow-Version.mp3' 
+        },
+        {
+            title: 'Keda Keda Kari',
+            artist: 'ARR',
+            album: 'Raavanan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9d/f1/e2/9df1e2d373acca3d900efdf776fe4daa.jpg',
+            audio: 'songs/Keda-Keda-Kari.mp3' 
+        },
+        {
+            title: 'Kodu Poatta',
+            artist: 'ARR',
+            album: 'Raavanan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9d/f1/e2/9df1e2d373acca3d900efdf776fe4daa.jpg',
+            audio: 'songs/Kodu-Poatta.mp3' 
+        },
+        {
+            title: 'Naan Varuven',
+            artist: 'ARR',
+            album: 'Raavanan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9d/f1/e2/9df1e2d373acca3d900efdf776fe4daa.jpg',
+            audio: 'songs/Naan-Varuven.mp3' 
+        },
+        {
+            title: 'Usurae Poguthey',
+            artist: 'ARR',
+            album: 'Raavanan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9d/f1/e2/9df1e2d373acca3d900efdf776fe4daa.jpg',
+            audio: 'songs/Usurae-Poguthey.mp3' 
+        },
+        {
+            title: 'Veera Veera',
+            artist: 'ARR',
+            album: 'Raavanan',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/1200x/9d/f1/e2/9df1e2d373acca3d900efdf776fe4daa.jpg',
+            audio: 'songs/Veera-Veera.mp3' 
+        },
+        {
+            title: 'Kokku Saiva Kokku',
+            artist: 'ARR',
+            album: 'Muthu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/c9/54/3d/c9543d80eb2d804df76e81e9ec347b36.jpg',
+            audio: 'songs/Kokku-Saiva-Kokku.mp3' 
+        },
+        {
+            title: 'Kuluvalile Mottu',
+            artist: 'ARR',
+            album: 'Muthu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/c9/54/3d/c9543d80eb2d804df76e81e9ec347b36.jpg',
+            audio: 'songs/Kuluvalile-Mottu.mp3' 
+        },
+        {
+            title: 'Muthu Theme',
+            artist: 'ARR',
+            album: 'Muthu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/c9/54/3d/c9543d80eb2d804df76e81e9ec347b36.jpg',
+            audio: 'songs/Muthu-Theme-Music.mp3' 
+        },
+        {
+            title: 'Oruvan Oruvan Mudhalali',
+            artist: 'ARR',
+            album: 'Muthu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/c9/54/3d/c9543d80eb2d804df76e81e9ec347b36.jpg',
+            audio: 'songs/Oruvan-Oruvan-Mudhalali.mp3' 
+        },
+        {
+            title: 'Thillana Thillana',
+            artist: 'ARR',
+            album: 'Muthu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/c9/54/3d/c9543d80eb2d804df76e81e9ec347b36.jpg',
+            audio: 'songs/Thillana-Thillana.mp3' 
+        },
+        {
+            title: 'Vidukathaiya Intha Vazhkai',
+            artist: 'ARR',
+            album: 'Muthu',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/c9/54/3d/c9543d80eb2d804df76e81e9ec347b36.jpg',
+            audio: 'songs/Vidukathaiya-Intha-Vazhkai.mp3' 
+        },
+        {
+            title: 'Athiradee Kaalam',
+            artist: 'ARR',
+            album: 'Sivaji',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/aa/48/7a/aa487ab9da796d94971cd46578fb76f4.jpg',
+            audio: 'songs/Athiradee-Kaalam.mp3' 
+        },
+        {
+            title: 'Balleilakka',
+            artist: 'ARR',
+            album: 'Sivaji',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/aa/48/7a/aa487ab9da796d94971cd46578fb76f4.jpg',
+            audio: 'songs/Kaaveri-AarumBalleilakka.mp3' 
+        },
+        {
+            title: 'Sahana',
+            artist: 'ARR',
+            album: 'Sivaji',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/aa/48/7a/aa487ab9da796d94971cd46578fb76f4.jpg',
+            audio: 'songs/Sahana-II---Melody.mp3' 
+        },
+        {
+            title: 'Sahana Saral Thoo',
+            artist: 'ARR',
+            album: 'Sivaji',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/aa/48/7a/aa487ab9da796d94971cd46578fb76f4.jpg',
+            audio: 'songs/Sahana-Saral-Thoo.mp3' 
+        },
+        {
+            title: 'Sivaji Theme',
+            artist: 'ARR',
+            album: 'Sivaji',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/aa/48/7a/aa487ab9da796d94971cd46578fb76f4.jpg',
+            audio: 'songs/Sivaji-Theme.mp3' 
+        },
+        {
+            title: 'Style Thee Thee',
+            artist: 'ARR',
+            album: 'Sivaji',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/aa/48/7a/aa487ab9da796d94971cd46578fb76f4.jpg',
+            audio: 'songs/Style---Thee-Thee.mp3' 
+        },
+        {
+            title: 'The-Boss Theme',
+            artist: 'ARR',
+            album: 'Sivaji',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/aa/48/7a/aa487ab9da796d94971cd46578fb76f4.jpg',
+            audio: 'songs/The-Boss---Theme-Music.mp3' 
+        },
+        {
+            title: 'Vaaji Vaaji En Sivaji',
+            artist: 'ARR',
+            album: 'Sivaji',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/aa/48/7a/aa487ab9da796d94971cd46578fb76f4.jpg',
+            audio: 'songs/Vaaji-Vaaji-En-Sivaji.mp3' 
+        },
+        {
+            title: 'Ambikapathy',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/Ambikapathy.mp3' 
+        },
+        {
+            title: 'Kalaarasiga',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/Kalaarasiga.mp3' 
+        },
+        {
+            title: 'Kanaave Kanaave',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/Kanaave-Kanaave.mp3' 
+        },
+        {
+            title: 'Oliyaaga Vandhaai',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/Oliyaaga-Vandhaai.mp3' 
+        },
+        {
+            title: 'Paarkaadhey Oru Madhiri',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/Paarkaadhey-Oru-Madhiri.mp3' 
+        },
+        {
+            title: 'Parakka Seivaai',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/Parakka-Seivaai.mp3' 
+        },
+        {
+            title: 'Solvadhai Seidhu Mudippom',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/Solvadhai-Seidhu-Mudippom.mp3' 
+        },
+        {
+            title: 'The Land Of Shiva',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/The-Land-Of-Shiva.mp3' 
+        },
+        {
+            title: 'Unnaal Unnaal',
+            artist: 'ARR',
+            album: 'Ambikapathy',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
+            audio: 'songs/Unnaal-Unnaal.mp3' 
         }
-        
+    ],
+    'aniruth' : [
+        {
+            title: 'Aathi',
+            artist: 'Aniruth Ravichantiran',
+            album: 'Kathi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
+            audio: 'songs/Aathi.mp3'
+        },
+        {
+            title: 'Selfie Pulla',
+            artist: 'Aniruth Ravichantiran',
+            album: 'Kathi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
+            audio: 'songs/Selfie Pulla.mp3'
+        },
+        {
+            title: 'Pakkam Vanthu',
+            artist: 'Aniruth Ravichantiran',
+            album: 'Kathi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
+            audio: 'songs/Pakkam Vanthu.mp3'
+        },
+        {
+            title: 'Paalam',
+            artist: 'Aniruth Ravichantiran',
+            album: 'Kathi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
+            audio: 'songs/Paalam.mp3'
+        },
+        {
+            title: 'Nee Yaaro',
+            artist: 'Aniruth Ravichantiran',
+            album: 'Kathi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
+            audio: 'songs/Nee Yaaro.mp3'
+        },
+        {
+            title: 'Kaththi Theme The Sword of Destiny',
+            artist: 'Aniruth Ravichantiran',
+            album: 'Kathi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
+            audio: 'songs/Kaththi Theme The Sword of Destiny.mp3'
+        },
+        {
+            title: 'Bad Eyes Villain Theme',
+            artist: 'Aniruth Ravichantiran',
+            album: 'Kathi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
+            audio: 'songs/Bad Eyes Villain Theme.mp3'
+        },
+    ],
+    'unnikrishnan': [
+        {
+            title: 'Roja-Roja',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Roja-Roja.mp3'  
+        }
+    ],
+    'unnimenan' : [
+        {
+            title: 'Enna Vilai',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Enna-Vilai.mp3'
+        },
+        {
+            title: 'Dhandiya',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Dhandiya.mp3' 
+        }
+    ],
+    'SPB': [
+        {
+            title: 'Kaathalenum',
+            artist: 'ARR',
+            album: 'Kadhalar dhinam',
+            duration: '5:00',
+            cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Kaathalenum.mp3'
+        }
     ]
 };
 
@@ -1443,6 +2249,12 @@ function setupEventListeners() {
     document.getElementById('ilaiyaraja').onclick = () => showArtistSongs('ilaiyaraja');
     document.getElementById('yuvan').onclick = () => showArtistSongs('yuvan');
     document.getElementById('ARR').onclick = () => showArtistSongs('ARR');
+    document.getElementById('unnikrishnan').onclick = () => showArtistSongs('unnikrishnan');
+    document.getElementById('unnimenan').onclick = () => showArtistSongs('unnimenan');
+    document.getElementById('SPB').onclick = () => showArtistSongs('SPB');
+    document.getElementById('aniruth').onclick = () => showArtistSongs('aniruth');
+
+    
 
 
     // Navigation buttons
@@ -1888,12 +2700,14 @@ function getArtistName(artistId) {
         'vijayantony': 'Vijay Antony',
         'Deva': 'Deva',
         'yuvan': 'Yuvan',
-        'aniruth': 'Aniruth',
+        'aniruth': 'aniruth',
         'harris jayaraj': 'Harris Jayaraj',
         'D Imman': 'D Imman',
-        'S P B': 'S P B',
+        'SPB': 'SPB',
         'ilaiyaraja':'ilaiyaraja',
-        'ARR':'ARR'
+        'ARR':'ARR',
+        'unnikrishnan':'unnikrishnan',
+        'unnimenan':'unnimenan'
     };
     return names[artistId] || artistId;
 }
