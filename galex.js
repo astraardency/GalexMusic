@@ -1944,6 +1944,14 @@ const songsData = {
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
             audio: 'songs/Unnaal-Unnaal.mp3' 
+        },
+        {
+            title: 'Unnaal Unnaal',
+            artist: 'ARR',
+            album: 'Rhythm',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/4a/f7/25/4af725367dcd2f6ad949e6958070c4a9.jpg',
+            audio: 'songs/Unnaal-Unnaal.mp3' 
         }
     ],
     'aniruth' : [
