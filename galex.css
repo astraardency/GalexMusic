@@ -1049,7 +1049,7 @@ input:focus {
     width: 22px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: rgb(54, 52, 52);
     transition: .4s;
     border-radius: 50%;
 }
@@ -1066,7 +1066,7 @@ select {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    color: #fff;
+    color: #101010;
     padding: 8px 15px;
     font-size: 14px;
 }
@@ -1313,4 +1313,121 @@ select {
     .volume-control {
         width: 100px;
     }
+}
+/* Hero Card Styles for Playlists */
+.hero-img-container {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px auto;
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden;
+    border: 3px solid rgba(100, 149, 237, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+/* Hover Effects */
+.playlist-card:hover .hero-img-container {
+    border-color: #6495ed;
+    box-shadow: 0 0 20px rgba(100, 149, 237, 0.4);
+    transform: scale(1.05);
+}
+
+.playlist-card:hover .hero-img {
+    transform: scale(1.1);
+}
+
+/* Adjust grid for larger items if needed */
+.playlist-card {
+    min-height: 220px; /* Gives more room for the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* --- Light Mode Styles --- */
+body.light-mode {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #333;
+}
+
+body.light-mode .left,
+body.light-mode .mainplayer,
+body.light-mode .player-container,
+body.light-mode .account, 
+body.light-mode .search-results {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+body.light-mode .web-name h2,
+body.light-mode .settings-label,
+body.light-mode .feature-title,
+body.light-mode .player-title {
+    color: #333;
+}
+
+body.light-mode .menu button {
+    color: #555;
+    border-color: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .menu button:hover {
+    background: rgba(100, 149, 237, 0.2);
+    color: #000;
+}
+
+body.light-mode input {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+body.light-mode input::placeholder {
+    color: #777;
+}
+
+body.light-mode .song-item,
+body.light-mode .settings-section,
+body.light-mode .about-card,
+body.light-mode .playlist-card {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .song-title,
+body.light-mode .playlist-name {
+    color: #333;
+}
+
+body.light-mode .song-details,
+body.light-mode .playlist-count,
+body.light-mode .feature-desc, 
+body.light-mode .about-text,
+body.light-mode label,
+body.light-mode .player-artist,
+body.light-mode .time-display {
+    color: #666;
+}
+
+body.light-mode .artist-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(240, 240, 250, 0.9));
+}
+
+body.light-mode .artist-name {
+    color: #fff; /* Keep artist text white as it sits on an image overlay */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+body.light-mode .song-item:hover {
+    background: rgba(100, 149, 237, 0.1);
 }
