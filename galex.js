@@ -134,7 +134,7 @@ const songsData = {
         {
             title: 'Engeyum Eppothum',
             artist: 'GV Prakash Kumar',
-            album: 'Darling',
+            album: '',
             duration: '3:45',
             cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
             audio: 'songs/Engeyum Eppothum - From  Polladhavan  - G. V. Prakash Kumar, Yogi. B, Kaviyarasu Kannadasan, Yugabharathi, S. P. Balasubrahmanyam, Sunitha Sarathy.mp3'
@@ -947,7 +947,7 @@ const songsData = {
             artist:'Yuvan',
             album:'Paiya',
             duration:'3:45',
-            cover:'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
+            cover:'https://i.pinimg.com/1200x/31/16/51/31165195ad7305447dbbe279951736b4.jpg',
             audio:'songs/Adada_Mazhaida.mp3'
         },
         {
@@ -955,7 +955,7 @@ const songsData = {
             artist: 'Yuvan',
             album: 'Paiya',
             duration: '4:10',
-            cover: 'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
+            cover: 'https://i.pinimg.com/1200x/31/16/51/31165195ad7305447dbbe279951736b4.jpg',
             audio: 'songs/En_Kadhal_Solla.mp3'
         },
         {
@@ -963,7 +963,7 @@ const songsData = {
             artist:'Yuvan',
             album:'Paiya',
             duration:'3:55',
-            cover:'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',   
+            cover:'https://i.pinimg.com/1200x/31/16/51/31165195ad7305447dbbe279951736b4.jpg',   
             audio:'songs/Poongatre_Poongatre.mp3'
         },
         {
@@ -971,7 +971,7 @@ const songsData = {
             artist: 'Yuvan',
             album: 'Paiya',
             duration: '4:05',
-            cover: 'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
+            cover: 'https://i.pinimg.com/1200x/31/16/51/31165195ad7305447dbbe279951736b4.jpg',
             audio: 'songs/Suthuthe_Suthuthe_Bhoomi.mp3'
         },
         {
@@ -979,7 +979,7 @@ const songsData = {
             artist:'Yuvan',
             album:'Paiya',
             duration:'4:20',
-            cover:'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
+            cover:'https://i.pinimg.com/1200x/31/16/51/31165195ad7305447dbbe279951736b4.jpg',
             audio:'songs/Thuli_Thuli_Mazhaiyaai.mp3'
         },
         {
@@ -987,8 +987,112 @@ const songsData = {
             artist:'Yuvan',
             album:'Paiya',
             duration:'3:50',
-            cover:'https://i.pinimg.com/1200x/91/3a/65/913a65a83166ba3af32e3ab5b7b0a6e4.jpg',
+            cover:'https://i.pinimg.com/1200x/31/16/51/31165195ad7305447dbbe279951736b4.jpg',
             audio:'songs/Yedho_Ondru_Ennai_Thakka.mp3'
+        },
+        {
+            title:'Vaanam',
+            artist:'Yuvan',
+            album:'vaanam',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/9f/a3/49/9fa349d27fc12c94ecc6df5d3b61f64c.jpg',
+            audio:'songs/Vaanam.mp3'
+        },
+        {
+            title:'Cable Raja',
+            artist:'Yuvan',
+            album:'vaanam',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/9f/a3/49/9fa349d27fc12c94ecc6df5d3b61f64c.jpg',
+            audio:'songs/Cable-Raja.mp3'
+        },
+        {
+            title:'Evan Di Unna Pethan',
+            artist:'Yuvan',
+            album:'vaanam',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/9f/a3/49/9fa349d27fc12c94ecc6df5d3b61f64c.jpg',
+            audio:'songs/Evan-Di-Unna-Pethan.mp3'
+        },
+        {
+            title:'No Money No Honey',
+            artist:'Yuvan',
+            album:'vaanam',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/9f/a3/49/9fa349d27fc12c94ecc6df5d3b61f64c.jpg',
+            audio:'songs/No-Money-No-Honey.mp3'
+        },
+        {
+            title:'Who-Am-I',
+            artist:'Yuvan',
+            album:'vaanam',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/9f/a3/49/9fa349d27fc12c94ecc6df5d3b61f64c.jpg',
+            audio:'songs/Who-Am-I.mp3'
+        },
+        {
+            title:'Balle-Lakka',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Balle-Lakka.mp3'
+        },
+        {
+            title:'Machi-Open-The-Bottle',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Machi-Open-The-Bottle.mp3'
+        },
+        {
+            title:'Mankatha-Theme',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Mankatha-Theme-Music.mp3'
+        },
+        {
+            title:'Nanbane',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Nanbane.mp3'
+        },
+        {
+            title:'Nee-Naan',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Nee-Naan.mp3'
+        },
+        {
+            title:'Vaada-Bin-Laada',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Vaada-Bin-Laada.mp3'
+        },
+        {
+            title:'Vilayadu Mangatha',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Vilayadu-Mangatha.mp3'
+        },
+        {
+            title:'Vilayadu Mangatha(Dance-Mix)',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Vilayadu-Mangatha-Extended-Dance-Mix.mp3'
         }
     ],
     'ARR': [
@@ -1946,12 +2050,44 @@ const songsData = {
             audio: 'songs/Unnaal-Unnaal.mp3' 
         },
         {
-            title: 'Unnaal Unnaal',
+            title: 'Anbae Idhu Nijam',
             artist: 'ARR',
             album: 'Rhythm',
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/4a/f7/25/4af725367dcd2f6ad949e6958070c4a9.jpg',
-            audio: 'songs/Unnaal-Unnaal.mp3' 
+            audio: 'songs/Anbae Idhu Nijam.mp3' 
+        },
+        {
+            title: 'Ayyo Pathikichu (Fire)',
+            artist: 'ARR',
+            album: 'Rhythm',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/4a/f7/25/4af725367dcd2f6ad949e6958070c4a9.jpg',
+            audio: 'songs/Ayyo Pathikichu (Fire).mp3' 
+        },
+        {
+            title: 'Kaattrae En Vaasal (Wind)',
+            artist: 'ARR',
+            album: 'Rhythm',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/4a/f7/25/4af725367dcd2f6ad949e6958070c4a9.jpg',
+            audio: 'songs/Kaattrae En Vaasal (Wind).mp3' 
+        },
+        {
+            title: 'Nadhiye Nadhiye',
+            artist: 'ARR',
+            album: 'Rhythm',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/4a/f7/25/4af725367dcd2f6ad949e6958070c4a9.jpg',
+            audio: 'songs/Nadhiye Nadhiye.mp3' 
+        },
+        {
+            title: 'Nilamay Poru Nilamay (Land)',
+            artist: 'ARR',
+            album: 'Rhythm',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/4a/f7/25/4af725367dcd2f6ad949e6958070c4a9.jpg',
+            audio: 'songs/Nilamay Poru Nilamay (Land).mp3' 
         }
     ],
     'aniruth' : [
@@ -2051,13 +2187,111 @@ const songsData = {
         }
     ],
     'vijay': [],
-    'ajith': [],
+    'ajith': [
+        {
+            title:'Balle-Lakka',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Balle-Lakka.mp3'
+        },
+        {
+            title:'Machi-Open-The-Bottle',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Machi-Open-The-Bottle.mp3'
+        },
+        {
+            title:'Mankatha-Theme',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Mankatha-Theme-Music.mp3'
+        },
+        {
+            title:'Nanbane',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Nanbane.mp3'
+        },
+        {
+            title:'Nee-Naan',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Nee-Naan.mp3'
+        },
+        {
+            title:'Vaada-Bin-Laada',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Vaada-Bin-Laada.mp3'
+        },
+        {
+            title:'Vilayadu Mangatha',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Vilayadu-Mangatha.mp3'
+        },
+        {
+            title:'Vilayadu Mangatha(Dance-Mix)',
+            artist:'Yuvan',
+            album:'Mankatha',
+            duration:'3:50',
+            cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
+            audio:'songs/Vilayadu-Mangatha-Extended-Dance-Mix.mp3'
+        }
+    ],
     'rajini': [],
     'kamal': [],
     'surya': [],
-    'dhanush': [],
+    'dhanush': [
+        {
+            title: 'Un Mela Aasadhaan',
+            artist: 'GV Prakash Kumar',
+            album: 'Aadukalam',
+            duration: '4:20',
+            cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
+            audio: 'songs/Un Mela Aasadhaan - G. V. Prakash, Dhanush, Aishwarya R Dhanush, Andrea Jeremiah.m4a'
+        },
+        {
+            title: 'Ayyayo',
+            artist: 'GV Prakash Kumar',
+            album: 'Aadukalam',
+            duration: '4:05',
+            cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
+            audio: 'songs/Ayyayo - G. V. Prakash, S. P. Balasubrahmanyam, S.P. Charan, Prashanthini.mp3'
+        },
+        {
+            title: 'Otha Sollaala',
+            artist: 'GV Prakash Kumar',
+            album: 'Aadukalam',
+            duration: '4:10',
+            cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
+            audio: 'songs/Otha Sollaala - G. V. Prakash, Velmurugan.mp3'
+        },
+        {
+            title: 'Padichi Parthen',
+            artist: 'GV Prakash Kumar',
+            album: 'Polladhavan',
+            duration: '3:55',
+            cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
+            audio: 'songs/Padichi Parthen - From  Polladhavan  - Kabilan, G. V. Prakash, Shankar Mahadevan.mp3'
+        }
+    ],
     'vikram': [],
-    'sk': [],
+    'sk': []
 };
 
 
@@ -2733,7 +2967,15 @@ function getArtistName(artistId) {
         'ilaiyaraja':'ilaiyaraja',
         'ARR':'ARR',
         'unnikrishnan':'unnikrishnan',
-        'unnimenan':'unnimenan'
+        'unnimenan':'unnimenan',
+        'vijay': 'Thalapathy Vijay',
+        'ajith': 'Ajith Kumar',
+        'rajini': 'Superstar Rajini',
+        'kamal': 'Kamal Haasan',
+        'surya': 'Suriya',
+        'dhanush': 'Dhanush',
+        'vikram': 'Chiyaan Vikram',
+        'sk': 'Sivakarthikeyan'
     };
     return names[artistId] || artistId;
 }
