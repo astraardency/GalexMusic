@@ -816,6 +816,62 @@ const songsData = {
             duration: '5:36',
             cover:'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
             audio:'songs/Vanna-Nilave.mp3'
+        },
+        {
+            title: 'Alli Alli',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Alli-Alli.mp3'
+        },
+        {
+            title: 'Athanda Ithanda',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Athanda-Ithanda.mp3'
+        },
+        {
+            title: 'Mathadu Mathadu',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Mathadu-Mathadu.mp3'
+        },
+        {
+            title: 'Nagumo',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Nagumo.mp3'
+        },
+        {
+            title: 'Singam Ondru',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Singam-Ondru.mp3'
+        },
+        {
+            title: 'Thalai Magane',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Thalai-Magane.mp3'
+        },
+        {
+            title: 'Thalai Magane Sad',
+            artist:'Deva',
+            album: 'Arunachalam',
+            duration: '5:36',
+            cover:'https://i.pinimg.com/736x/6c/8a/dd/6c8add5c988496fbff91215b1f0c0162.jpg',
+            audio:'songs/Thalai-Magane-Sad.mp3'
         }
     ],
     'ilaiyaraja': [
@@ -1888,6 +1944,14 @@ const songsData = {
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/29/28/ff/2928ff02915e5caa27a14725aba22e9a.jpg',
             audio: 'songs/Unnaal-Unnaal.mp3' 
+        },
+        {
+            title: 'Unnaal Unnaal',
+            artist: 'ARR',
+            album: 'Rhythm',
+            duration: '5:00',
+            cover:'https://i.pinimg.com/736x/4a/f7/25/4af725367dcd2f6ad949e6958070c4a9.jpg',
+            audio: 'songs/Unnaal-Unnaal.mp3' 
         }
     ],
     'aniruth' : [
@@ -1985,41 +2049,59 @@ const songsData = {
             cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
             audio: 'songs/Kaathalenum.mp3'
         }
-    ]
+    ],
+    'vijay': [],
+    'ajith': [],
+    'rajini': [],
+    'kamal': [],
+    'surya': [],
+    'dhanush': [],
+    'vikram': [],
+    'sk': [],
 };
 
 
 // Sample playlists
 const samplePlaylists = [
     {
-        id: 'favorites',
-        name: 'My Favorites',
-        icon: 'fas fa-heart'
+        id: 'vijay',
+        name: 'Thalapathy Vijay',
+        image: 'https://i.pinimg.com/736x/35/f2/45/35f245a8d68c4f110dd405cecb90d798.jpg' 
     },
     {
-        id: 'tamil_hits',
-        name: 'Tamil Hits',
-        icon: 'fas fa-bolt'
+        id: 'ajith',
+        name: 'Ajith Kumar',
+        image: 'https://i.pinimg.com/736x/85/ea/82/85ea8230a1d48f67399856d1e790ce3c.jpg'
     },
     {
-        id: 'workout',
-        name: 'Workout Mix',
-        icon: 'fas fa-running'
+        id: 'rajini',
+        name: 'Superstar Rajini',
+        image: 'https://i.pinimg.com/1200x/8d/2f/42/8d2f424e4641f44b4b82e8da8e74de89.jpg'
     },
     {
-        id: 'chill',
-        name: 'Chill Vibes',
-        icon: 'fas fa-coffee'
+        id: 'kamal',
+        name: 'Kamal Haasan',
+        image: 'https://i.pinimg.com/736x/f5/ae/6f/f5ae6f4f6d5ad0ba6f948c33b126c262.jpg'
     },
     {
-        id: 'party',
-        name: 'Party Time',
-        icon: 'fas fa-glass-cheers'
+        id: 'surya',
+        name: 'Suriya',
+        image: 'https://i.pinimg.com/1200x/9e/40/72/9e407264d0266a737b88f34d718cf443.jpg'
     },
     {
-        id: 'old_is_gold',
-        name: 'Old is Gold',
-        icon: 'fas fa-crown'
+        id: 'dhanush',
+        name: 'Dhanush',
+        image: 'https://i.pinimg.com/736x/fb/25/e1/fb25e18fe8dc9ce14f0ea7ccdacf96a0.jpg'
+    },
+    {
+        id: 'vikram',
+        name: 'Chiyaan Vikram',
+        image: 'https://i.pinimg.com/1200x/67/f1/13/67f113bcbf1e1154debcbe9687ac7a31.jpg'
+    },
+    {
+        id: 'sk',
+        name: 'Sivakarthikeyan',
+        image: 'https://i.pinimg.com/1200x/b3/62/63/b36263bc52ce50fc4692ca2002ada449.jpg'
     }
 ];
 
@@ -2695,13 +2777,16 @@ function populatePlaylists() {
     playlistsGrid.innerHTML = '';
     samplePlaylists.forEach(playlist => {
         const card = document.createElement('div');
-        card.className = 'playlist-card';
+        card.className = 'playlist-card hero-card';
+        
+        // NEW: Add the click event to open the specific song container
+        card.onclick = () => showArtistSongs(playlist.id);
+
         card.innerHTML = `
-            <div class="playlist-icon">
-                <i class="${playlist.icon}"></i>
+            <div class="hero-img-container">
+                <img src="${playlist.image}" alt="${playlist.name}" class="hero-img">
             </div>
             <div class="playlist-name">${playlist.name}</div>
-            <div class="playlist-count">${playlist.count} songs</div>
         `;
         playlistsGrid.appendChild(card);
     });
@@ -3038,6 +3123,40 @@ function toggleCurrentSongLike() {
                  toggleLikeSong(currentArtist, songIndex, fakeEvent);
              }
         }
+    }
+}
+function loadSettings() {
+    const savedSettings = JSON.parse(localStorage.getItem('galexSettings')) || {};
+    
+    // Set Checkbox State
+    const isDarkMode = savedSettings.darkMode !== false; // Default to true if undefined
+    document.getElementById('darkMode').checked = isDarkMode;
+    
+    // Apply Theme Immediately
+    applyTheme(isDarkMode);
+
+    // Load other settings
+    document.getElementById('autoPlay').checked = savedSettings.autoPlay !== false;
+    document.getElementById('showQueue').checked = savedSettings.showQueue !== false;
+    document.getElementById('animations').checked = savedSettings.animations !== false;
+
+    // Add listeners to save and apply changes
+    document.querySelectorAll('#settingsContainer input, #settingsContainer select').forEach(element => {
+        element.addEventListener('change', () => {
+            saveSettings();
+            if (element.id === 'darkMode') {
+                applyTheme(element.checked);
+            }
+        });
+    });
+}
+
+// Add this NEW helper function
+function applyTheme(isDark) {
+    if (isDark) {
+        document.body.classList.remove('light-mode');
+    } else {
+        document.body.classList.add('light-mode');
     }
 }
 
