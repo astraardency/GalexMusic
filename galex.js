@@ -1093,6 +1093,438 @@ const songsData = {
             duration:'3:50',
             cover:'https://i.pinimg.com/736x/0b/b2/0a/0bb20a7084b812a7dceabe5f3fca960f.jpg',
             audio:'songs/Vilayadu-Mangatha-Extended-Dance-Mix.mp3'
+        },
+        {
+            title: 'Aayiram-Jannal-Veedu',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Aayiram-Jannal-Veedu.mp3'
+        },
+        {
+            title: 'Indha-Ooril-Eppothum',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Indha-Ooril-Eppothum.mp3'
+        },
+        {
+            title: 'Kovakkara-Kiliye',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Kovakkara-Kiliye.mp3'
+        },
+        {
+            title: 'Onnapola',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Onnapola.mp3'
+        },
+        {
+            title: 'Otraikannale',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Otraikannale.mp3'
+        },
+        {
+            title: 'Thoppul-Kodi-Sontham',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Thoppul-Kodi-Sontham.mp3'
+        },
+        {
+            title:'Ammadi-Athadi',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Ammadi-Athadi-(Movie-Version)-MassTamilan.org.mp3'
+        },
+        {
+            title:'He-Knows-What-To-Do',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/He-Knows-What-To-Do-MassTamilan.org.mp3'
+        },
+        {
+            title:'Ammadi-Athadi(remix)',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Ammadi-Athadi-MassTamilan.org.mp3'
+        },
+        {
+            title:'Hooray-Hooray',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Hooray-Hooray-MassTamilan.org.mp3'
+        },
+        {
+            title:'Kadhal-Vandhale',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Kadhal-Vandhale-MassTamilan.org.mp3'
+        },
+        {
+            title:'Kadhal-Vanthiruchi',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Kadhal-Vanthiruchi-MassTamilan.org.mp3'
+        },
+        {
+            title:'Loosu-Penne',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Loosu-Penne-MassTamilan.org.mp3'
+        },
+        {
+            title:'Podu-Attam-Podu',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Podu-Attam-Podu-MassTamilan.org.mp3'
+        },
+        {
+            title:'Success-Of-Love',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Success-Of-Love-MassTamilan.org.mp3'
+        },
+        {
+            title:'Vallava-Ennai-Vellava',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Vallava-Ennai-Vellava-MassTamilan.org.mp3'
+        },
+        {
+            title: '18-Vayathil',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/18-Vayathil.mp3'
+        },
+        {
+            title: 'Devathayai-Kanden',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Devathayai-Kanden.mp3'
+        },
+        {
+            title: 'Kadhal-Konden',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Kadhal-Konden.mp3'
+        },
+        {
+            title: 'Kadhal-Mattum-Purivathillai',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Kadhal-Mattum-Purivathillai.mp3'
+        },
+        {
+            title: 'Manasu-Rendum',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Manasu-Rendum.mp3'
+        },
+        {
+            title: 'Natpinilae-Natpinilae',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Natpinilae-Natpinilae.mp3'
+        },
+        {
+            title: 'Nenjodu-Kalinthidu',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Nenjodu-Kalinthidu.mp3'
+        },
+        {
+            title: 'Thathi-Thathi-Thaavuthey',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Thathi-Thathi-Thaavuthey.mp3'
+        },
+        {
+            title: 'Thodamale-Oru-Parvai',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Thodamale-Oru-Parvai.mp3'
+        },
+        {
+            title: 'Thottu-Thottu',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Thottu-Thottu.mp3'
+        },
+        {
+            title: 'Unnai-Thozhi-Enbatha',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Unnai-Thozhi-Enbatha.mp3'
+        },
+        {
+            title: 'Bang-Bang-Bang',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Bang-Bang-Bang.mp3'
+        },
+        {
+            title: 'Ek-Do-Theen',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Ek-Do-Theen.mp3'
+        },
+        {
+            title: 'Kadhal-Aasai',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Kadhal-Aasai.mp3'
+        },
+        {
+            title: 'Oru-Kan-Jaadai',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Oru-Kan-Jaadai.mp3'
+        },
+        {
+            title: 'Sirippu-En',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Sirippu-En.mp3'
+        },
+        {
+            title: 'CBI-Enge-Theda',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/CBI-Enge-Theda.mp3'
+        },
+        {
+            title: 'Chudithar-Aninthu-Vantha',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Chudithar-Aninthu-Vantha.mp3'
+        },
+        {
+            title: 'Irava-Pagala',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Irava-Pagala.mp3'
+        },
+        {
+            title: 'Poothathu-Poothathu',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Poothathu-Poothathu.mp3'
+        },
+        {
+            title: 'Poova-Poova-Poove',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Poova-Poova-Poove.mp3'
+        },
+        {
+            title: 'Poove-Poove',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Poove-Poove-M.mp3'
+        },
+        {
+            title: 'Senyoreeta-Senyoreeta',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Senyoreeta-Senyoreeta.mp3'
+        },
+        {
+            title: 'Sevvanam-Vetkam-Kondathu',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Sevvanam-Vetkam-Kondathu.mp3'
+        },
+        {
+            title: 'Adida-Nayaandiya',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Adida-Nayaandiya.mp3'
+        },
+        {
+            title: 'Goa',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Goa.mp3'
+        },
+        {
+            title: 'Goa-Club-Mix',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Goa-Club-Mix.mp3'
+        },
+        {
+            title: 'Idaivazhi-Oru',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Idaivazhi-Oru.mp3'
+        },
+        {
+            title: 'Idhu-Varai',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Idhu-Varai.mp3'
+        },
+        {
+            title: 'Kaadal-Endral',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Kaadal-Endral.mp3'
+        },
+        {
+            title: 'Ooru-Nalla-Ooru',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Ooru-Nalla-Ooru.mp3'
+        },
+        {
+            title: 'Vaaliba-Vaa-Vaa',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Vaaliba-Vaa-Vaa.mp3'
+        },
+        {
+            title: 'Yeleu-Thalamuakkum',
+            artist:'yuvan',
+            album: 'Goa',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/a9/45/ca/a945ca37ce6d8a1e594427d9b3ccb79e.jpg',
+            audio: 'songs/Yeleu-Thalamuakkum.mp3'
+        },
+        {
+            title: 'Karuppaana-Kaiyale',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Karuppaana-Kaiyale.mp3'
+        },
+        {
+            title: 'Kattabomman-Oorenakku',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Kattabomman-Oorenakku.mp3'
+        },
+        {
+            title: 'Thaaliyae-Thevaiyillai',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Thaaliyae-Thevaiyillai.mp3'
+        },
+        {
+            title: 'Thiruchendhuru-Muruga',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Thiruchendhuru-Muruga.mp3'
+        },
+        {
+            title: 'Vaartha-Onnu',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Vaartha-Onnu.mp3'
         }
     ],
     'ARR': [
@@ -2255,7 +2687,160 @@ const songsData = {
     ],
     'rajini': [],
     'kamal': [],
-    'surya': [],
+    'surya': [
+        {
+            title: 'Aayiram-Jannal-Veedu',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Aayiram-Jannal-Veedu.mp3'
+        },
+        {
+            title: 'Indha-Ooril-Eppothum',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Indha-Ooril-Eppothum.mp3'
+        },
+        {
+            title: 'Kovakkara-Kiliye',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Kovakkara-Kiliye.mp3'
+        },
+        {
+            title: 'Onnapola',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Onnapola.mp3'
+        },
+        {
+            title: 'Otraikannale',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Otraikannale.mp3'
+        },
+        {
+            title: 'Thoppul-Kodi-Sontham',
+            artist: 'Yuvan',
+            album: 'Vel',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Thoppul-Kodi-Sontham.mp3'
+        },
+        {
+            title: 'Bang-Bang-Bang',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Bang-Bang-Bang.mp3'
+        },
+        {
+            title: 'Ek-Do-Theen',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Ek-Do-Theen.mp3'
+        },
+        {
+            title: 'Kadhal-Aasai',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Kadhal-Aasai.mp3'
+        },
+        {
+            title: 'Oru-Kan-Jaadai',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Oru-Kan-Jaadai.mp3'
+        },
+        {
+            title: 'Sirippu-En',
+            artist: 'Yuvan',
+            album: 'Anjaan',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/25/5a/4e/255a4e1a40c762d688d70d9e78e11e19.jpg',
+            audio: 'songs/Sirippu-En.mp3'
+        },
+        {
+            title: 'CBI-Enge-Theda',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/CBI-Enge-Theda.mp3'
+        },
+        {
+            title: 'Chudithar-Aninthu-Vantha',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Chudithar-Aninthu-Vantha.mp3'
+        },
+        {
+            title: 'Irava-Pagala',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Irava-Pagala.mp3'
+        },
+        {
+            title: 'Poothathu-Poothathu',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Poothathu-Poothathu.mp3'
+        },
+        {
+            title: 'Poova-Poova-Poove',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Poova-Poova-Poove.mp3'
+        },
+        {
+            title: 'Poove-Poove',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Poove-Poove-M.mp3'
+        },
+        {
+            title: 'Senyoreeta-Senyoreeta',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Senyoreeta-Senyoreeta.mp3'
+        },
+        {
+            title: 'Sevvanam-Vetkam-Kondathu',
+            artist:'yuvan',
+            album: 'Poovellam kettupar',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/2d/0e/56/2d0e567fc219f98af320871caaf88cb7.jpg',
+            audio: 'songs/Sevvanam-Vetkam-Kondathu.mp3'
+        }
+    ],
     'dhanush': [
         {
             title: 'Un Mela Aasadhaan',
@@ -2288,10 +2873,230 @@ const songsData = {
             duration: '3:55',
             cover: 'https://i.pinimg.com/736x/31/5a/95/315a950f69864de18a94e91315921eb2.jpg',
             audio: 'songs/Padichi Parthen - From  Polladhavan  - Kabilan, G. V. Prakash, Shankar Mahadevan.mp3'
+        },
+        {
+            title: '18-Vayathil',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/18-Vayathil.mp3'
+        },
+        {
+            title: 'Devathayai-Kanden',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Devathayai-Kanden.mp3'
+        },
+        {
+            title: 'Kadhal-Konden',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Kadhal-Konden.mp3'
+        },
+        {
+            title: 'Kadhal-Mattum-Purivathillai',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Kadhal-Mattum-Purivathillai.mp3'
+        },
+        {
+            title: 'Manasu-Rendum',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Manasu-Rendum.mp3'
+        },
+        {
+            title: 'Natpinilae-Natpinilae',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Natpinilae-Natpinilae.mp3'
+        },
+        {
+            title: 'Nenjodu-Kalinthidu',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Nenjodu-Kalinthidu.mp3'
+        },
+        {
+            title: 'Thathi-Thathi-Thaavuthey',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Thathi-Thathi-Thaavuthey.mp3'
+        },
+        {
+            title: 'Thodamale-Oru-Parvai',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Thodamale-Oru-Parvai.mp3'
+        },
+        {
+            title: 'Thottu-Thottu',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Thottu-Thottu.mp3'
+        },
+        {
+            title: 'Unnai-Thozhi-Enbatha',
+            artist: 'Yuvan',
+            album: 'Kadhal konden',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Unnai-Thozhi-Enbatha.mp3'
+        },
+        {
+            title: 'Unnai-Thozhi-Enbatha',
+            artist: 'Yuvan',
+            album: 'Yaradi nee mogini',
+            duration:'0:00',
+            cover: 'https://i.pinimg.com/736x/e0/8d/46/e08d46ce717ccd1b9e77607f84b6e693.jpg',
+            audio: 'songs/Unnai-Thozhi-Enbatha.mp3'
         }
     ],
     'vikram': [],
-    'sk': []
+    'sk': [],
+    'simbu': [
+        {
+            title:'Ammadi-Athadi',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Ammadi-Athadi-(Movie-Version)-MassTamilan.org.mp3'
+        },
+        {
+            title:'He-Knows-What-To-Do',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/He-Knows-What-To-Do-MassTamilan.org.mp3'
+        },
+        {
+            title:'Ammadi-Athadi(remix)',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Ammadi-Athadi-MassTamilan.org.mp3'
+        },
+        {
+            title:'Hooray-Hooray',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Hooray-Hooray-MassTamilan.org.mp3'
+        },
+        {
+            title:'Kadhal-Vandhale',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Kadhal-Vandhale-MassTamilan.org.mp3'
+        },
+        {
+            title:'Kadhal-Vanthiruchi',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Kadhal-Vanthiruchi-MassTamilan.org.mp3'
+        },
+        {
+            title:'Loosu-Penne',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Loosu-Penne-MassTamilan.org.mp3'
+        },
+        {
+            title:'Podu-Attam-Podu',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Podu-Attam-Podu-MassTamilan.org.mp3'
+        },
+        {
+            title:'Success-Of-Love',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Success-Of-Love-MassTamilan.org.mp3'
+        },
+        {
+            title:'Vallava-Ennai-Vellava',
+            artist:'yuvan',
+            album:'vallavan',
+            duration:'0:00',
+            cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
+            audio: 'songs/Vallava-Ennai-Vellava-MassTamilan.org.mp3'
+        }
+    ],
+    'vishal': [
+        {
+            title: 'Karuppaana-Kaiyale',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Karuppaana-Kaiyale.mp3'
+        },
+        {
+            title: 'Kattabomman-Oorenakku',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Kattabomman-Oorenakku.mp3'
+        },
+        {
+            title: 'Thaaliyae-Thevaiyillai',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Thaaliyae-Thevaiyillai.mp3'
+        },
+        {
+            title: 'Thiruchendhuru-Muruga',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Thiruchendhuru-Muruga.mp3'
+        },
+        {
+            title: 'Vaartha-Onnu',
+            artist: 'yuvan',
+            album: 'Thaamirabharani',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
+            audio:'songs/Vaartha-Onnu.mp3'
+        }
+    ]
 };
 
 
@@ -2336,6 +3141,11 @@ const samplePlaylists = [
         id: 'sk',
         name: 'Sivakarthikeyan',
         image: 'https://i.pinimg.com/1200x/b3/62/63/b36263bc52ce50fc4692ca2002ada449.jpg'
+    },
+    {
+        id: 'vishal',
+        name: 'Vishal',
+        image: 'https://i.pinimg.com/736x/7a/ca/95/7aca95cc48b21f6c3821156a224d92f0.jpg'
     }
 ];
 
@@ -2975,7 +3785,8 @@ function getArtistName(artistId) {
         'surya': 'Suriya',
         'dhanush': 'Dhanush',
         'vikram': 'Chiyaan Vikram',
-        'sk': 'Sivakarthikeyan'
+        'sk': 'Sivakarthikeyan',
+        'vishal':'vishal'
     };
     return names[artistId] || artistId;
 }
