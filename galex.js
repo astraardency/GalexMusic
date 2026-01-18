@@ -655,7 +655,22 @@ const songsData = {
         }
     ],
     'vijayantony': [
-        
+        {
+            title: 'Naaka Mukka',
+            artist: 'Vijay Antony',
+            album: 'Kadhalil Vizhunthen',
+            duration: '4:15',
+            cover: 'https://i.pinimg.com/736x/e2/e9/b5/e2e9b54e371b7bc861e40789bf6b7720.jpg',
+            audio: 'https://assets.mixkit.co/music/preview/mixkit-game-show-suspense-waiting-667.mp3'
+        },
+        {
+            title: 'Yamma Yamma',
+            artist: 'Vijay Antony',
+            album: 'Saithan',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/e2/e9/b5/e2e9b54e371b7bc861e40789bf6b7720.jpg',
+            audio: 'https://assets.mixkit.co/music/preview/mixkit-drum-and-bass-intro-229.mp3'
+        }
     ],
     'Deva': [
         {
@@ -1137,6 +1152,46 @@ const songsData = {
             duration: '0:00',
             cover:'https://i.pinimg.com/1200x/b6/39/44/b63944d8236c919812c8bae1f1e4f873.jpg',
             audio:'songs/Thaimadiye.mp3'
+        },
+        {
+            title: 'April-Madhathil-Oru',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/April-Madhathil-Oru.mp3'
+        },
+        {
+            title: 'Gee-Priya-Gee-Priya',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/Gee-Priya-Gee-Priya.mp3'
+        },
+        {
+            title: 'Nilavai-Kondu-Vaa',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/Nilavai-Kondu-Vaa.mp3'
+        },
+        {
+            title: 'Sona-Sona',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/Sona-Sona.mp3'
+        },
+        {
+            title: 'Vaanil-Kayudhe',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/Vaanil-Kayudhe.mp3'
         }
         
     ],
@@ -1961,51 +2016,11 @@ const songsData = {
             audio:'songs/Saachitale-MassTamilan.dev.mp3'
         },
         {
-            title: 'Aandipatti',
-            artist: 'yuvan',
-            album: 'Dharmadurai',
-            duration: '0:00',
-            cover:'https://i.pinimg.com/736x/3a/15/f1/3a15f1c86888077ed793308f040f58c8.jpg',
-            audio:'songs/Aandipatti.mp3'
-        },
-        {
-            title: 'Endha-Pakkam',
-            artist: 'yuvan',
-            album: 'Dharmadurai',
-            duration: '0:00',
-            cover:'https://i.pinimg.com/736x/3a/15/f1/3a15f1c86888077ed793308f040f58c8.jpg',
-            audio:'songs/Endha-Pakkam.mp3'
-        },
-        {
-            title: 'Makka-Kalanguthappa',
-            artist: 'yuvan',
-            album: 'Dharmadurai',
-            duration: '0:00',
-            cover:'https://i.pinimg.com/736x/3a/15/f1/3a15f1c86888077ed793308f040f58c8.jpg',
-            audio:'songs/Makka-Kalanguthappa.mp3'
-        },
-        {
-            title: 'Naan-Kaatrile',
-            artist: 'yuvan',
-            album: 'Dharmadurai',
-            duration: '0:00',
-            cover:'https://i.pinimg.com/736x/3a/15/f1/3a15f1c86888077ed793308f040f58c8.jpg',
-            audio:'songs/Naan-Kaatrile.mp3'
-        },
-        {
-            title: 'Poi-Vaada',
-            artist: 'yuvan',
-            album: 'Dharmadurai',
-            duration: '0:00',
-            cover:'https://i.pinimg.com/736x/3a/15/f1/3a15f1c86888077ed793308f040f58c8.jpg',
-            audio:'songs/Poi-Vaada.mp3'
-        },
-        {
             title: 'En-Nenjil-Ningalane',
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
             audio:'songs/En-Nenjil-Ningalane.mp3'
         },
         {
@@ -2013,7 +2028,7 @@ const songsData = {
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
             audio:'songs/Kathal-Website-Ondru.mp3'
         },
         {
@@ -2021,7 +2036,7 @@ const songsData = {
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
             audio:'songs/Nee-Illai-Enral.mp3'
         },
         {
@@ -2029,15 +2044,15 @@ const songsData = {
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
-            audio:'songs/Sollamal-Thottu-Chellum-Thendral.mp3'
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
+            audio:'songs/.mp3'
         },
         {
             title: 'Vathikuchi-Pathikadhuda',
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
             audio:'songs/Vathikuchi-Pathikadhuda.mp3'
         }
     ],
@@ -3074,6 +3089,46 @@ const songsData = {
             duration: '5:00',
             cover:'https://i.pinimg.com/736x/c0/ba/6d/c0ba6d4f919d776da92103fbccb3dc4c.jpg',
             audio: 'songs/Telephone-Manipol.mp3' 
+        },
+        {
+            title: 'Avalum-Naanum',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Avalum-Naanum.mp3' 
+        },
+        {
+            title: 'Idhu-Naal',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Idhu-Naal.mp3' 
+        },
+        {
+            title: 'Rasaali',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Rasaali.mp3' 
+        },
+        {
+            title: 'Showkali',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Showkali.mp3' 
+        },
+        {
+            title: 'Thalli-Pogathey',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Thalli-Pogathey.mp3' 
         }
     ],
     'aniruth' : [
@@ -3194,6 +3249,200 @@ const songsData = {
             duration: '5:00',
             cover:'https://th.bing.com/th/id/OIP.uUhOuVSsG-vOiVinbLb52wHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
             audio: 'songs/Kaathalenum.mp3'
+        }
+    ],
+    'Harris Jayaraj': [
+        {
+            title: 'Adada-Oru',
+            artist: 'Harris Jayaraj',
+            album: 'oru kal oru kannadi',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Adada-Oru.mp3'
+        },
+        {
+            title: 'Akila-Akila',
+            artist: 'Harris Jayaraj',
+            album: 'oru kal oru kannadi',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Akila-Akila.mp3'
+        },
+        {
+            title: 'Azhage-Azhage',
+            artist: 'Harris Jayaraj',
+            album: 'oru kal oru kannadi',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Azhage-Azhage.mp3'
+        },
+        {
+            title: 'Kaadhal-Oru',
+            artist: 'Harris Jayaraj',
+            album: 'oru kal oru kannadi',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Kaadhal-Oru.mp3'
+        },
+        {
+            title: 'Venaam-Machan',
+            artist: 'Harris Jayaraj',
+            album: 'oru kal oru kannadi',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Venaam-Machan.mp3'
+        },
+        {
+            title: 'Adhaaru-Adhaaru',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
+            audio:'songs/Adhaaru-Adhaaru.mp3'
+        },
+        {
+            title: 'Idhayathai-Yedho-Ondru',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
+            audio:'songs/Idhayathai-Yedho-Ondru.mp3'
+        },
+        {
+            title: 'Maya-Bazaar',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
+            audio:'songs/Maya-Bazaar.mp3'
+        },
+        {
+            title: 'Mazhai-Vara-Pogudhe',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
+            audio:'songs/Mazhai-Vara-Pogudhe.mp3'
+        },
+        {
+            title: 'Unakkenna-Venum-Sollu',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
+            audio:'songs/Unakkenna-Venum-Sollu.mp3'
+        },
+        {
+            title: 'Yen-Ennai',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
+            audio:'songs/Yen-Ennai.mp3'
+        },
+        {
+            title: 'Yennai-Arindhaal',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
+            audio:'songs/Yennai-Arindhaal.mp3'
+        },
+        {
+            title: 'Yennai-Arindhaal',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
+            audio:'songs/Yennai-Arindhaal.mp3'
+        },
+        {
+            title: 'Oru-Maalai',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/Oru-Maalai.mp3'
+        },
+        {
+            title: 'Rahatulla',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/Rahatulla.mp3'
+        },
+        {
+            title: 'Rangola',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/Rangola.mp3'
+        },
+        {
+            title: 'Suttum-Vizhi',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/Suttum-Vizhi.mp3'
+        },
+        {
+            title: 'X-Machine',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/X-Machine.mp3'
+        },
+        {
+            title: 'Innum-Enna-Thozha',
+            artist: 'Harris Jayaraj',
+            album: '7am Arivu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/65/ff/93/65ff93d884ce2a45039520d488ad8d53.jpg',
+            audio:'songs/Innum-Enna-Thozha.mp3'
+        },
+        {
+            title: 'Mun-Andhi',
+            artist: 'Harris Jayaraj',
+            album: '7am Arivu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/65/ff/93/65ff93d884ce2a45039520d488ad8d53.jpg',
+            audio:'songs/Mun-Andhi.mp3'
+        },
+        {
+            title: 'Oh-Ringa-Ringa',
+            artist: 'Harris Jayaraj',
+            album: '7am Arivu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/65/ff/93/65ff93d884ce2a45039520d488ad8d53.jpg',
+            audio:'songs/Oh-Ringa-Ringa.mp3'
+        },
+        {
+            title: 'Yamma-Yamma',
+            artist: 'Harris Jayaraj',
+            album: '7am Arivu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/65/ff/93/65ff93d884ce2a45039520d488ad8d53.jpg',
+            audio:'songs/Yamma-Yamma.mp3'
+        },
+        {
+            title: 'Yellae-Lama',
+            artist: 'Harris Jayaraj',
+            album: '7am Arivu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/65/ff/93/65ff93d884ce2a45039520d488ad8d53.jpg',
+            audio:'songs/Yellae-Lama.mp3'
+        },
+        {
+            title: '',
+            artist: 'Harris Jayaraj',
+            album: '7am Arivu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/65/ff/93/65ff93d884ce2a45039520d488ad8d53.jpg',
+            audio:'songs/.mp3'
         }
     ],
     'vijay': [
@@ -3460,7 +3709,7 @@ const songsData = {
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
             audio:'songs/En-Nenjil-Ningalane.mp3'
         },
         {
@@ -3468,7 +3717,7 @@ const songsData = {
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
             audio:'songs/Kathal-Website-Ondru.mp3'
         },
         {
@@ -3476,7 +3725,7 @@ const songsData = {
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
             audio:'songs/Nee-Illai-Enral.mp3'
         },
         {
@@ -3484,16 +3733,160 @@ const songsData = {
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
-            audio:'songs/Sollamal-Thottu-Chellum-Thendral.mp3'
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
+            audio:'songs/.mp3'
         },
         {
             title: 'Vathikuchi-Pathikadhuda',
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/1200x/6f/d4/fa/6fd4fa8283eccd6ef1262e03f456c1f8.jpg',
+            cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
             audio:'songs/Vathikuchi-Pathikadhuda.mp3'
+        },
+        {
+            title: 'Adhaaru-Adhaaru',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Adhaaru-Adhaaru.mp3'
+        },
+        {
+            title: 'Idhayathai-Yedho-Ondru',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Idhayathai-Yedho-Ondru.mp3'
+        },
+        {
+            title: 'Maya-Bazaar',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Maya-Bazaar.mp3'
+        },
+        {
+            title: 'Mazhai-Vara-Pogudhe',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Mazhai-Vara-Pogudhe.mp3'
+        },
+        {
+            title: 'Unakkenna-Venum-Sollu',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Unakkenna-Venum-Sollu.mp3'
+        },
+        {
+            title: 'Yen-Ennai',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Yen-Ennai.mp3'
+        },
+        {
+            title: 'Yennai-Arindhaal',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Yennai-Arindhaal.mp3'
+        },
+        {
+            title: 'Yennai-Arindhaal',
+            artist: 'Harris Jayaraj',
+            album: 'Yennai Arindhaal',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
+            audio:'songs/Yennai-Arindhaal.mp3'
+        },
+        {
+            title: 'Oru-Maalai',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/Oru-Maalai.mp3'
+        },
+        {
+            title: 'Rahatulla',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/Rahatulla.mp3'
+        },
+        {
+            title: 'Rangola',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/Rangola.mp3'
+        },
+        {
+            title: 'Suttum-Vizhi',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/Suttum-Vizhi.mp3'
+        },
+        {
+            title: 'X-Machine',
+            artist: 'Harris Jayaraj',
+            album: 'Gajini',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/79/c5/b779c500fd0a979ed1911892e2efc5ba.jpg',
+            audio:'songs/X-Machine.mp3'
+        },
+        {
+            title: 'April-Madhathil-Oru',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/April-Madhathil-Oru.mp3'
+        },
+        {
+            title: 'Gee-Priya-Gee-Priya',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/Gee-Priya-Gee-Priya.mp3'
+        },
+        {
+            title: 'Nilavai-Kondu-Vaa',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/Nilavai-Kondu-Vaa.mp3'
+        },
+        {
+            title: 'Sona-Sona',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/Sona-Sona.mp3'
+        },
+        {
+            title: 'Vaanil-Kayudhe',
+            artist:'Deva',
+            album: 'Vaali',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
+            audio:'songs/Vaanil-Kayudhe.mp3'
         }
     ],
     'rajini': [],
@@ -4080,6 +4473,46 @@ const songsData = {
             duration:'0:00',
             cover:'https://i.pinimg.com/1200x/c7/91/74/c79174407e907afe38bc2e1fb989dd9c.jpg',
             audio: 'songs/Vallava-Ennai-Vellava-MassTamilan.org.mp3'
+        },
+        {
+            title: 'Avalum-Naanum',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Avalum-Naanum.mp3' 
+        },
+        {
+            title: 'Idhu-Naal',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Idhu-Naal.mp3' 
+        },
+        {
+            title: 'Rasaali',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Rasaali.mp3' 
+        },
+        {
+            title: 'Showkali',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Showkali.mp3' 
+        },
+        {
+            title: 'Thalli-Pogathey',
+            artist: 'ARR',
+            album: 'Achcham Yenbadhu Madamaiyada',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
+            audio: 'songs/Thalli-Pogathey.mp3' 
         }
     ],
     'vishal': [
@@ -4345,11 +4778,16 @@ function setupEventListeners() {
     document.getElementById('Deva').onclick = () => showArtistSongs('Deva');
     document.getElementById('ilaiyaraja').onclick = () => showArtistSongs('ilaiyaraja');
     document.getElementById('yuvan').onclick = () => showArtistSongs('yuvan');
+    document.getElementById('dImman').onclick = () => showArtistSongs('dImman');
+    document.getElementById('harrisjayaraj').onclick = () => showArtistSongs('harrisjayaraj');
     document.getElementById('ARR').onclick = () => showArtistSongs('ARR');
     document.getElementById('unnikrishnan').onclick = () => showArtistSongs('unnikrishnan');
     document.getElementById('unnimenan').onclick = () => showArtistSongs('unnimenan');
     document.getElementById('SPB').onclick = () => showArtistSongs('SPB');
     document.getElementById('aniruth').onclick = () => showArtistSongs('aniruth');
+    document.getElementById('vijay').onclick = () => showArtistSongs('vijay');
+    document.getElementById('ajith').onclick = () => showArtistSongs('ajith');
+    document.getElementById('rajini').onclick = () => showArtistSongs('rajini');  
 
     
 
@@ -5243,4 +5681,3 @@ function applyTheme(isDark) {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
-
