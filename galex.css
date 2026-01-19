@@ -22,7 +22,7 @@ html {
 
 .left {
     width: 280px;
-    background: rgba(25, 25, 35, 0.95);
+    background: #191923f2;
     border-radius: 15px;
     padding: 25px 20px;
     display: flex;
@@ -64,33 +64,21 @@ html {
     display: none;
 }
 
-.loginbtn {
-    margin-left: auto;
-    padding: 8px 20px;
-    background: linear-gradient(45deg, #6495ed, #4169e1);
-    border: none;
-    border-radius: 25px;
-    color: white;
-    cursor: pointer;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(100, 149, 237, 0.4);
-    white-space: nowrap;
-}
-
+.loginbtn,
 .logoutbtn {
-    margin-left: auto;
-    display: none;
-    padding: 8px 20px;
+    width: auto;         /* Allow button to shrink to fit the text */
+    padding: 8px 15px;   /* Reduced side padding from 20px to 15px */
+    display: inline-block;
+    margin-left: 5px; 
     background: linear-gradient(45deg, #6495ed, #4169e1);
     border: none;
     border-radius: 25px;
     color: white;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 300;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(100, 149, 237, 0.4);
-    white-space: nowrap;
+    white-space: nowrap; /* Ensures text doesn't break onto two lines */
 }
 
 .loginbtn:hover,
@@ -168,16 +156,21 @@ html {
 }
 
 .logo {
-    height: 25px;
-    width: 25px;
-    background-color: #849de2;
+    height: 20px;
+    width: 100px; /* Changed length from 100px to 60px */
+    background-color: #0e42d1;
     overflow: hidden; 
-    border-radius: 50%;
+    border-radius: 1%;
+    /* This pushes the logo (and subsequent buttons) to the right */
+    margin-left: auto; 
+    /* Prevent the logo from shrinking */
+    flex-shrink: 0; 
 } 
+
 .logo img {
     height: 100%;
     width: 100%;
-    object-fit: contain; 
+    object-fit: cover; 
     display: block; 
 }
 .login,
@@ -309,6 +302,7 @@ input:focus {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .player-header h3 i {
