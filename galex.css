@@ -314,6 +314,113 @@ input:focus {
 .player-header h3 i {
     font-size: 18px;
 }
+/* Maximize Button Styles */
+.player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maximize-btn {
+    background: none;
+    border: none;
+    color: #b0b0d0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    padding: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maximize-btn:hover {
+    color: #6495ed;
+    background: rgba(100, 149, 237, 0.1);
+    transform: scale(1.1);
+}
+
+/* Fullscreen Player Styles */
+.player-container.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2000; /* Higher than everything else */
+    border-radius: 0;
+    padding: 40px;
+    background: rgba(20, 20, 30, 0.98); /* Slightly more opaque */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Adjustments for elements inside fullscreen mode */
+.player-container.fullscreen .player-content {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.player-container.fullscreen .player-cover {
+    width: 350px; /* Larger cover art */
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.player-container.fullscreen .player-title {
+    font-size: 32px; /* Larger title */
+    margin-bottom: 15px;
+}
+
+.player-container.fullscreen .player-artist {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.player-container.fullscreen .control-buttons {
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.player-container.fullscreen .control-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.player-container.fullscreen .control-btn.play {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+}
+
+/* Hide queue in fullscreen to focus on album art/visuals (optional) */
+.player-container.fullscreen .player-queue {
+    display: none; 
+}
+
+/* Light mode adjustments for fullscreen */
+body.light-mode .player-container.fullscreen {
+    background: rgba(245, 247, 250, 0.98);
+}
+
+/* Responsive fix for fullscreen on mobile */
+@media (max-width: 768px) {
+    .player-container.fullscreen .player-cover {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .player-container.fullscreen .player-title {
+        font-size: 24px;
+    }
+}
 
 .player-content {
     flex: 1;
@@ -321,33 +428,91 @@ input:focus {
     flex-direction: column;
 }
 
-.player-cover-container {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
+/* 1. Modify Player Cover to be Square */
 .player-cover {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 50%; 
     object-fit: cover;
+    object-position: center; /* Centers the image content */
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
+    margin: 0 auto; /* Centers the element horizontally */
+    display: block; /* Required for margin: 0 auto to work on images */
     transition: transform 0.3s ease;
 }
 
+/* 2. Remove Rotation Animation */
+/* Since it's a square, rotation usually looks awkward. We disable it. */
 .player-cover.playing {
-    animation: rotateAlbumArt 20s linear infinite;
+    animation: none; 
+    /* Optional: Add a subtle breathing effect instead */
+    transform: scale(1.05);
 }
 
-@keyframes rotateAlbumArt {
-    0% {
-        transform: rotate(0deg);
-    }
+/* 3. Add Blurred Background Logic */
+.player-container {
+    /* Make the main background transparent to reveal the blurred image behind */
+    background: rgba(96, 96, 120, 0.3) !important; 
+    overflow: hidden; /* Ensures the blurred image doesn't spill out */
+    position: fixed; /* Keep existing positioning */
+    /* Ensure text remains readable with a text shadow if needed */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
 
-    100% {
-        transform: rotate(360deg);
-    }
+/* Use a pseudo-element for the background image */
+.player-container::before {
+    content: '';
+    position: absolute;
+    top: -50px; /* Negative margins help hide white edges from blur */
+    left: 50px;
+    right: -50px;
+    bottom: -50px;
+    
+    /* Variable we will set in JS */
+    background-image: var(--player-bg);
+    background-size: cover;
+    background-position: center;
+    
+    /* heavy blur and darkening for readability */
+    filter: blur(20px) brightness(0.4); 
+    z-index: -1; /* Place behind the controls */
+    transition: background-image 0.5s ease; /* Smooth transition between songs */
+}
+
+/* Exit Fullscreen Button */
+.exit-fullscreen-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2005; /* Above everything else */
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+.exit-fullscreen-btn:hover {
+    background: rgba(255, 51, 102, 0.8); /* Red color on hover */
+    border-color: transparent;
+    transform: rotate(90deg);
+}
+
+/* Show only when parent has .fullscreen class */
+.player-container.fullscreen .exit-fullscreen-btn {
+    display: flex;
+}
+
+/* Optional: Hide the standard header maximize button when in fullscreen to avoid duplicates */
+.player-container.fullscreen .maximize-btn {
+    display: none; 
 }
 
 .player-info {
