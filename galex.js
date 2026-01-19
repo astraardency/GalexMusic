@@ -118,12 +118,14 @@ function checkLoginStatus() {
         updateUIForLoggedInUser();
     }
 }
-
 function updateUIForLoggedInUser() {
     loginBtn.style.display = 'none';
     logoutBtn.style.display = 'block';
     verifyIcon.style.display = 'block';
-    galexText.textContent = `Hi, ${currentUser.username}`;
+    
+    // Updated: Show only the first letter of the username in Uppercase
+    galexText.textContent = currentUser.username.charAt(0).toUpperCase();
+    
     galexText.style.color = '#6495ed';
 }
 
@@ -170,7 +172,10 @@ function setupEventListeners() {
         loginBtn.style.display = 'block';
         logoutBtn.style.display = 'none';
         verifyIcon.style.display = 'none';
-        galexText.textContent = 'Galex';
+        
+        // Reset text back to full name on logout
+        galexText.textContent = 'Galex'; 
+        
         galexText.style.color = '#fff';
         showHomePage();
         showNotification('Logged out successfully');
