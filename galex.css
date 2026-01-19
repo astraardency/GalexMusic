@@ -1597,3 +1597,23 @@ body.light-mode .artist-name {
 body.light-mode .song-item:hover {
     background: rgba(100, 149, 237, 0.1);
 }
+/* --- Fullscreen Progress Bar Adjustments --- */
+
+/* 1. Ensure the container holding the progress bar spans the full width */
+.player-container.fullscreen .extra-controls {
+    width: 100%;
+    margin-bottom: 30px; /* Add some space below it */
+}
+
+/* 2. Increase the length of the progress bar itself */
+.player-container.fullscreen .progress-container {
+    width: 90%;          /* Take up 90% of the screen width */
+    max-width: 800px;    /* Stop it from getting too wide on huge monitors */
+    margin: 0 auto;      /* Center it */
+}
+
+/* Optional: Make the bar slightly thicker in fullscreen for better visibility */
+.player-container.fullscreen .progress-bar {
+    height: 8px;
+    border-radius: 4px;
+}
