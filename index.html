@@ -168,7 +168,6 @@
                     </div>
                 </div>
 
-                <!--liked playlist-->
                 <div class="liked-songs-container" id="likedSongsContainer">
                     <div class="empty-liked" id="emptyLiked">
                         <h3>No liked songs yet</h3>
@@ -177,13 +176,11 @@
                     <ol class="song-list" id="likedSongsList"></ol>
                 </div>
 
-                <!--playlist-->
                 <div class="playlists-container" id="playlistsContainer">
                     <div class="playlists-grid" id="playlistsGrid">
                         </div>
                 </div>
 
-                <!--settings-->
                 <div class="settings-container" id="settingsContainer">
                     <div class="settings-section">
                         <div class="settings-title">
@@ -250,7 +247,6 @@
                     </div>
                 </div>
 
-                <!--about container-->
                 <div class="about-container" id="aboutContainer">
                     <div class="about-content">
                         <div class="about-card">
@@ -341,16 +337,22 @@
                 <div class="songs-container" id="vikramsongs"><ol class="song-list"></ol></div>
                 <div class="songs-container" id="sksongs"><ol class="song-list"></ol></div>
                 <div class="songs-container" id="vishalsongs"><ol class="song-list"></ol></div>
+                <div class="songs-container" id="simbusongs"><ol class="song-list"></ol></div>
 
             </div>
         </div>
 
-        <!--right side player-->
         <div class="player-container hidden" id="playerContainer">
             <div class="player-header">
                 <h3><i class="fas fa-music"></i> Now Playing</h3>
+                <button class="maximize-btn" id="maximizeBtn" title="Maximize">
+                    <i class="fas fa-expand"></i>
+                </button>
+                <button class="exit-fullscreen-btn" id="exitFsBtn" title="Exit Full Screen">
+                    <i class="fas fa-times"></i>
+                </button>
             </div>
-
+           
             <div class="player-content">
                 <div class="player-cover-container">
                     <img id="playerCover" src="" alt="Album Cover" class="player-cover">
@@ -410,17 +412,15 @@
             </div>
         </div>
 
-        <!--Notification-->
         <div class="notification" id="notification">
             <span id="notificationText"></span>
         </div>
     </div>
 
-    <!--hidden audio player-->
     <audio id="audioPlayer"></audio>
 
-    <script src="galex.js"></script>
     <script src="Data.js"></script>
+    <script src="galex.js"></script>
 </body>
 
 </html>
