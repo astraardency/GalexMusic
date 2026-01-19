@@ -31,6 +31,8 @@ const repeatBtn = document.getElementById('repeatBtn');
 const shuffleBtn = document.getElementById('shuffleBtn');
 const volumeIcon = document.getElementById('volumeIcon');
 const queueList = document.getElementById('queueList');
+const maximizeBtn = document.getElementById('maximizeBtn');
+const exitFsBtn = document.getElementById('exitFsBtn');
 
 // Sample playlists
 const samplePlaylists = [
@@ -411,6 +413,37 @@ function setupEventListeners() {
             closeAccountModal();
         }
     });
+// Maximize Player Logic
+    maximizeBtn.onclick = () => {
+        playerContainer.classList.toggle('fullscreen');
+        const icon = maximizeBtn.querySelector('i');
+        
+        if (playerContainer.classList.contains('fullscreen')) {
+            icon.className = 'fas fa-compress'; // Change icon to compress
+            maximizeBtn.title = 'Minimize';
+            // Optional: Hide scrollbar on body when fullscreen
+            document.body.style.overflow = 'hidden';
+        } else {
+            icon.className = 'fas fa-expand'; // Change icon back to expand
+            maximizeBtn.title = 'Maximize';
+            document.body.style.overflow = ''; // Restore scrollbar
+        }
+    };
+    // Exit Fullscreen Button Logic
+    exitFsBtn.onclick = () => {
+        // 1. Remove fullscreen class
+        playerContainer.classList.remove('fullscreen');
+        
+        // 2. Restore body scrolling
+        document.body.style.overflow = '';
+        
+        // 3. Reset the maximize icon in the header (if visible)
+        if (maximizeBtn) {
+            const icon = maximizeBtn.querySelector('i');
+            if (icon) icon.className = 'fas fa-expand';
+            maximizeBtn.title = 'Maximize';
+        }
+    };
 }
 
 function handleSongEnd() {
@@ -704,6 +737,10 @@ function showHomePage() {
     document.getElementById('currentSection').textContent = 'Featured Artists';
     searchResults.classList.remove('active');
     searchInput.value = '';
+    // Remove fullscreen if user goes back home
+    playerContainer.classList.remove('fullscreen');
+    document.body.style.overflow = '';
+    if(maximizeBtn.querySelector('i')) maximizeBtn.querySelector('i').className = 'fas fa-expand';
 }
 
 function getArtistName(artistId) {
@@ -990,6 +1027,10 @@ function playSong(artistId, songIndex) {
     document.getElementById('playerArtist').textContent = `${song.artist} • ${song.album}`;
     document.getElementById('playerCover').src = song.cover;
 
+    // --- NEW: Set the background image for the blur effect ---
+    playerContainer.style.setProperty('--player-bg', `url('${song.cover}')`);
+    // --------------------------------------------------------
+
     document.querySelector('.play-btn').innerHTML = '<div class="loading"></div>';
 
     audioPlayer.src = song.audio;
@@ -1154,6 +1195,8 @@ function toggleCurrentSongLike() {
         }
     }
 }
+
+
 
 // Add this NEW helper function
 function applyTheme(isDark) {
