@@ -1,4 +1,3 @@
-// Sample songs data
 const songsData = {
     'GVPrakash': [
         {
@@ -548,7 +547,7 @@ const songsData = {
             audio: 'songs/Pallikoodam-The-Farewell-MassTamilan.org.mp3'
         },
         {
-            title:'Single-Pasanga-MassTamilan',
+            title:'Single Pasanga',
             artist: 'Hiphop Adhi',
             album: 'Natpe thunai',
             duration: '4:20',
@@ -556,7 +555,7 @@ const songsData = {
             audio: 'songs/Single-Pasanga-MassTamilan.org.mp3'
         },
         {
-            title:'Vengamavan-MassTamilan.org.mp3',
+            title:'Vengamavan',
             artist: 'Hiphop Adhi',
             album: 'Natpe thunai',
             duration: '3:50',
@@ -1120,7 +1119,7 @@ const songsData = {
             audio:'songs/Thaimadiye.mp3'
         },
         {
-            title: 'April-Madhathil-Oru',
+            title: 'April Madhathil Oru',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -1128,7 +1127,7 @@ const songsData = {
             audio:'songs/April-Madhathil-Oru.mp3'
         },
         {
-            title: 'Gee-Priya-Gee-Priya',
+            title: 'Gee Priya Gee Priya',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -1136,7 +1135,7 @@ const songsData = {
             audio:'songs/Gee-Priya-Gee-Priya.mp3'
         },
         {
-            title: 'Nilavai-Kondu-Vaa',
+            title: 'Nilavai Kondu-Vaa',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -1144,7 +1143,7 @@ const songsData = {
             audio:'songs/Nilavai-Kondu-Vaa.mp3'
         },
         {
-            title: 'Sona-Sona',
+            title: 'Sona Sona',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -1152,16 +1151,62 @@ const songsData = {
             audio:'songs/Sona-Sona.mp3'
         },
         {
-            title: 'Vaanil-Kayudhe',
+            title: 'Vaanil Kayudhe',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
             cover:'https://i.pinimg.com/736x/90/b3/0a/90b30ab559db83e19f3c1e227c5d807d.jpg',
             audio:'songs/Vaanil-Kayudhe.mp3'
+        },
+        {
+            title: 'Aasa Patta Ellathayum',
+            artist:'Deva',
+            album: 'Vyabari',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/e7/4f/17/e74f173853ea2d422b214d9ce2171f26.jpg',
+            audio:'songs/Aasa-Patta-Ellathayum.mp3'
+        },
+        {
+            title: 'Feel Of Kosu Kadi',
+            artist:'Deva',
+            album: 'Vyabari',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/e7/4f/17/e74f173853ea2d422b214d9ce2171f26.jpg',
+            audio:'songs/Feel-Of-Kosu-Kadi.mp3'
+        },
+        {
+            title: 'July Maadhathil',
+            artist:'Deva',
+            album: 'Vyabari',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/e7/4f/17/e74f173853ea2d422b214d9ce2171f26.jpg',
+            audio:'songs/July-Maadhathil.mp3'
+        },
+        {
+            title: 'Kadi Kadi',
+            artist:'Deva',
+            album: 'Vyabari',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/e7/4f/17/e74f173853ea2d422b214d9ce2171f26.jpg',
+            audio:'songs/Kadi-Kadi.mp3'
+        },
+        {
+            title: 'Tha Tha Namitha',
+            artist:'Deva',
+            album: 'Vyabari',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/e7/4f/17/e74f173853ea2d422b214d9ce2171f26.jpg',
+            audio:'songs/Tha-Tha-Namitha.mp3'
+        },
+        {
+            title: 'Vetriyai Kandavan',
+            artist:'Deva',
+            album: 'Vyabari',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/e7/4f/17/e74f173853ea2d422b214d9ce2171f26.jpg',
+            audio:'songs/Vetriyai-Kandavan.mp3'
         }
-        
     ],
-    // In galex.js, inside songsData object, ADD these keys:
     'janaki': [],
     'chithra': [],
     'dImman': [], 
@@ -1851,7 +1896,7 @@ const songsData = {
             audio:'songs/Oru-Naalaikkul.mp3'
         },
         {
-            title: 'Palakkattu-Pakkathile',
+            title: 'Palakkattu Pakkathile',
             artist: 'yuvan',
             album: 'Yaaradi Nee Mogini',
             duration: '0:00',
@@ -1859,7 +1904,7 @@ const songsData = {
             audio:'songs/Palakkattu-Pakkathile.mp3'
         },
         {
-            title: 'Penne-Ennai-Kodu',
+            title: 'Penne Ennai Kodu',
             artist: 'yuvan',
             album: 'Yaaradi Nee Mogini',
             duration: '0:00',
@@ -1867,7 +1912,7 @@ const songsData = {
             audio:'songs/Penne-Ennai-Kodu.mp3'
         },
         {
-            title: 'The-Person-Is-The-Loser',
+            title: 'The Person Is The Loser',
             artist: 'yuvan',
             album: 'Yaaradi Nee Mogini',
             duration: '0:00',
@@ -1875,7 +1920,7 @@ const songsData = {
             audio:'songs/The-Person-Is-The-Loser.mp3'
         },
         {
-            title: 'Venmegam-Pennaga',
+            title: 'Venmegam Pennaga',
             artist: 'yuvan',
             album: 'Yaaradi Nee Mogini',
             duration: '0:00',
@@ -2161,7 +2206,39 @@ const songsData = {
             duration: '0:00',
             cover:'https://i.pinimg.com/736x/3c/54/17/3c54171d122b0b6498dc3f4d36656fd7.jpg',
             audio:'songs/Vandha-Kadha.mp3'
-        }
+        },
+        {
+            title: 'Malto Kithapuleh',
+            artist: 'Yuvan',
+            album: 'Hero',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/ba/24/38/ba243875546698c92df832825100dce6.jpg',
+            audio: 'songs/Malto-Kithapuleh-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Hero Title Track',
+            artist: 'Yuvan',
+            album: 'Hero',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/ba/24/38/ba243875546698c92df832825100dce6.jpg',
+            audio: 'songs/Hero-Title-Track-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Overa Feel Pannuren',
+            artist: 'Yuvan',
+            album: 'Hero',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/ba/24/38/ba243875546698c92df832825100dce6.jpg',
+            audio: 'songs/Overa-Feel-Pannuren-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Aayiram Mugangal',
+            artist: 'Yuvan',
+            album: 'Hero',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/ba/24/38/ba243875546698c92df832825100dce6.jpg',
+            audio: 'songs/Aayiram-Mugangal-MassTamilan.io.mp3'
+        },
     ],
     'ARR': [
        
@@ -3030,7 +3107,7 @@ const songsData = {
             audio: 'songs/Style---Thee-Thee.mp3' 
         },
         {
-            title: 'The-Boss Theme',
+            title: 'The Boss Theme',
             artist: 'ARR',
             album: 'Sivaji',
             duration: '5:00',
@@ -3158,7 +3235,7 @@ const songsData = {
             audio: 'songs/Nilamay Poru Nilamay (Land).mp3' 
         },
         {
-            title: 'Akadanu-Naanga',
+            title: 'Akadanu Naanga',
             artist: 'ARR',
             album: 'Indian',
             duration: '5:00',
@@ -3166,7 +3243,7 @@ const songsData = {
             audio: 'songs/Akadanu-Naanga.mp3' 
         },
         {
-            title: 'Kappaleri-Poyaachu',
+            title: 'Kappaleri Poyaachu',
             artist: 'ARR',
             album: 'Indian',
             duration: '5:00',
@@ -3174,7 +3251,7 @@ const songsData = {
             audio: 'songs/Kappaleri-Poyaachu.mp3' 
         },
         {
-            title: 'Maya-Machindra',
+            title: 'Maya Machindra',
             artist: 'ARR',
             album: 'Indian',
             duration: '5:00',
@@ -3182,7 +3259,7 @@ const songsData = {
             audio: 'songs/Maya-Machindra.mp3' 
         },
         {
-            title: 'Pachai-Kiligal',
+            title: 'Pachai Kiligal',
             artist: 'ARR',
             album: 'Indian',
             duration: '5:00',
@@ -3190,7 +3267,7 @@ const songsData = {
             audio: 'songs/Pachai-Kiligal.mp3' 
         },
         {
-            title: 'Telephone-Manipol',
+            title: 'Telephon Manipol',
             artist: 'ARR',
             album: 'Indian',
             duration: '5:00',
@@ -3198,7 +3275,7 @@ const songsData = {
             audio: 'songs/Telephone-Manipol.mp3' 
         },
         {
-            title: 'Avalum-Naanum',
+            title: 'Avalum Naanum',
             artist: 'ARR',
             album: 'Achcham Yenbadhu Madamaiyada',
             duration: '0:00',
@@ -3206,7 +3283,7 @@ const songsData = {
             audio: 'songs/Avalum-Naanum.mp3' 
         },
         {
-            title: 'Idhu-Naal',
+            title: 'Idhu Naal',
             artist: 'ARR',
             album: 'Achcham Yenbadhu Madamaiyada',
             duration: '0:00',
@@ -3230,7 +3307,7 @@ const songsData = {
             audio: 'songs/Showkali.mp3' 
         },
         {
-            title: 'Thalli-Pogathey',
+            title: 'Thalli Pogathey',
             artist: 'ARR',
             album: 'Achcham Yenbadhu Madamaiyada',
             duration: '0:00',
@@ -3242,7 +3319,7 @@ const songsData = {
         {
             title: 'Aathi',
             artist: 'Aniruth Ravichantiran',
-            album: 'Kathi',
+            album: 'Kaththi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
             audio: 'songs/Aathi.mp3'
@@ -3250,7 +3327,7 @@ const songsData = {
         {
             title: 'Selfie Pulla',
             artist: 'Aniruth Ravichantiran',
-            album: 'Kathi',
+            album: 'Kaththi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
             audio: 'songs/Selfie Pulla.mp3'
@@ -3258,7 +3335,7 @@ const songsData = {
         {
             title: 'Pakkam Vanthu',
             artist: 'Aniruth Ravichantiran',
-            album: 'Kathi',
+            album: 'Kaththi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
             audio: 'songs/Pakkam Vanthu.mp3'
@@ -3266,7 +3343,7 @@ const songsData = {
         {
             title: 'Paalam',
             artist: 'Aniruth Ravichantiran',
-            album: 'Kathi',
+            album: 'Kaththi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
             audio: 'songs/Paalam.mp3'
@@ -3274,7 +3351,7 @@ const songsData = {
         {
             title: 'Nee Yaaro',
             artist: 'Aniruth Ravichantiran',
-            album: 'Kathi',
+            album: 'Kaththi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
             audio: 'songs/Nee Yaaro.mp3'
@@ -3282,7 +3359,7 @@ const songsData = {
         {
             title: 'Kaththi Theme The Sword of Destiny',
             artist: 'Aniruth Ravichantiran',
-            album: 'Kathi',
+            album: 'Kaththi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
             audio: 'songs/Kaththi Theme The Sword of Destiny.mp3'
@@ -3290,7 +3367,7 @@ const songsData = {
         {
             title: 'Bad Eyes Villain Theme',
             artist: 'Aniruth Ravichantiran',
-            album: 'Kathi',
+            album: 'Kaththi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/8a/53/21/8a5321190e2b20111bd7a5794bee9ba0.jpg',
             audio: 'songs/Bad Eyes Villain Theme.mp3'
@@ -3312,7 +3389,7 @@ const songsData = {
             audio: 'songs/Pattuma-MassTamilan.dev.mp3'
         },
         {
-            title: 'Dheema-(Vocals-Only)',
+            title: 'Dheema (Vocals Only)',
             artist: 'Aniruth Ravichantiran',
             album: 'Love Insurance kompany',
             duration: '0:00',
@@ -3322,7 +3399,7 @@ const songsData = {
     ],
     'unnikrishnan': [
         {
-            title: 'Roja-Roja',
+            title: 'Roja Roja',
             artist: 'ARR',
             album: 'Kadhalar dhinam',
             duration: '5:00',
@@ -3360,7 +3437,7 @@ const songsData = {
     ],
     'harrisjayaraj': [
         {
-            title: 'Adada-Oru',
+            title: 'Adada Oru',
             artist: 'Harris Jayaraj',
             album: 'oru kal oru kannadi',
             duration: '0:00',
@@ -3368,7 +3445,7 @@ const songsData = {
             audio:'songs/Adada-Oru.mp3'
         },
         {
-            title: 'Akila-Akila',
+            title: 'AkilaAkila',
             artist: 'Harris Jayaraj',
             album: 'oru kal oru kannadi',
             duration: '0:00',
@@ -3376,7 +3453,7 @@ const songsData = {
             audio:'songs/Akila-Akila.mp3'
         },
         {
-            title: 'Azhage-Azhage',
+            title: 'Azhage Azhage',
             artist: 'Harris Jayaraj',
             album: 'oru kal oru kannadi',
             duration: '0:00',
@@ -3384,7 +3461,7 @@ const songsData = {
             audio:'songs/Azhage-Azhage.mp3'
         },
         {
-            title: 'Kaadhal-Oru',
+            title: 'Kaadhal Oru',
             artist: 'Harris Jayaraj',
             album: 'oru kal oru kannadi',
             duration: '0:00',
@@ -3392,7 +3469,7 @@ const songsData = {
             audio:'songs/Kaadhal-Oru.mp3'
         },
         {
-            title: 'Venaam-Machan',
+            title: 'Venaam Machan',
             artist: 'Harris Jayaraj',
             album: 'oru kal oru kannadi',
             duration: '0:00',
@@ -3400,7 +3477,7 @@ const songsData = {
             audio:'songs/Venaam-Machan.mp3'
         },
         {
-            title: 'Adhaaru-Adhaaru',
+            title: 'Adhaaru Adhaaru',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -3408,7 +3485,7 @@ const songsData = {
             audio:'songs/Adhaaru-Adhaaru.mp3'
         },
         {
-            title: 'Idhayathai-Yedho-Ondru',
+            title: 'Idhayathai Yedho Ondru',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -3416,7 +3493,7 @@ const songsData = {
             audio:'songs/Idhayathai-Yedho-Ondru.mp3'
         },
         {
-            title: 'Maya-Bazaar',
+            title: 'Maya Bazaar',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -3424,7 +3501,7 @@ const songsData = {
             audio:'songs/Maya-Bazaar.mp3'
         },
         {
-            title: 'Mazhai-Vara-Pogudhe',
+            title: 'Mazhai Vara Pogudhe',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -3432,7 +3509,7 @@ const songsData = {
             audio:'songs/Mazhai-Vara-Pogudhe.mp3'
         },
         {
-            title: 'Unakkenna-Venum-Sollu',
+            title: 'Unakkenna Venum Sollu',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -3440,7 +3517,7 @@ const songsData = {
             audio:'songs/Unakkenna-Venum-Sollu.mp3'
         },
         {
-            title: 'Yen-Ennai',
+            title: 'Yen Ennai',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -3448,7 +3525,7 @@ const songsData = {
             audio:'songs/Yen-Ennai.mp3'
         },
         {
-            title: 'Yennai-Arindhaal',
+            title: 'Yennai Arindhaal',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -3456,15 +3533,7 @@ const songsData = {
             audio:'songs/Yennai-Arindhaal.mp3'
         },
         {
-            title: 'Yennai-Arindhaal',
-            artist: 'Harris Jayaraj',
-            album: 'Yennai Arindhaal',
-            duration: '0:00',
-            cover:'https://i.pinimg.com/736x/93/4c/b2/934cb2d6eda905f2709e4de9b4dfca8f.jpg',
-            audio:'songs/Yennai-Arindhaal.mp3'
-        },
-        {
-            title: 'Oru-Maalai',
+            title: 'Oru Maalai',
             artist: 'Harris Jayaraj',
             album: 'Gajini',
             duration: '0:00',
@@ -3488,7 +3557,7 @@ const songsData = {
             audio:'songs/Rangola.mp3'
         },
         {
-            title: 'Suttum-Vizhi',
+            title: 'Suttum Vizhi',
             artist: 'Harris Jayaraj',
             album: 'Gajini',
             duration: '0:00',
@@ -3496,7 +3565,7 @@ const songsData = {
             audio:'songs/Suttum-Vizhi.mp3'
         },
         {
-            title: 'X-Machine',
+            title: 'X Machine',
             artist: 'Harris Jayaraj',
             album: 'Gajini',
             duration: '0:00',
@@ -3504,7 +3573,7 @@ const songsData = {
             audio:'songs/X-Machine.mp3'
         },
         {
-            title: 'Innum-Enna-Thozha',
+            title: 'Innum Enna Thozha',
             artist: 'Harris Jayaraj',
             album: '7am Arivu',
             duration: '0:00',
@@ -3512,7 +3581,7 @@ const songsData = {
             audio:'songs/Innum-Enna-Thozha.mp3'
         },
         {
-            title: 'Mun-Andhi',
+            title: 'Mun Andhi',
             artist: 'Harris Jayaraj',
             album: '7am Arivu',
             duration: '0:00',
@@ -3520,7 +3589,7 @@ const songsData = {
             audio:'songs/Mun-Andhi.mp3'
         },
         {
-            title: 'Oh-Ringa-Ringa',
+            title: 'Oh Ringa Ringa',
             artist: 'Harris Jayaraj',
             album: '7am Arivu',
             duration: '0:00',
@@ -3528,7 +3597,7 @@ const songsData = {
             audio:'songs/Oh-Ringa-Ringa.mp3'
         },
         {
-            title: 'Yamma-Yamma',
+            title: 'Yamma Yamma',
             artist: 'Harris Jayaraj',
             album: '7am Arivu',
             duration: '0:00',
@@ -3536,7 +3605,7 @@ const songsData = {
             audio:'songs/Yamma-Yamma.mp3'
         },
         {
-            title: 'Yellae-Lama',
+            title: 'Yellae Lama',
             artist: 'Harris Jayaraj',
             album: '7am Arivu',
             duration: '0:00',
@@ -3544,7 +3613,7 @@ const songsData = {
             audio:'songs/Yellae-Lama.mp3'
         },
         {
-            title: 'Aathangara-Orathil',
+            title: 'Aathangara Orathil',
             artist: 'Harris Jayaraj',
             album: 'Yaan',
             duration: '0:00',
@@ -3552,7 +3621,7 @@ const songsData = {
             audio:'songs/Aathangara-Orathil.mp3'
         },
         {
-            title: 'Hey-Lamba-Lamba',
+            title: 'Hey Lamba Lamba',
             artist: 'Harris Jayaraj',
             album: 'Yaan',
             duration: '0:00',
@@ -3560,7 +3629,7 @@ const songsData = {
             audio:'songs/Hey-Lamba-Lamba.mp3'
         },
         {
-            title: 'Latcham-Calories',
+            title: 'Latcham Calories',
             artist: 'Harris Jayaraj',
             album: 'Yaan',
             duration: '0:00',
@@ -3568,7 +3637,7 @@ const songsData = {
             audio:'songs/Latcham-Calories.mp3'
         },
         {
-            title: 'Nee-Vandhu-Ponadhu',
+            title: 'Nee Vandhu Ponadhu',
             artist: 'Harris Jayaraj',
             album: 'Yaan',
             duration: '0:00',
@@ -3576,7 +3645,7 @@ const songsData = {
             audio:'songs/Nee-Vandhu-Ponadhu.mp3'
         },
         {
-            title: 'Nenje-Nenje',
+            title: 'Nenje Nenje',
             artist: 'Harris Jayaraj',
             album: 'Yaan',
             duration: '0:00',
@@ -3994,7 +4063,7 @@ const songsData = {
     ],
     'vijay': [
         {
-            title: 'Kattipudi-Kattipudida',
+            title: 'Kattipudi Kattipudida',
             artist:'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -4002,7 +4071,7 @@ const songsData = {
             audio:'songs/Kattipudi-Kattipudida.mp3'
         },
         {
-            title: 'Macarena-Macarena',
+            title: 'Macarena Macarena',
             artist:'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -4010,7 +4079,7 @@ const songsData = {
             audio:'songs/Macarena-Macarena.mp3'
         },
         {
-            title: 'Megam-Karukuthu',
+            title: 'Megam Karukuthu',
             artist:'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -4018,7 +4087,7 @@ const songsData = {
             audio:'songs/Megam-Karukuthu.mp3'
         },
         {
-            title: 'Mottu-Ondru-Malarnthida',
+            title: 'Mottu Ondru Malarnthida',
             artist:'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -4026,7 +4095,7 @@ const songsData = {
             audio:'songs/Mottu-Ondru-Malarnthida.mp3'
         },
         {
-            title: 'Oh-Vennila',
+            title: 'Oh Vennila',
             artist:'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -4034,7 +4103,7 @@ const songsData = {
             audio:'songs/Oh-Vennila.mp3'
         },
         {
-            title: 'Oru-Ponnu-Onnu',
+            title: 'Oru Ponnu Onnu',
             artist:'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -4092,7 +4161,7 @@ const songsData = {
     ],
     'ajith': [
         {
-            title:'Balle-Lakka',
+            title:'Balle Lakka',
             artist:'Yuvan',
             album:'Mankatha',
             duration:'3:50',
@@ -4100,7 +4169,7 @@ const songsData = {
             audio:'songs/Balle-Lakka.mp3'
         },
         {
-            title:'Machi-Open-The-Bottle',
+            title:'Machi Open The Bottle',
             artist:'Yuvan',
             album:'Mankatha',
             duration:'3:50',
@@ -4108,7 +4177,7 @@ const songsData = {
             audio:'songs/Machi-Open-The-Bottle.mp3'
         },
         {
-            title:'Mankatha-Theme',
+            title:'Mankatha Theme',
             artist:'Yuvan',
             album:'Mankatha',
             duration:'3:50',
@@ -4124,7 +4193,7 @@ const songsData = {
             audio:'songs/Nanbane.mp3'
         },
         {
-            title:'Nee-Naan',
+            title:'Nee Naan',
             artist:'Yuvan',
             album:'Mankatha',
             duration:'3:50',
@@ -4132,7 +4201,7 @@ const songsData = {
             audio:'songs/Nee-Naan.mp3'
         },
         {
-            title:'Vaada-Bin-Laada',
+            title:'Vaada Bin Laada',
             artist:'Yuvan',
             album:'Mankatha',
             duration:'3:50',
@@ -4148,7 +4217,7 @@ const songsData = {
             audio:'songs/Vilayadu-Mangatha.mp3'
         },
         {
-            title:'Vilayadu Mangatha(Dance-Mix)',
+            title:'Vilayadu Mangatha(Dance Mix)',
             artist:'Yuvan',
             album:'Mankatha',
             duration:'3:50',
@@ -4164,7 +4233,7 @@ const songsData = {
             audio:'songs/Australia.mp3'
         },
         {
-            title: 'I-Love-You',
+            title: 'I Love You',
             artist:'Deva',
             album: 'Citizen',
             duration: '5:36',
@@ -4188,7 +4257,7 @@ const songsData = {
             audio:'songs/Pookara.mp3'
         },
         {
-            title: 'Sikki-Mukki',
+            title: 'Sikki Mukki',
             artist:'Deva',
             album: 'Citizen',
             duration: '5:36',
@@ -4196,7 +4265,7 @@ const songsData = {
             audio:'songs/Sikki-Mukki.mp3'
         },
         {
-            title: 'Merkey-Uthikkum',
+            title: 'Merkey Uthikkum',
             artist:'Deva',
             album: 'Citizen',
             duration: '5:36',
@@ -4204,7 +4273,7 @@ const songsData = {
             audio:'songs/Merkey-Uthikkum.mp3'
         },
         {
-            title: 'Dil-Dil-Dil-Italy-Kattil',
+            title: 'Dil Dil Dil Italy Kattil',
             artist:'Deva',
             album: 'Red',
             duration: '0:00',
@@ -4212,7 +4281,7 @@ const songsData = {
             audio:'songs/Dil-Dil-Dil-Italy-Kattil.mp3'
         },
         {
-            title: 'Kannai-Kasakkum',
+            title: 'Kannai Kasakkum',
             artist:'Deva',
             album: 'Red',
             duration: '0:00',
@@ -4220,7 +4289,7 @@ const songsData = {
             audio:'songs/Kannai-Kasakkum.mp3'
         },
         {
-            title: 'November-Madham',
+            title: 'November Madham',
             artist:'Deva',
             album: 'Red',
             duration: '0:00',
@@ -4228,7 +4297,7 @@ const songsData = {
             audio:'songs/November-Madham.mp3'
         },
         {
-            title: 'Olikuchi-Udambukari',
+            title: 'Olikuchi Udambukari',
             artist:'Deva',
             album: 'Red',
             duration: '0:00',
@@ -4236,7 +4305,7 @@ const songsData = {
             audio:'songs/Olikuchi-Udambukari.mp3'
         },
         {
-            title: 'Roja-Kaatil',
+            title: 'Roja Kaatil',
             artist:'Deva',
             album: 'Red',
             duration: '0:00',
@@ -4252,7 +4321,7 @@ const songsData = {
             audio:'songs/Thaimadiye.mp3'
         },
         {
-            title: 'En-Nenjil-Ningalane',
+            title: 'En Nenjil Ningalane',
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
@@ -4260,7 +4329,7 @@ const songsData = {
             audio:'songs/En-Nenjil-Ningalane.mp3'
         },
         {
-            title: 'Kathal-Website-Ondru',
+            title: 'Kathal Website Ondru',
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
@@ -4268,7 +4337,7 @@ const songsData = {
             audio:'songs/Kathal-Website-Ondru.mp3'
         },
         {
-            title: 'Nee-Illai-Enral',
+            title: 'Nee Illai Enral',
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
@@ -4276,15 +4345,15 @@ const songsData = {
             audio:'songs/Nee-Illai-Enral.mp3'
         },
         {
-            title: 'Sollamal-Thottu-Chellum-Thendral',
+            title: 'Sollamal Thottu Chellum Thendral',
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
             cover:'https://i.pinimg.com/736x/fc/8e/40/fc8e40816ca3ed1abfd22b37ae179fb1.jpg',
-            audio:'songs/.mp3'
+            audio:'songs/Sollamal-Thottu-Chellum-Thendral.mp3'
         },
         {
-            title: 'Vathikuchi-Pathikadhuda',
+            title: 'VathikuchiPathikadhuda',
             artist: 'yuvan',
             album: 'Dheena',
             duration: '0:00',
@@ -4292,7 +4361,7 @@ const songsData = {
             audio:'songs/Vathikuchi-Pathikadhuda.mp3'
         },
         {
-            title: 'Adhaaru-Adhaaru',
+            title: 'Adhaaru Adhaaru',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -4300,7 +4369,7 @@ const songsData = {
             audio:'songs/Adhaaru-Adhaaru.mp3'
         },
         {
-            title: 'Idhayathai-Yedho-Ondru',
+            title: 'Idhayathai Yedho Ondru',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -4308,7 +4377,7 @@ const songsData = {
             audio:'songs/Idhayathai-Yedho-Ondru.mp3'
         },
         {
-            title: 'Maya-Bazaar',
+            title: 'Maya Bazaar',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -4316,7 +4385,7 @@ const songsData = {
             audio:'songs/Maya-Bazaar.mp3'
         },
         {
-            title: 'Mazhai-Vara-Pogudhe',
+            title: 'Mazhai Vara Pogudhe',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -4324,7 +4393,7 @@ const songsData = {
             audio:'songs/Mazhai-Vara-Pogudhe.mp3'
         },
         {
-            title: 'Unakkenna-Venum-Sollu',
+            title: 'Unakkenna Venum Sollu',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -4332,7 +4401,7 @@ const songsData = {
             audio:'songs/Unakkenna-Venum-Sollu.mp3'
         },
         {
-            title: 'Yen-Ennai',
+            title: 'Yen Ennai',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -4340,7 +4409,7 @@ const songsData = {
             audio:'songs/Yen-Ennai.mp3'
         },
         {
-            title: 'Yennai-Arindhaal',
+            title: 'YennaiArindhaal',
             artist: 'Harris Jayaraj',
             album: 'Yennai Arindhaal',
             duration: '0:00',
@@ -4348,15 +4417,7 @@ const songsData = {
             audio:'songs/Yennai-Arindhaal.mp3'
         },
         {
-            title: 'Yennai-Arindhaal',
-            artist: 'Harris Jayaraj',
-            album: 'Yennai Arindhaal',
-            duration: '0:00',
-            cover:'https://i.pinimg.com/736x/9d/5b/c9/9d5bc9ee1a58c4d41263c11338d03737.jpg',
-            audio:'songs/Yennai-Arindhaal.mp3'
-        },
-        {
-            title: 'Oru-Maalai',
+            title: 'Oru Maalai',
             artist: 'Harris Jayaraj',
             album: 'Gajini',
             duration: '0:00',
@@ -4380,7 +4441,7 @@ const songsData = {
             audio:'songs/Rangola.mp3'
         },
         {
-            title: 'Suttum-Vizhi',
+            title: 'Suttum Vizhi',
             artist: 'Harris Jayaraj',
             album: 'Gajini',
             duration: '0:00',
@@ -4388,7 +4449,7 @@ const songsData = {
             audio:'songs/Suttum-Vizhi.mp3'
         },
         {
-            title: 'X-Machine',
+            title: 'X Machine',
             artist: 'Harris Jayaraj',
             album: 'Gajini',
             duration: '0:00',
@@ -4396,7 +4457,7 @@ const songsData = {
             audio:'songs/X-Machine.mp3'
         },
         {
-            title: 'April-Madhathil-Oru',
+            title: 'April Madhathil Oru',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -4404,7 +4465,7 @@ const songsData = {
             audio:'songs/April-Madhathil-Oru.mp3'
         },
         {
-            title: 'Gee-Priya-Gee-Priya',
+            title: 'Gee Priya Gee Priya',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -4412,7 +4473,7 @@ const songsData = {
             audio:'songs/Gee-Priya-Gee-Priya.mp3'
         },
         {
-            title: 'Nilavai-Kondu-Vaa',
+            title: 'Nilavai Kondu-Vaa',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -4420,7 +4481,7 @@ const songsData = {
             audio:'songs/Nilavai-Kondu-Vaa.mp3'
         },
         {
-            title: 'Sona-Sona',
+            title: 'Sona Sona',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -4428,7 +4489,7 @@ const songsData = {
             audio:'songs/Sona-Sona.mp3'
         },
         {
-            title: 'Vaanil-Kayudhe',
+            title: 'Vaanil Kayudhe',
             artist:'Deva',
             album: 'Vaali',
             duration: '0:00',
@@ -4939,7 +5000,136 @@ const songsData = {
         }
     ],
     'vikram': [],
-    'sk': [],
+    'sk': [
+        {
+            title: 'Kadhal Oru',
+            artist: 'girish',
+            album: 'Marina',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/20/03/24/2003243ba06afe9b371344fdf60fc8bb.jpg',
+            audio: 'songs/Kadhal-Oru-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Life In Marina',
+            artist: 'girish',
+            album: 'Marina',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/20/03/24/2003243ba06afe9b371344fdf60fc8bb.jpg',
+            audio: 'songs/Life-In-Marina-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Marina Marina Theme',
+            artist: 'girish',
+            album: 'Marina',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/20/03/24/2003243ba06afe9b371344fdf60fc8bb.jpg',
+            audio: 'songs/Marina-Marina-Theme-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Nanban',
+            artist: 'girish',
+            album: 'Marina',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/20/03/24/2003243ba06afe9b371344fdf60fc8bb.jpg',
+            audio: 'songs/Nanban-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Vanakkam Chennai',
+            artist: 'girish',
+            album: 'Marina',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/20/03/24/2003243ba06afe9b371344fdf60fc8bb.jpg',
+            audio: 'songs/Vanakkam-Chennai-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Yelelo',
+            artist: 'girish',
+            album: 'Marina',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/20/03/24/2003243ba06afe9b371344fdf60fc8bb.jpg',
+            audio: 'songs/Yelelo-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Malto Kithapuleh',
+            artist: 'Yuvan',
+            album: 'Hero',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/ba/24/38/ba243875546698c92df832825100dce6.jpg',
+            audio: 'songs/Malto-Kithapuleh-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Hero Title Track',
+            artist: 'Yuvan',
+            album: 'Hero',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/ba/24/38/ba243875546698c92df832825100dce6.jpg',
+            audio: 'songs/Hero-Title-Track-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Overa Feel Pannuren',
+            artist: 'Yuvan',
+            album: 'Hero',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/ba/24/38/ba243875546698c92df832825100dce6.jpg',
+            audio: 'songs/Overa-Feel-Pannuren-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Aayiram Mugangal',
+            artist: 'Yuvan',
+            album: 'Hero',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/ba/24/38/ba243875546698c92df832825100dce6.jpg',
+            audio: 'songs/Aayiram-Mugangal-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Adi Alaye',
+            artist: 'G V Prakash',
+            album: 'Parasakthi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/08/b0/42/08b042f51f0b5b033bd7d53b90100a71.jpg',
+            audio: 'songs/Adi Alaye.mp3'
+        },
+        {
+            title: 'Ratnamala',
+            artist: 'G V Prakash',
+            album: 'Parasakthi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/08/b0/42/08b042f51f0b5b033bd7d53b90100a71.jpg',
+            audio: 'songs/Ratnamala.mp3'
+        },
+        {
+            title: 'Namakkana Kaalam',
+            artist: 'G V Prakash',
+            album: 'Parasakthi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/08/b0/42/08b042f51f0b5b033bd7d53b90100a71.jpg',
+            audio: 'songs/Namakkana Kaalam.mp3'
+        },
+        {
+            title: 'Muthaarame',
+            artist: 'G V Prakash',
+            album: 'Parasakthi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/08/b0/42/08b042f51f0b5b033bd7d53b90100a71.jpg',
+            audio: 'songs/Muthaarame.mp3'
+        },
+        {
+            title: 'Senai Koottam',
+            artist: 'G V Prakash',
+            album: 'Parasakthi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/08/b0/42/08b042f51f0b5b033bd7d53b90100a71.jpg',
+            audio: 'songs/Senai Koottam.mp3'
+        },
+        {
+            title: 'Tharakku Tharakku',
+            artist: 'G V Prakash',
+            album: 'Parasakthi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/08/b0/42/08b042f51f0b5b033bd7d53b90100a71.jpg',
+            audio: 'songs/Tharakku Tharakku.mp3'
+        }
+    ],
     'simbu': [
         {
             title:'Ammadi-Athadi',
@@ -5103,5 +5293,11 @@ const songsData = {
             cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
             audio:'songs/Vaartha-Onnu.mp3'
         }
+    ],
+    '00\'s Hits': [
+        
+    ],
+    '00\'s Romance': [
+    
     ]
 };

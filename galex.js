@@ -1,4 +1,4 @@
-// DOM Elements
+
 const account = document.getElementById('account');
 const loginBtn = document.getElementById('loginBtn');
 const logoutBtn = document.getElementById('logoutBtn');
@@ -79,12 +79,22 @@ const samplePlaylists = [
     {
         id: 'simbu',
         name: 'Simbu',
-        image: 'https://i.pinimg.com/736x/e8/ef/f3/e8eff3989fe6209b117e087e534ab6de.jpg' // Placeholder image, update if needed
+        image: 'https://i.pinimg.com/736x/e8/ef/f3/e8eff3989fe6209b117e087e534ab6de.jpg'
     },
     {
         id: 'vishal',
         name: 'Vishal',
         image: 'https://i.pinimg.com/736x/7a/ca/95/7aca95cc48b21f6c3821156a224d92f0.jpg'
+    },
+    {
+        id: '00\'s Hits',
+        name: '00\'s Hits',
+        image: 'https://i.pinimg.com/1200x/d4/03/5d/d4035d986c180d4f3a1759e115b5f511.jpg'
+    },
+    {
+        id: '00\'s Romance',
+        name: '00\'s Romance',
+        image: 'https://i.pinimg.com/1200x/d4/03/5d/d4035d986c180d4f3a1759e115b5f511.jpg'
     }
 ];
 
@@ -118,12 +128,14 @@ function checkLoginStatus() {
         updateUIForLoggedInUser();
     }
 }
-
 function updateUIForLoggedInUser() {
     loginBtn.style.display = 'none';
     logoutBtn.style.display = 'block';
     verifyIcon.style.display = 'block';
-    galexText.textContent = `Hi, ${currentUser.username}`;
+    
+    // Updated: Show only the first letter of the username in Uppercase
+    galexText.textContent = currentUser.username.charAt(0).toUpperCase();
+    
     galexText.style.color = '#6495ed';
 }
 
@@ -143,6 +155,17 @@ function setupAudioPlayer() {
 }
 
 function setupEventListeners() {
+    if (loginBtn) {
+        loginBtn.onclick = () => {
+            account.classList.add('show');
+            // ... rest of logic
+        };
+    }
+    
+    // Do this for all button listeners to prevent errors on Mobile/TV pages
+    if (document.getElementById('showSignup')) {
+        document.getElementById('showSignup').onclick = (e) => { /* ... */ };
+    }
     loginBtn.onclick = () => {
         account.classList.add('show');
         loginDiv.classList.add('show');
@@ -170,7 +193,10 @@ function setupEventListeners() {
         loginBtn.style.display = 'block';
         logoutBtn.style.display = 'none';
         verifyIcon.style.display = 'none';
-        galexText.textContent = 'Galex';
+        
+        // Reset text back to full name on logout
+        galexText.textContent = 'Galex'; 
+        
         galexText.style.color = '#fff';
         showHomePage();
         showNotification('Logged out successfully');
@@ -268,8 +294,6 @@ function setupEventListeners() {
     if(document.getElementById('chithra')) document.getElementById('chithra').onclick = () => showArtistSongs('chithra');
     if(document.getElementById('mano')) document.getElementById('mano').onclick = () => showArtistSongs('mano');
     if(document.getElementById('anuradha')) document.getElementById('anuradha').onclick = () => showArtistSongs('anuradha');
-
-    // Navigation buttons
     if(document.getElementById('likedplaylistbtn')) document.getElementById('likedplaylistbtn').onclick = () => showLikedSongs();
     
     // Liked Playlist Button Logic
