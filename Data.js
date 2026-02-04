@@ -1205,6 +1205,46 @@ const songsData = {
             duration: '0:00',
             cover:'https://i.pinimg.com/1200x/e7/4f/17/e74f173853ea2d422b214d9ce2171f26.jpg',
             audio:'songs/Vetriyai-Kandavan.mp3'
+        },
+        {
+            title: 'Mama Paiya',
+            artist:'Deva',
+            album: 'Devathayai Kanden',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/35/3c/bd/353cbde19d8fab81fb465c08110e9b9a.jpg',
+            audio:'songs/Mama-Paiya.mp3'
+        },
+        {
+            title: 'Azhage Bhramanidam',
+            artist:'Deva',
+            album: 'Devathayai Kanden',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/35/3c/bd/353cbde19d8fab81fb465c08110e9b9a.jpg',
+            audio:'songs/Azhage-Bhramanidam.mp3'
+        },
+        {
+            title: 'Ore Oru Thoppilae',
+            artist:'Deva',
+            album: 'Devathayai Kanden',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/35/3c/bd/353cbde19d8fab81fb465c08110e9b9a.jpg',
+            audio:'songs/Ore Oru Thoppilae.mp3'
+        },
+        {
+            title: 'Thunda Kanom',
+            artist:'Deva',
+            album: 'Devathayai Kanden',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/35/3c/bd/353cbde19d8fab81fb465c08110e9b9a.jpg',
+            audio:'songs/Thunda-Kanom.mp3'
+        },
+        {
+            title: 'Velakku Onnu',
+            artist:'Deva',
+            album: 'Devathayai Kanden',
+            duration: '0:00',
+            cover:'https://i.pinimg.com/1200x/35/3c/bd/353cbde19d8fab81fb465c08110e9b9a.jpg',
+            audio:'songs/Velakku-Onnu.mp3'
         }
     ],
     'janaki': [],
@@ -1268,14 +1308,6 @@ const songsData = {
             duration: '3:30',
             cover: 'https://i.pinimg.com/736x/97/9e/96/979e96515df7b47beb79e97b6260f3be.jpg',
             audio: 'songs/Pitchai-Paathiram.mp3'
-           },
-           {
-            title:'',
-            artist: 'IlaiyaRaja',
-            album: 'Naan kadavul',
-            duration: '3:30',
-            cover: 'https://i.pinimg.com/736x/97/9e/96/979e96515df7b47beb79e97b6260f3be.jpg',
-            audio: 'songs/.mp3'
            }
     ],
     'yuvan': [
@@ -4059,6 +4091,150 @@ const songsData = {
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/36/ef/d1/36efd13ab86220f9698d74391e711a89.jpg',
             audio:'songs/Yendhan-Kan-Munne-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Yaelae Yealae Dhosthu Da',
+            artist: 'Harris Jayaraj',
+            album: 'Endrendrum Punnagai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/bf/4d/d8/bf4dd8d023de3f86b4f82bf17e89b9e1.jpg',
+            audio:'songs/Yaelae-Yealae-Dhosthu-Da.mp3'
+        },
+        {
+            title: 'Enai Saaithaalae',
+            artist: 'Harris Jayaraj',
+            album: 'Endrendrum Punnagai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/bf/4d/d8/bf4dd8d023de3f86b4f82bf17e89b9e1.jpg',
+            audio:'songs/Enai-Saaithaalae.mp3'
+        },
+        {
+            title: 'Kadal Naan Thaan',
+            artist: 'Harris Jayaraj',
+            album: 'Endrendrum Punnagai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/bf/4d/d8/bf4dd8d023de3f86b4f82bf17e89b9e1.jpg',
+            audio:'songs/Kadal-Naan-Thaan.mp3'
+        },
+        {
+            title: 'Vaan Engum Nee Minna',
+            artist: 'Harris Jayaraj',
+            album: 'Endrendrum Punnagai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/bf/4d/d8/bf4dd8d023de3f86b4f82bf17e89b9e1.jpg',
+            audio:'songs/Vaan-Engum-Nee-Minna.mp3'
+        },
+        {
+            title: 'Othayilae',
+            artist: 'Harris Jayaraj',
+            album: 'Endrendrum Punnagai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/bf/4d/d8/bf4dd8d023de3f86b4f82bf17e89b9e1.jpg',
+            audio:'songs/Othayilae.mp3'
+        },
+        {
+            title: 'Ennatha Solla',
+            artist: 'Harris Jayaraj',
+            album: 'Endrendrum Punnagai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/bf/4d/d8/bf4dd8d023de3f86b4f82bf17e89b9e1.jpg',
+            audio:'songs/Ennatha-Solla.mp3'
+        },
+        {
+            title: 'Thee Illai',
+            artist: 'Harris Jayaraj',
+            album: 'Engeyum Kadhal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/0a/cc/cf0acce7591a0a429b3bbbf693a270ff.jpg',
+            audio:'songs/Thee-Illai.mp3'
+        },
+        {
+            title: 'Nenjil Nenjil',
+            artist: 'Harris Jayaraj',
+            album: 'Engeyum Kadhal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/0a/cc/cf0acce7591a0a429b3bbbf693a270ff.jpg',
+            audio:'songs/Nenjil-Nenjil.mp3'
+        },
+        {
+            title: 'Nangaai',
+            artist: 'Harris Jayaraj',
+            album: 'Engeyum Kadhal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/0a/cc/cf0acce7591a0a429b3bbbf693a270ff.jpg',
+            audio:'songs/Nangaai.mp3'
+        },
+        {
+            title: 'Lolita',
+            artist: 'Harris Jayaraj',
+            album: 'Engeyum Kadhal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/0a/cc/cf0acce7591a0a429b3bbbf693a270ff.jpg',
+            audio:'songs/Lolita.mp3'
+        },
+        {
+            title: 'Engeyum Kaadhal',
+            artist: 'Harris Jayaraj',
+            album: 'Engeyum Kadhal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/0a/cc/cf0acce7591a0a429b3bbbf693a270ff.jpg',
+            audio:'songs/Engeyum-Kaadhal.mp3'
+        },
+        {
+            title: 'Dhimu Dhimu',
+            artist: 'Harris Jayaraj',
+            album: 'Engeyum Kadhal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/0a/cc/cf0acce7591a0a429b3bbbf693a270ff.jpg',
+            audio:'songs/Dhimu-Dhimu.mp3'
+        },
+        {
+            title: 'Bathing At Cannes',
+            artist: 'Harris Jayaraj',
+            album: 'Engeyum Kadhal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/0a/cc/cf0acce7591a0a429b3bbbf693a270ff.jpg',
+            audio:'songs/Bathing-At-Cannes.mp3'
+        },
+        {
+            title: 'Mutta Bhajji',
+            artist: 'Harris Jayaraj',
+            album: 'Gethu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/e5/30/33/e530335fa1087be577a5099bd97c24d3.jpg',
+            audio:'songs/Mutta-Bhajji.mp3'
+        },
+        {
+            title: 'Adiye Adiye',
+            artist: 'Harris Jayaraj',
+            album: 'Gethu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/e5/30/33/e530335fa1087be577a5099bd97c24d3.jpg',
+            audio:'songs/Adiye-Adiye.mp3'
+        },
+        {
+            title: 'Yevanda Ivan',
+            artist: 'Harris Jayaraj',
+            album: 'Gethu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/e5/30/33/e530335fa1087be577a5099bd97c24d3.jpg',
+            audio:'songs/Yevanda-Ivan.mp3'
+        },
+        {
+            title: 'Then Katru',
+            artist: 'Harris Jayaraj',
+            album: 'Gethu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/e5/30/33/e530335fa1087be577a5099bd97c24d3.jpg',
+            audio:'songs/Then-Katru.mp3'
+        },
+        {
+            title: 'Thillu Mullu',
+            artist: 'Harris Jayaraj',
+            album: 'Gethu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/e5/30/33/e530335fa1087be577a5099bd97c24d3.jpg',
+            audio:'songs/Thillu-Mullu.mp3'
         }
     ],
     'vijay': [
@@ -4157,7 +4333,55 @@ const songsData = {
             duration: '0:00',
             cover:'https://i.pinimg.com/1200x/27/d4/18/27d418e3acf10a76df5b6dca47042e50.jpg',
             audio:'songs/Un-Paer-Solla-II.mp3'
-        }
+        },
+        {
+            title: 'Asku Laska',
+            artist: 'Harris Jayaraj',
+            album: 'Nanban',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/36/ef/d1/36efd13ab86220f9698d74391e711a89.jpg',
+            audio:'songs/Asku-Laska-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'En Frienda Pola',
+            artist: 'Harris Jayaraj',
+            album: 'Nanban',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/36/ef/d1/36efd13ab86220f9698d74391e711a89.jpg',
+            audio:'songs/En-Frienda-Pola-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Heartiley Battery',
+            artist: 'Harris Jayaraj',
+            album: 'Nanban',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/36/ef/d1/36efd13ab86220f9698d74391e711a89.jpg',
+            audio:'songs/Heartiley-Battery-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Irukkana Idupu Irukkana',
+            artist: 'Harris Jayaraj',
+            album: 'Nanban',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/36/ef/d1/36efd13ab86220f9698d74391e711a89.jpg',
+            audio:'songs/Irukkana-Idupu-Irukkana-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Nalla Nanban',
+            artist: 'Harris Jayaraj',
+            album: 'Nanban',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/36/ef/d1/36efd13ab86220f9698d74391e711a89.jpg',
+            audio:'songs/Nalla-Nanban-MassTamilan.fm.mp3'
+        },
+        {
+            title: 'Yendhan Kan Munne',
+            artist: 'Harris Jayaraj',
+            album: 'Nanban',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/36/ef/d1/36efd13ab86220f9698d74391e711a89.jpg',
+            audio:'songs/Yendhan-Kan-Munne-MassTamilan.fm.mp3'
+        },
     ],
     'ajith': [
         {
@@ -5293,11 +5517,5 @@ const songsData = {
             cover:'https://i.pinimg.com/1200x/dc/c6/59/dcc659165697a24c5bcb0ce3478f62d2.jpg',
             audio:'songs/Vaartha-Onnu.mp3'
         }
-    ],
-    '00\'s Hits': [
-        
-    ],
-    '00\'s Romance': [
-    
     ]
 };
