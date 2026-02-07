@@ -294,6 +294,8 @@ function setupEventListeners() {
     if(document.getElementById('chithra')) document.getElementById('chithra').onclick = () => showArtistSongs('chithra');
     if(document.getElementById('mano')) document.getElementById('mano').onclick = () => showArtistSongs('mano');
     if(document.getElementById('anuradha')) document.getElementById('anuradha').onclick = () => showArtistSongs('anuradha');
+    if(document.getElementById('srikantdeva')) document.getElementById('srikantdeva').onclick = () => showArtistSongs('srikantdeva');
+    
     if(document.getElementById('likedplaylistbtn')) document.getElementById('likedplaylistbtn').onclick = () => showLikedSongs();
     
     // Liked Playlist Button Logic
@@ -1236,3 +1238,4 @@ function applyTheme(isDark) {
 window.toggleLikeSong = toggleLikeSong;
 
 window.removeFromLiked = removeFromLiked;
+
