@@ -5019,7 +5019,7 @@ const songsData = {
             audio: 'songs/Ennai-Konjam.mp3'
         }
     ],
-    'Srikanth Deva': [
+    'srikantdeva': [
         {
             title: 'Ivan Chennai',
             artist: 'Srikanth Deva',
@@ -6447,3 +6447,4 @@ const songsData = {
         }
     ]
 };
+
