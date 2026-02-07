@@ -6389,7 +6389,7 @@ const songsData = {
         },
         {
             title: 'Showkali',
-            ̣̣artist: 'ARR',
+            artist: 'ARR',
             album: 'Achcham Yenbadhu Madamaiyada',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/17/2d/d9/172dd92bb614da0bea029f00d9097463.jpg',
