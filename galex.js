@@ -795,7 +795,8 @@ function getArtistName(artistId) {
         'chithra': 'K. S. Chithra',
         'dImman': 'D. Imman',
         'mano': 'Mano',
-        'anuradha': 'Anuradha Sriram'
+        'anuradha': 'Anuradha Sriram',
+        'srikantdeva': 'Srikanth Deva'
         
     };
     return names[artistId] || artistId;
@@ -1233,4 +1234,5 @@ function applyTheme(isDark) {
 
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
+
 window.removeFromLiked = removeFromLiked;
