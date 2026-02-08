@@ -294,7 +294,7 @@ function setupEventListeners() {
     if(document.getElementById('chithra')) document.getElementById('chithra').onclick = () => showArtistSongs('chithra');
     if(document.getElementById('mano')) document.getElementById('mano').onclick = () => showArtistSongs('mano');
     if(document.getElementById('anuradha')) document.getElementById('anuradha').onclick = () => showArtistSongs('anuradha');
-    if(document.getElementById('srikantdeva')) document.getElementById('srikantdeva').onclick = () => showArtistSongs('srikantdeva');
+    if(document.getElementById('srikanthdeva')) document.getElementById('srikanthdeva').onclick = () => showArtistSongs('srikanthdeva');
     
     if(document.getElementById('likedplaylistbtn')) document.getElementById('likedplaylistbtn').onclick = () => showLikedSongs();
     
@@ -798,7 +798,7 @@ function getArtistName(artistId) {
         'dImman': 'D. Imman',
         'mano': 'Mano',
         'anuradha': 'Anuradha Sriram',
-        'srikantdeva': 'srikanthdeva'
+        'srikanthdeva': 'srikanthdeva'
         
     };
     return names[artistId] || artistId;
@@ -1238,5 +1238,6 @@ function applyTheme(isDark) {
 window.toggleLikeSong = toggleLikeSong;
 
 window.removeFromLiked = removeFromLiked;
+
 
 
