@@ -209,80 +209,77 @@ function setupEventListeners() {
         }
     };
 
-    // Signup
-    // Signup
-    document.getElementById('signupSubmit').onclick = () => {
-        const user = {
-            username: document.getElementById('signupUsername').value.trim(),
-            email: document.getElementById('signupEmail').value.trim().toLowerCase(),
-            password: document.getElementById('signupPassword').value
-        };
-
-        if (!user.username || !user.email || !user.password) {
-            showNotification('Please fill all fields');
-            return;
-        }
-
-        if (user.password.length < 6) {
-            showNotification('Password must be at least 6 characters');
-            return;
-        }
-
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(user.email)) {
-            showNotification('Please enter a valid email address');
-            return;
-        }
-        
-        user.likedSongs = [];
-        localStorage.setItem('galexUser', JSON.stringify(user));
-
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwfTFXyTy7JkHJ751JZm3TH3-X6QdyjkdD3D8fga3gTaVaH4B4mc-4M1-93ev_WEQo/exec'; 
-
-        fetch(scriptURL, {
-            method: 'POST',
-            mode: 'no-cors', 
-            headers: {
-                'Content-Type': 'text/plain;charset=utf-8',
-            },
-            body: JSON.stringify(user)
-        })
-        .then(() => {
-            console.log("Data sent to Sheet");
-        })
-        .catch(error => console.error('Error!', error.message));
-
-        showNotification('Account created successfully! Please login.');
-        signupDiv.classList.remove('show');
-        loginDiv.classList.add('show');
+   document.getElementById('signupSubmit').onclick = () => {
+    const user = {
+        username: document.getElementById('signupUsername').value.trim(),
+        email: document.getElementById('signupEmail').value.trim().toLowerCase(),
+        password: document.getElementById('signupPassword').value,
+        action: 'signup' // Tell script this is a signup
     };
 
-    // Login
-    document.getElementById('loginSubmit').onclick = () => {
-        const savedUser = JSON.parse(localStorage.getItem('galexUser'));
-        const email = document.getElementById('loginEmail').value.trim().toLowerCase();
-        const password = document.getElementById('loginPassword').value;
+    // (Keep your validation checks here: empty fields, password length, etc.)
 
-        if (!email || !password) {
-            showNotification('Please fill all fields');
-            return;
+    showNotification('Creating account...');
+
+    fetch(API_URL, {
+        method: 'POST',
+        body: JSON.stringify(user)
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.status === 'success') {
+            showNotification('Account created! Please login.');
+            signupDiv.classList.remove('show');
+            loginDiv.classList.add('show');
+        } else {
+            showNotification(data.message);
         }
+    })
+    .catch(err => {
+        console.error(err);
+        showNotification('Connection error. Try again.');
+    });
+};
 
-        if (!savedUser) {
-            showNotification('No account found. Please sign up first.');
-            return;
-        }
+   document.getElementById('loginSubmit').onclick = () => {
+    const email = document.getElementById('loginEmail').value.trim().toLowerCase();
+    const password = document.getElementById('loginPassword').value;
 
-        if (email === savedUser.email && password === savedUser.password) {
-            currentUser = savedUser;
+    if (!email || !password) {
+        showNotification('Please fill all fields');
+        return;
+    }
+
+    showNotification('Logging in...');
+
+    fetch(API_URL, {
+        method: 'POST',
+        body: JSON.stringify({
+            action: 'login',
+            email: email,
+            password: password
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.status === 'success') {
+            currentUser = data.user;
+            // We still save to localStorage so they stay logged in if they refresh the page
+            localStorage.setItem('galexUser', JSON.stringify(currentUser));
+            
             closeAccountModal();
             updateUIForLoggedInUser();
-            loadLikedSongs();
+            loadLikedSongs(); // This now loads the songs that came from the Sheet
             showNotification(`Welcome back, ${currentUser.username}!`);
         } else {
-            showNotification('Invalid email or password');
+            showNotification(data.message);
         }
-    };
+    })
+    .catch(err => {
+        console.error(err);
+        showNotification('Connection error. Try again.');
+    });
+};
 
     // Artist selection (Static cards)
     if(document.getElementById('hiphopadhi')) document.getElementById('hiphopadhi').onclick = () => showArtistSongs('hiphopadhi');
@@ -931,6 +928,17 @@ function toggleLikeSong(artistId, songIndex, event) {
         currentUser.likedSongs = [];
     }
 
+    if (currentUser) {
+        fetch(API_URL, {
+            method: 'POST',
+            body: JSON.stringify({
+                action: 'updateLikes',
+                email: currentUser.email,
+                likedSongs: currentUser.likedSongs
+            })
+        }).catch(err => console.log('Error syncing likes:', err)); // Background sync
+    }
+
     const songIndexInLiked = currentUser.likedSongs.findIndex(
         s => s.title === song.title && s.artist === song.artist
     );
@@ -1246,6 +1254,7 @@ function applyTheme(isDark) {
 window.toggleLikeSong = toggleLikeSong;
 
 window.removeFromLiked = removeFromLiked;
+
 
 
 
