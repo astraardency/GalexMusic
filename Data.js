@@ -511,6 +511,62 @@ const songsData = {
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/29/2d/83/292d83a6f5231c6c0e9f286df3efa3c3.jpg',
             audio: 'songs/Yennachu-Yedhachu.mp3'
+        },
+        {
+            title: 'Vetri Veerane',
+            artist: 'GV Prakash Kumar',
+            album: 'Mask',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/f6/00/05/f600058d0bf75b5b77ec95c0fce71ebd.jpg',
+            audio: 'songs/Vetri Veerane.mp3'
+        },
+        {
+            title: 'Kannumuzhi',
+            artist: 'GV Prakash Kumar',
+            album: 'Mask',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/f6/00/05/f600058d0bf75b5b77ec95c0fce71ebd.jpg',
+            audio: 'songs/Kannumuzhi.mp3'
+        },
+        {
+            title: 'Kanavugal Indri',
+            artist: 'GV Prakash Kumar',
+            album: 'Mask',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/f6/00/05/f600058d0bf75b5b77ec95c0fce71ebd.jpg',
+            audio: 'songs/Kanavugal Indri.mp3'
+        },
+        {
+            title: 'Idhudhan Engal Ulagam',
+            artist: 'GV Prakash Kumar',
+            album: 'Mask',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/f6/00/05/f600058d0bf75b5b77ec95c0fce71ebd.jpg',
+            audio: 'songs/Idhudhan Engal Ulagam.mp3'
+        },
+        {
+            title: 'Giru Giru',
+            artist: 'GV Prakash Kumar',
+            album: 'Mask',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/f6/00/05/f600058d0bf75b5b77ec95c0fce71ebd.jpg',
+            audio: 'songs/Giru Giru.mp3'
+        },
+        {
+            title: 'Ethical Spy',
+            artist: 'GV Prakash Kumar',
+            album: 'Mask',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/f6/00/05/f600058d0bf75b5b77ec95c0fce71ebd.jpg',
+            audio: 'songs/Ethical Spy.mp3'
+        },
+        {
+            title: 'Cash Cash',
+            artist: 'GV Prakash Kumar',
+            album: 'Mask',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/f6/00/05/f600058d0bf75b5b77ec95c0fce71ebd.jpg',
+            audio: 'songs/Cash Cash.mp3'
         }
     ],
     'hiphopadhi': [
@@ -1422,12 +1478,60 @@ const songsData = {
             audio: 'songs/Karu-Karu-Karupayi-MassTamilan.dev.mp3'
         },
         {
-            title: '',
+            title: 'Holy Holy',
             artist: 'Deva',
-            album: 'Vyabari',
+            album: 'Vaanavil',
             duration: '0:00',
-            cover: 'https://i.pinimg.com/736x/e7/ac/0e/e7ac0e28f7ee25923d328916ed6e3495.jpg',
-            audio: 'songs/.mp3'
+            cover: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/9778b9f145fa5e64fe1ae5061e1ac46b00fbf7e10d5ff74c2018935c07eeb34c._RI_TTW_.jpg',
+            audio: 'songs/Holy-Holy-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Oh Penne Thamizh Penne II',
+            artist: 'Deva',
+            album: 'Vaanavil',
+            duration: '0:00',
+            cover: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/9778b9f145fa5e64fe1ae5061e1ac46b00fbf7e10d5ff74c2018935c07eeb34c._RI_TTW_.jpg',
+            audio: 'songs/Oh-Penne-Thamizh-Penne-II-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Kanni Koyil',
+            artist: 'Deva',
+            album: 'Vaanavil',
+            duration: '0:00',
+            cover: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/9778b9f145fa5e64fe1ae5061e1ac46b00fbf7e10d5ff74c2018935c07eeb34c._RI_TTW_.jpg',
+            audio: 'songs/Kanni-Koyil-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Piraye Piraye',
+            artist: 'Deva',
+            album: 'Vaanavil',
+            duration: '0:00',
+            cover: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/9778b9f145fa5e64fe1ae5061e1ac46b00fbf7e10d5ff74c2018935c07eeb34c._RI_TTW_.jpg',
+            audio: 'songs/Piraye-Piraye-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Aasai Magane',
+            artist: 'Deva',
+            album: 'Vaanavil',
+            duration: '0:00',
+            cover: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/9778b9f145fa5e64fe1ae5061e1ac46b00fbf7e10d5ff74c2018935c07eeb34c._RI_TTW_.jpg',
+            audio: 'songs/Aasai-Magane-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Oh Penne Thamizh Penne',
+            artist: 'Deva',
+            album: 'Vaanavil',
+            duration: '0:00',
+            cover: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/9778b9f145fa5e64fe1ae5061e1ac46b00fbf7e10d5ff74c2018935c07eeb34c._RI_TTW_.jpg',
+            audio: 'songs/Oh-Penne-Thamizh-Penne-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Velinattu Kaatru',
+            artist: 'Deva',
+            album: 'Vaanavil',
+            duration: '0:00',
+            cover: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/9778b9f145fa5e64fe1ae5061e1ac46b00fbf7e10d5ff74c2018935c07eeb34c._RI_TTW_.jpg',
+            audio: 'songs/Velinattu-Kaatru-MassTamilan.com.mp3'
         }
     ],
     'janaki': [],
@@ -1491,6 +1595,110 @@ const songsData = {
             duration: '3:30',
             cover: 'https://i.pinimg.com/736x/97/9e/96/979e96515df7b47beb79e97b6260f3be.jpg',
             audio: 'songs/Pitchai-Paathiram.mp3'
+        },
+        {
+            title: 'Sandiyare Sandiyare',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Sandiyare-Sandiyare.mp3'
+        },
+        {
+            title: 'Karpagirakam',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Karpagirakam.mp3'
+        },
+        {
+            title: 'Kompula Poove Suthi',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Kompula-Poove-Suthi.mp3'
+        },
+        {
+            title: 'Madavizhake',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Madavizhake.mp3'
+        },
+        {
+            title: 'Antha Kaandamani',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Antha-Kaandamani.mp3'
+        },
+        {
+            title: 'Karumathur Katukule',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Karumathur-Katukule.mp3'
+        },
+        {
+            title: 'Maharashi',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Maharashi.mp3'
+        },
+        {
+            title: 'Nethiyile',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Nethiyile.mp3'
+        },
+        {
+            title: 'Annalakshmi',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Annalakshmi.mp3'
+        },
+        {
+            title: 'Unnaivida',
+            artist: 'IlaiyaRaja',
+            album: 'Virumaandi',
+            duration: '3:30',
+            cover: 'https://i.pinimg.com/736x/7b/5b/c3/7b5bc3a8a053104e2becd08f178845b1.jpg',
+            audio: 'songs/Unnaivida.mp3'
+        },
+        {
+            title: 'Onnoda Nadandhaa',
+            artist: 'IlaiyaRaja',
+            album: 'Viduthalai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/cb/27/e8/cb27e8f8c85093f1dce9f936f147e3ae.jpg',
+            audio: 'songs/Onnoda-Nadandhaa-MassTamilan.dev.mp3'
+        },
+        {
+            title: 'Kaattumalli',
+            artist: 'IlaiyaRaja',
+            album: 'Viduthalai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/cb/27/e8/cb27e8f8c85093f1dce9f936f147e3ae.jpg',
+            audio: 'songs/Kaattumalli-MassTamilan.dev.mp3'
+        },
+        {
+            title: 'Arutperunjodhi',
+            artist: 'IlaiyaRaja',
+            album: 'Viduthalai',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/cb/27/e8/cb27e8f8c85093f1dce9f936f147e3ae.jpg',
+            audio: 'songs/Arutperunjodhi-MassTamilan.dev.mp3'
         }
     ],
     'yuvan': [
@@ -3799,6 +4007,78 @@ const songsData = {
             cover: 'https://i.pinimg.com/1200x/be/b1/2a/beb12a4179e0673ca56df1fcc6de9552.jpg',
             duration: '0:00',
             audio: 'songs/Aaoromale.mp3'
+        },
+        {
+            title: 'O Kadhale',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/O Kadhale.mp3'
+        },
+        {
+            title: 'Maayakkaari',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/Maayakkaari.mp3'
+        },
+        {
+            title: 'Avalidam Sol',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/Avalidam Sol.mp3'
+        },
+        {
+            title: 'Chinnaware',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/Chinnaware.mp3'
+        },
+        {
+            title: 'Jigar Thanda (Female)',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/Jigar Thanda (Female).mp3'
+        },
+        {
+            title: 'Jigar Thandhaale',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/Jigar Thandhaale.mp3'
+        },
+        {
+            title: 'Kannae Kanmaniye',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/Kannae Kanmaniye.mp3'
+        },
+        {
+            title: 'Uyiraare Uyiraare',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/Uyiraare Uyiraare.mp3'
+        },
+        {
+            title: 'Yaavum Neeye',
+            artist: 'ARR',
+            album: 'Tere Ishk Mein',
+            cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
+            duration: '0:00',
+            audio: 'songs/Yaavum Neeye.mp3'
         }
     ],
     'aniruth': [
@@ -5017,12 +5297,228 @@ const songsData = {
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/69/9c/0e/699c0e2816c262dd5f5656e111ac6cca.jpg',
             audio: 'songs/Ennai-Konjam.mp3'
+        },
+        {
+            title: 'Partha Muthal',
+            artist: 'Harris Jayaraj',
+            album: 'Vettaiyadu Vilaiyadu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/fe/dd/ab/feddabaffda3390fd99c218b21f8fa50.jpg',
+            audio: 'songs/Partha-Muthal.mp3'
+        },
+        {
+            title: 'Manjal Veiyil',
+            artist: 'Harris Jayaraj',
+            album: 'Vettaiyadu Vilaiyadu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/fe/dd/ab/feddabaffda3390fd99c218b21f8fa50.jpg',
+            audio: 'songs/Manjal-Veiyil.mp3'
+        },
+        {
+            title: 'Uyirilae',
+            artist: 'Harris Jayaraj',
+            album: 'Vettaiyadu Vilaiyadu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/fe/dd/ab/feddabaffda3390fd99c218b21f8fa50.jpg',
+            audio: 'songs/Uyirilae.mp3'
+        },
+        {
+            title: 'Karka Karka',
+            artist: 'Harris Jayaraj',
+            album: 'Vettaiyadu Vilaiyadu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/fe/dd/ab/feddabaffda3390fd99c218b21f8fa50.jpg',
+            audio: 'songs/Karka-Karka.mp3'
+        },
+        {
+            title: 'Nerupae',
+            artist: 'Harris Jayaraj',
+            album: 'Vettaiyadu Vilaiyadu',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/fe/dd/ab/feddabaffda3390fd99c218b21f8fa50.jpg',
+            audio: 'songs/Nerupae.mp3'
+        },
+        {
+            title: 'Adiyae Kolluthey',
+            artist: 'Harris Jayaraj',
+            album: 'Vaaranam Aayiram',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/04/bc/6e/04bc6e25e051f186fee0ed79cdd7757d.jpg',
+            audio: 'songs/Adiyae-Kolluthey-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Annul Maelae',
+            artist: 'Harris Jayaraj',
+            album: 'Vaaranam Aayiram',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/04/bc/6e/04bc6e25e051f186fee0ed79cdd7757d.jpg',
+            audio: 'songs/Annul-Maelae-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Ava Enna Enna',
+            artist: 'Harris Jayaraj',
+            album: 'Vaaranam Aayiram',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/04/bc/6e/04bc6e25e051f186fee0ed79cdd7757d.jpg',
+            audio: 'songs/Ava-Enna-Enna-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Mundhinam Parthene',
+            artist: 'Harris Jayaraj',
+            album: 'Vaaranam Aayiram',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/04/bc/6e/04bc6e25e051f186fee0ed79cdd7757d.jpg',
+            audio: 'songs/Mundhinam-Parthene-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Nenjukkul Peidhidum',
+            artist: 'Harris Jayaraj',
+            album: 'Vaaranam Aayiram',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/04/bc/6e/04bc6e25e051f186fee0ed79cdd7757d.jpg',
+            audio: 'songs/Nenjukkul-Peidhidum-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Oh Shanthi Shanthi',
+            artist: 'Harris Jayaraj',
+            album: 'Vaaranam Aayiram',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/04/bc/6e/04bc6e25e051f186fee0ed79cdd7757d.jpg',
+            audio: 'songs/Oh-Shanthi-Shanthi-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Ragasiyam',
+            artist: 'Harris Jayaraj',
+            album: 'Vaaranam Aayiram',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/04/bc/6e/04bc6e25e051f186fee0ed79cdd7757d.jpg',
+            audio: 'songs/Ragasiyam-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Yethi Yethi',
+            artist: 'Harris Jayaraj',
+            album: 'Vaaranam Aayiram',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/04/bc/6e/04bc6e25e051f186fee0ed79cdd7757d.jpg',
+            audio: 'songs/Yethi-Yethi-MassTamilan.com.mp3'
+        },
+        {
+            title: 'Hello Miss Imasaiyea',
+            artist: 'Harris Jayaraj',
+            album: 'Unnale Unnale',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/d9/c2/77/d9c2779e53e1c5c73104ae88b520bdb3.jpg',
+            audio: 'songs/Hello-Miss-Imasaiyea.mp3'
+        },
+        {
+            title: 'Ilamai Ullasam',
+            artist: 'Harris Jayaraj',
+            album: 'Unnale Unnale',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/d9/c2/77/d9c2779e53e1c5c73104ae88b520bdb3.jpg',
+            audio: 'songs/Ilamai-Ullasam.mp3'
+        },
+        {
+            title: 'June Pona',
+            artist: 'Harris Jayaraj',
+            album: 'Unnale Unnale',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/d9/c2/77/d9c2779e53e1c5c73104ae88b520bdb3.jpg',
+            audio: 'songs/June-Pona.mp3'
+        },
+        {
+            title: 'Mudhal Naal Indru',
+            artist: 'Harris Jayaraj',
+            album: 'Unnale Unnale',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/d9/c2/77/d9c2779e53e1c5c73104ae88b520bdb3.jpg',
+            audio: 'songs/Mudhal-Naal-Indru.mp3'
+        },
+        {
+            title: 'Siru Siru Uravugal',
+            artist: 'Harris Jayaraj',
+            album: 'Unnale Unnale',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/d9/c2/77/d9c2779e53e1c5c73104ae88b520bdb3.jpg',
+            audio: 'songs/Siru-Siru-Uravugal.mp3'
+        },
+        {
+            title: 'Unnaale Unnaale',
+            artist: 'Harris Jayaraj',
+            album: 'Unnale Unnale',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/d9/c2/77/d9c2779e53e1c5c73104ae88b520bdb3.jpg',
+            audio: 'songs/Unnaale-Unnaale.mp3'
+        },
+        {
+            title: 'Vaigasi Nilavae',
+            artist: 'Harris Jayaraj',
+            album: 'Unnale Unnale',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/d9/c2/77/d9c2779e53e1c5c73104ae88b520bdb3.jpg',
+            audio: 'songs/Vaigasi-Nilavae.mp3'
+        },
+        {
+            title: 'Indha Ooru',
+            artist: 'Harris Jayaraj',
+            album: 'Thotti Jaya',
+            duration: '0:00',
+            cover: 'https://img.nowrunning.com/content/movie/0-2007/ThottiJaya/poster.jpg',
+            audio: 'songs/Indha-Ooru.mp3'
+        },
+        {
+            title: 'Yaari Singari',
+            artist: 'Harris Jayaraj',
+            album: 'Thotti Jaya',
+            duration: '0:00',
+            cover: 'https://img.nowrunning.com/content/movie/0-2007/ThottiJaya/poster.jpg',
+            audio: 'songs/Yaari-Singari.mp3'
+        },
+        {
+            title: 'Yaari Damum Thondravillai',
+            artist: 'Harris Jayaraj',
+            album: 'Thotti Jaya',
+            duration: '0:00',
+            cover: 'https://img.nowrunning.com/content/movie/0-2007/ThottiJaya/poster.jpg',
+            audio: 'songs/Yaaridamum-Thondravillai.mp3'
+        },
+        {
+            title: 'Thotta Power',
+            artist: 'Harris Jayaraj',
+            album: 'Thotti Jaya',
+            duration: '0:00',
+            cover: 'https://img.nowrunning.com/content/movie/0-2007/ThottiJaya/poster.jpg',
+            audio: 'songs/Thotta-Power.mp3'
+        },
+        {
+            title: 'Uyire En Uyire',
+            artist: 'Harris Jayaraj',
+            album: 'Thotti Jaya',
+            duration: '0:00',
+            cover: 'https://img.nowrunning.com/content/movie/0-2007/ThottiJaya/poster.jpg',
+            audio: 'songs/Uyire-En-Uyire.mp3'
+        },
+        {
+            title: 'Achu Vellam',
+            artist: 'Harris Jayaraj',
+            album: 'Thotti Jaya',
+            duration: '0:00',
+            cover: 'https://img.nowrunning.com/content/movie/0-2007/ThottiJaya/poster.jpg',
+            audio: 'songs/Achu-Vellam.mp3'
+        },
+        {
+            title: 'Theme Music',
+            artist: 'Harris Jayaraj',
+            album: 'Thotti Jaya',
+            duration: '0:00',
+            cover: 'https://img.nowrunning.com/content/movie/0-2007/ThottiJaya/poster.jpg',
+            audio: 'songs/Theme-Music.mp3'
         }
     ],
     'srikanthdeva': [
         {
             title: 'Ivan Chennai',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Boologam',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/ba/52/17/ba52178c2a832efa22f7f1a64cab1958.jpg',
@@ -5030,7 +5526,7 @@ const songsData = {
         },
         {
             title: 'Vangi Vandha',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Boologam',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/ba/52/17/ba52178c2a832efa22f7f1a64cab1958.jpg',
@@ -5038,7 +5534,7 @@ const songsData = {
         },
         {
             title: 'Tattoo Tattoo',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Boologam',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/ba/52/17/ba52178c2a832efa22f7f1a64cab1958.jpg',
@@ -5046,7 +5542,7 @@ const songsData = {
         },
         {
             title: 'Masana Kollaiyila',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Boologam',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/ba/52/17/ba52178c2a832efa22f7f1a64cab1958.jpg',
@@ -5054,7 +5550,7 @@ const songsData = {
         },
         {
             title: 'Vanakkam Vanakkam',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Boologam',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/ba/52/17/ba52178c2a832efa22f7f1a64cab1958.jpg',
@@ -5062,7 +5558,7 @@ const songsData = {
         },
         {
             title: 'Bhoologham Adicha',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Boologam',
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/ba/52/17/ba52178c2a832efa22f7f1a64cab1958.jpg',
@@ -5070,7 +5566,7 @@ const songsData = {
         },
         {
             title: 'Theeparaka',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Ilami',
             duration: '0:00',
             cover: 'https://m.media-amazon.com/images/S/pv-target-images/0072ed915a46fa88259e4f3a89e645174021ae92b304adbcbb1accdb1721abac.jpg',
@@ -5078,7 +5574,7 @@ const songsData = {
         },
         {
             title: 'Thavil Eduthu Adi',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Ilami',
             duration: '0:00',
             cover: 'https://m.media-amazon.com/images/S/pv-target-images/0072ed915a46fa88259e4f3a89e645174021ae92b304adbcbb1accdb1721abac.jpg',
@@ -5086,7 +5582,7 @@ const songsData = {
         },
         {
             title: 'Oh Ilami',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Ilami',
             duration: '0:00',
             cover: 'https://m.media-amazon.com/images/S/pv-target-images/0072ed915a46fa88259e4f3a89e645174021ae92b304adbcbb1accdb1721abac.jpg',
@@ -5094,7 +5590,7 @@ const songsData = {
         },
         {
             title: 'Naan Enna', 
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Ilami',
             duration: '0:00',
             cover: 'https://m.media-amazon.com/images/S/pv-target-images/0072ed915a46fa88259e4f3a89e645174021ae92b304adbcbb1accdb1721abac.jpg',
@@ -5102,7 +5598,7 @@ const songsData = {
         },
         {
             title: 'Adi Aathadi',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'Ilami',
             duration: '0:00',
             cover: 'https://m.media-amazon.com/images/S/pv-target-images/0072ed915a46fa88259e4f3a89e645174021ae92b304adbcbb1accdb1721abac.jpg',
@@ -5110,7 +5606,7 @@ const songsData = {
         },
         {
             title: 'Yaaru Yaaru Ivano',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'M.Kumaran S/O Mahalakshmi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/f1/d2/97/f1d297d79497509bdd393581928205ba.jpg',
@@ -5118,7 +5614,7 @@ const songsData = {
         },
         {
             title: 'Vacchukka Vacchukka',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'M.Kumaran S/O Mahalakshmi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/f1/d2/97/f1d297d79497509bdd393581928205ba.jpg',
@@ -5126,7 +5622,7 @@ const songsData = {
         },
         {
             title: 'Tamizh Nattu',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'M.Kumaran S/O Mahalakshmi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/f1/d2/97/f1d297d79497509bdd393581928205ba.jpg',
@@ -5134,7 +5630,7 @@ const songsData = {
         },
         {
             title: 'Neeye Neeye',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'M.Kumaran S/O Mahalakshmi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/f1/d2/97/f1d297d79497509bdd393581928205ba.jpg',
@@ -5142,7 +5638,7 @@ const songsData = {
         },
         {
             title: 'Neeye Neeye II',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'M.Kumaran S/O Mahalakshmi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/f1/d2/97/f1d297d79497509bdd393581928205ba.jpg',
@@ -5150,7 +5646,7 @@ const songsData = {
         },
         {
             title: 'Chennai Sentamizh',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'M.Kumaran S/O Mahalakshmi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/f1/d2/97/f1d297d79497509bdd393581928205ba.jpg',
@@ -5158,16 +5654,152 @@ const songsData = {
         },
         {
             title: 'Ayyo Ayyo',
-            artist: 'Srikanth Deva',
+            artist: 'srikanthdeva',
             album: 'M.Kumaran S/O Mahalakshmi',
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/f1/d2/97/f1d297d79497509bdd393581928205ba.jpg',
             audio: 'songs/Ayyo-Ayyo-MassTamilan.so.mp3'
+        },
+        {
+            title: 'Vaada Vaada',
+            artist: 'srikanthdeva',
+            album: 'Sivakasi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/7f/ee/b77feefab2db48a564b5d0e0357e6c2e.jpg',
+            audio: 'songs/Vaada-Vaada.mp3'
+        },
+        {
+            title: 'Kodambakkam Area',
+            artist: 'srikanthdeva',
+            album: 'Sivakasi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/7f/ee/b77feefab2db48a564b5d0e0357e6c2e.jpg',
+            audio: 'songs/Kodambakkam-Area.mp3'
+        },
+        {
+            title: 'Idhu Enna Idhu Enna',
+            artist: 'srikanthdeva',
+            album: 'Sivakasi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/7f/ee/b77feefab2db48a564b5d0e0357e6c2e.jpg',
+            audio: 'songs/Idhu-Enna-Idhu-Enna.mp3'
+        },
+        {
+            title: 'Dheivathukke Maaruvesama',
+            artist: 'srikanthdeva',
+            album: 'Sivakasi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/7f/ee/b77feefab2db48a564b5d0e0357e6c2e.jpg',
+            audio: 'songs/Dheivathukke-Maaruvesama.mp3'
+        },
+        {
+            title: 'Deepavali Deepavali',
+            artist: 'srikanthdeva',
+            album: 'Sivakasi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/7f/ee/b77feefab2db48a564b5d0e0357e6c2e.jpg',
+            audio: 'songs/Deepavali-Deepavali.mp3'
+        },
+        {
+            title: 'Ada Ennatha Solvenungo',
+            artist: 'srikanthdeva',
+            album: 'Sivakasi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/b7/7f/ee/b77feefab2db48a564b5d0e0357e6c2e.jpg',
+            audio: 'songs/Ada-Ennatha-Solvenungo.mp3'
+        },
+        {
+            title: 'Usurula Usurla',
+            artist: 'srikanthdeva',
+            album: 'Thottupaar',
+            duration: '0:00',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/3/39/Thottupaar.jpg',
+            audio: 'songs/Usurula-Usurla-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Thottu Thottu',
+            artist: 'srikanthdeva',
+            album: 'Thottupaar',
+            duration: '0:00',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/3/39/Thottupaar.jpg',
+            audio: 'songs/Thottu-Thottu-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Seema Sirikki',
+            artist: 'srikanthdeva',
+            album: 'Thottupaar',
+            duration: '0:00',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/3/39/Thottupaar.jpg',
+            audio: 'songs/Seema-Sirikki-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Oola Vediyae',
+            artist: 'srikanthdeva',
+            album: 'Thottupaar',
+            duration: '0:00',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/3/39/Thottupaar.jpg',
+            audio: 'songs/Oola-Vediyae-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Adi Masa Kathadika',
+            artist: 'srikanthdeva',
+            album: 'Thottupaar',
+            duration: '0:00',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/3/39/Thottupaar.jpg',
+            audio: 'songs/Adi-Masa-Kathadika-MassTamilan.io.mp3'
+        },
+        {
+            title: 'Thitatha Thitatha',
+            artist: 'srikanthdeva',
+            album: 'Thirunaal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/79/c7/43/79c7436abc7718faf41a9f3192bb8a24.jpg',
+            audio: 'songs/Thitatha-Thitatha.mp3'
+        },
+        {
+            title: 'Karisa Kattu',
+            artist: 'srikanthdeva',
+            album: 'Thirunaal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/79/c7/43/79c7436abc7718faf41a9f3192bb8a24.jpg',
+            audio: 'songs/Karisa-Kattu.mp3'
+        },
+        {
+            title: 'Thanthayum Yaro',
+            artist: 'srikanthdeva',
+            album: 'Thirunaal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/79/c7/43/79c7436abc7718faf41a9f3192bb8a24.jpg',
+            audio: 'songs/Thanthayum-Yaro.mp3'
+        },
+        {
+            title: 'Hey Chinna Chinna',
+            artist: 'srikanthdeva',
+            album: 'Thirunaal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/79/c7/43/79c7436abc7718faf41a9f3192bb8a24.jpg',
+            audio: 'songs/Hey-Chinna-Chinna.mp3'
+        },
+        {
+            title: 'Ore Oru Vanam',
+            artist: 'srikanthdeva',
+            album: 'Thirunaal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/79/c7/43/79c7436abc7718faf41a9f3192bb8a24.jpg',
+            audio: 'songs/Ore-Oru-Vaanam.mp3'
+        },
+        {
+            title: 'Pazhaya Soru',
+            artist: 'srikanthdeva',
+            album: 'Thirunaal',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/79/c7/43/79c7436abc7718faf41a9f3192bb8a24.jpg',
+            audio: 'songs/Pazhaya-Soru.mp3'
         }
     ],
     'vijay': [
         {
-            title: 'Kattipudi Kattipudida',
+            title: 'Kattipudi-Kattipudida',
             artist: 'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -5175,7 +5807,7 @@ const songsData = {
             audio: 'songs/Kattipudi-Kattipudida.mp3'
         },
         {
-            title: 'Macarena Macarena',
+            title: 'Macarena-Macarena',
             artist: 'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -5183,7 +5815,7 @@ const songsData = {
             audio: 'songs/Macarena-Macarena.mp3'
         },
         {
-            title: 'Megam Karukuthu',
+            title: 'Megam-Karukuthu',
             artist: 'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -5191,7 +5823,7 @@ const songsData = {
             audio: 'songs/Megam-Karukuthu.mp3'
         },
         {
-            title: 'Mottu Ondru Malarnthida',
+            title: 'Mottu-Ondru-Malarnthida',
             artist: 'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -5199,7 +5831,7 @@ const songsData = {
             audio: 'songs/Mottu-Ondru-Malarnthida.mp3'
         },
         {
-            title: 'Oh Vennila',
+            title: 'Oh-Vennila',
             artist: 'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -5207,7 +5839,7 @@ const songsData = {
             audio: 'songs/Oh-Vennila.mp3'
         },
         {
-            title: 'Oru Ponnu Onnu',
+            title: 'Oru-Ponnu-Onnu',
             artist: 'Deva',
             album: 'Kushi',
             duration: '5:36',
@@ -6447,5 +7079,3 @@ const songsData = {
         }
     ]
 };
-
-
