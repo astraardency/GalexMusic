@@ -210,6 +210,7 @@ function setupEventListeners() {
     };
 
     // Signup
+    // Signup
     document.getElementById('signupSubmit').onclick = () => {
         const user = {
             username: document.getElementById('signupUsername').value.trim(),
@@ -232,18 +233,25 @@ function setupEventListeners() {
             showNotification('Please enter a valid email address');
             return;
         }
-
-        const existingUser = localStorage.getItem('galexUser');
-        if (existingUser) {
-            const parsedUser = JSON.parse(existingUser);
-            if (parsedUser.email === user.email) {
-                showNotification('Email already registered. Please login.');
-                return;
-            }
-        }
-
+        
         user.likedSongs = [];
         localStorage.setItem('galexUser', JSON.stringify(user));
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwfTFXyTy7JkHJ751JZm3TH3-X6QdyjkdD3D8fga3gTaVaH4B4mc-4M1-93ev_WEQo/exec'; 
+
+        fetch(scriptURL, {
+            method: 'POST',
+            mode: 'no-cors', 
+            headers: {
+                'Content-Type': 'text/plain;charset=utf-8',
+            },
+            body: JSON.stringify(user)
+        })
+        .then(() => {
+            console.log("Data sent to Sheet");
+        })
+        .catch(error => console.error('Error!', error.message));
+
         showNotification('Account created successfully! Please login.');
         signupDiv.classList.remove('show');
         loginDiv.classList.add('show');
@@ -1238,6 +1246,7 @@ function applyTheme(isDark) {
 window.toggleLikeSong = toggleLikeSong;
 
 window.removeFromLiked = removeFromLiked;
+
 
 
 
