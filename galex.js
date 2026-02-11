@@ -1,4 +1,3 @@
-
 const account = document.getElementById('account');
 const loginBtn = document.getElementById('loginBtn');
 const logoutBtn = document.getElementById('logoutBtn');
@@ -123,8 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function checkLoginStatus() {
-    currentUser = JSON.parse(localStorage.getItem('galexUser'));
-    if (currentUser) {
+    const savedUser = localStorage.getItem('galexUser');
+    if (savedUser) {
+        currentUser = JSON.parse(savedUser);
+        if (!currentUser.likedSongs) {
+            currentUser.likedSongs = [];
+        }
         updateUIForLoggedInUser();
     }
 }
@@ -158,22 +161,13 @@ function setupEventListeners() {
     if (loginBtn) {
         loginBtn.onclick = () => {
             account.classList.add('show');
-            // ... rest of logic
+            loginDiv.classList.add('show');
+            signupDiv.classList.remove('show');
+            mainplayer.style.opacity = '0.3';
+            mainplayer.style.pointerEvents = 'none';
         };
     }
     
-    // Do this for all button listeners to prevent errors on Mobile/TV pages
-    if (document.getElementById('showSignup')) {
-        document.getElementById('showSignup').onclick = (e) => { /* ... */ };
-    }
-    loginBtn.onclick = () => {
-        account.classList.add('show');
-        loginDiv.classList.add('show');
-        signupDiv.classList.remove('show');
-        mainplayer.style.opacity = '0.3';
-        mainplayer.style.pointerEvents = 'none';
-    };
-
     document.getElementById('showSignup').onclick = (e) => {
         e.preventDefault();
         loginDiv.classList.remove('show');
@@ -209,97 +203,81 @@ function setupEventListeners() {
         }
     };
 
-   document.getElementById('signupSubmit').onclick = () => {
-    const user = {
-        username: document.getElementById('signupUsername').value.trim(),
-        email: document.getElementById('signupEmail').value.trim().toLowerCase(),
-        password: document.getElementById('signupPassword').value,
-        action: 'signup' // Tell script this is a signup
+    // Signup
+    document.getElementById('signupSubmit').onclick = () => {
+        const user = {
+            username: document.getElementById('signupUsername').value.trim(),
+            email: document.getElementById('signupEmail').value.trim().toLowerCase(),
+            password: document.getElementById('signupPassword').value
+        };
+
+        if (!user.username || !user.email || !user.password) {
+            showNotification('Please fill all fields');
+            return;
+        }
+
+        if (user.password.length < 6) {
+            showNotification('Password must be at least 6 characters');
+            return;
+        }
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(user.email)) {
+            showNotification('Please enter a valid email address');
+            return;
+        }
+
+        const existingUser = localStorage.getItem('galexUser');
+        if (existingUser) {
+            const parsedUser = JSON.parse(existingUser);
+            if (parsedUser.email === user.email) {
+                showNotification('Email already registered. Please login.');
+                return;
+            }
+        }
+
+        user.likedSongs = [];
+        localStorage.setItem('galexUser', JSON.stringify(user));
+        showNotification('Account created successfully! Please login.');
+        signupDiv.classList.remove('show');
+        loginDiv.classList.add('show');
     };
 
-    // (Keep your validation checks here: empty fields, password length, etc.)
+    // Login
+    document.getElementById('loginSubmit').onclick = () => {
+        const savedUser = JSON.parse(localStorage.getItem('galexUser'));
+        const email = document.getElementById('loginEmail').value.trim().toLowerCase();
+        const password = document.getElementById('loginPassword').value;
 
-    showNotification('Creating account...');
-
-    fetch(API_URL, {
-        method: 'POST',
-        body: JSON.stringify(user)
-    })
-    .then(res => res.json())
-    .then(data => {
-        if (data.status === 'success') {
-            showNotification('Account created! Please login.');
-            signupDiv.classList.remove('show');
-            loginDiv.classList.add('show');
-        } else {
-            showNotification(data.message);
+        if (!email || !password) {
+            showNotification('Please fill all fields');
+            return;
         }
-    })
-    .catch(err => {
-        console.error(err);
-        showNotification('Connection error. Try again.');
-    });
-};
 
-   document.getElementById('loginSubmit').onclick = () => {
-    const email = document.getElementById('loginEmail').value.trim().toLowerCase();
-    const password = document.getElementById('loginPassword').value;
+        if (!savedUser) {
+            showNotification('No account found. Please sign up first.');
+            return;
+        }
 
-    if (!email || !password) {
-        showNotification('Please fill all fields');
-        return;
-    }
-
-    showNotification('Logging in...');
-
-    fetch(API_URL, {
-        method: 'POST',
-        body: JSON.stringify({
-            action: 'login',
-            email: email,
-            password: password
-        })
-    })
-    .then(res => res.json())
-    .then(data => {
-        if (data.status === 'success') {
-            currentUser = data.user;
-            // We still save to localStorage so they stay logged in if they refresh the page
-            localStorage.setItem('galexUser', JSON.stringify(currentUser));
-            
+        if (email === savedUser.email && password === savedUser.password) {
+            currentUser = savedUser;
             closeAccountModal();
             updateUIForLoggedInUser();
-            loadLikedSongs(); // This now loads the songs that came from the Sheet
+            loadLikedSongs();
             showNotification(`Welcome back, ${currentUser.username}!`);
         } else {
-            showNotification(data.message);
+            showNotification('Invalid email or password');
         }
-    })
-    .catch(err => {
-        console.error(err);
-        showNotification('Connection error. Try again.');
-    });
-};
+    };
 
     // Artist selection (Static cards)
-    if(document.getElementById('hiphopadhi')) document.getElementById('hiphopadhi').onclick = () => showArtistSongs('hiphopadhi');
-    if(document.getElementById('GVPrakash')) document.getElementById('GVPrakash').onclick = () => showArtistSongs('GVPrakash');
-    if(document.getElementById('vijayantony')) document.getElementById('vijayantony').onclick = () => showArtistSongs('vijayantony');
-    if(document.getElementById('Deva')) document.getElementById('Deva').onclick = () => showArtistSongs('Deva');
-    if(document.getElementById('ilaiyaraja')) document.getElementById('ilaiyaraja').onclick = () => showArtistSongs('ilaiyaraja');
-    if(document.getElementById('yuvan')) document.getElementById('yuvan').onclick = () => showArtistSongs('yuvan');
-    if(document.getElementById('ARR')) document.getElementById('ARR').onclick = () => showArtistSongs('ARR');
-    if(document.getElementById('unnikrishnan')) document.getElementById('unnikrishnan').onclick = () => showArtistSongs('unnikrishnan');
-    if(document.getElementById('unnimenan')) document.getElementById('unnimenan').onclick = () => showArtistSongs('unnimenan');
-    if(document.getElementById('SPB')) document.getElementById('SPB').onclick = () => showArtistSongs('SPB');
-    if(document.getElementById('aniruth')) document.getElementById('aniruth').onclick = () => showArtistSongs('aniruth');
-    if(document.getElementById('harrisjayaraj')) document.getElementById('harrisjayaraj').onclick = () => showArtistSongs('harrisjayaraj');
-    if(document.getElementById('dImman')) document.getElementById('dImman').onclick = () => showArtistSongs('dImman');
-    if(document.getElementById('janaki')) document.getElementById('janaki').onclick = () => showArtistSongs('janaki');
-    if(document.getElementById('chithra')) document.getElementById('chithra').onclick = () => showArtistSongs('chithra');
-    if(document.getElementById('mano')) document.getElementById('mano').onclick = () => showArtistSongs('mano');
-    if(document.getElementById('anuradha')) document.getElementById('anuradha').onclick = () => showArtistSongs('anuradha');
-    if(document.getElementById('srikanthdeva')) document.getElementById('srikanthdeva').onclick = () => showArtistSongs('srikanthdeva');
+    const artistIds = ['hiphopadhi', 'GVPrakash', 'vijayantony', 'Deva', 'ilaiyaraja', 'yuvan', 'ARR', 'unnikrishnan', 'unnimenan', 'SPB', 'aniruth', 'harrisjayaraj', 'dImman', 'janaki', 'chithra', 'mano', 'anuradha', 'srikanthdeva'];
+    
+    artistIds.forEach(id => {
+        if (document.getElementById(id)) {
+            document.getElementById(id).onclick = () => showArtistSongs(id);
+        }
+    });
     
     if(document.getElementById('likedplaylistbtn')) document.getElementById('likedplaylistbtn').onclick = () => showLikedSongs();
     
@@ -444,7 +422,8 @@ function setupEventListeners() {
             closeAccountModal();
         }
     });
-// Maximize Player Logic
+
+    // Maximize Player Logic
     maximizeBtn.onclick = () => {
         playerContainer.classList.toggle('fullscreen');
         const icon = maximizeBtn.querySelector('i');
@@ -530,7 +509,6 @@ function toggleShuffle() {
     }
 }
 
-// HELPER FUNCTION: Get songs based on context (Artist ID or 'liked_songs')
 function getContextSongs(contextId) {
     if (contextId === 'liked_songs') {
         return currentUser ? currentUser.likedSongs : [];
@@ -913,194 +891,257 @@ function saveSettings() {
     localStorage.setItem('galexSettings', JSON.stringify(settings));
 }
 
-function toggleLikeSong(artistId, songIndex, event) {
-    event.stopPropagation();
+// ==========================================
+// FIXED LIKE FUNCTIONALITY START
+// ==========================================
+
+function toggleLikeSong(contextId, index, event) {
+    if (event) event.stopPropagation();
 
     if (!currentUser) {
         showNotification('Please login to like songs');
         return;
     }
 
-    const song = songsData[artistId][songIndex];
-    const likeBtn = event.target.closest('.like-btn');
+    const btnElement = event ? event.currentTarget : null;
+    
+    // Initialize array if it doesn't exist
+    if (!currentUser.likedSongs) currentUser.likedSongs = [];
 
-    if (!currentUser.likedSongs) {
-        currentUser.likedSongs = [];
-    }
+    // 1. Identify the song object
+    let targetSong;
 
-    if (currentUser) {
-        fetch(API_URL, {
-            method: 'POST',
-            body: JSON.stringify({
-                action: 'updateLikes',
-                email: currentUser.email,
-                likedSongs: currentUser.likedSongs
-            })
-        }).catch(err => console.log('Error syncing likes:', err)); // Background sync
-    }
-
-    const songIndexInLiked = currentUser.likedSongs.findIndex(
-        s => s.title === song.title && s.artist === song.artist
-    );
-
-    if (songIndexInLiked === -1) {
-        currentUser.likedSongs.push({
-            ...song,
-            originalArtist: artistId,
-            originalIndex: songIndex
-        });
-        likeBtn.classList.add('liked');
-        likeBtn.innerHTML = '❤️';
-        likeBtn.style.animation = 'pulse 0.3s ease';
-        setTimeout(() => likeBtn.style.animation = '', 300);
-        showNotification(`Added "${song.title}" to liked songs`);
+    if (contextId === 'player') {
+        targetSong = currentSong;
     } else {
-        currentUser.likedSongs.splice(songIndexInLiked, 1);
-        likeBtn.classList.remove('liked');
-        likeBtn.innerHTML = '🤍';
-        showNotification(`Removed "${song.title}" from liked songs`);
+        // We assume songsData is available globally
+        targetSong = songsData[contextId][index];
     }
 
+    if (!targetSong) return;
+
+    // 2. Check if already liked
+    const existingIndex = currentUser.likedSongs.findIndex(s => 
+        s.title === targetSong.title && s.artist === targetSong.artist
+    );
+    
+    let isNowLiked = false;
+
+    if (existingIndex > -1) {
+        // REMOVE (Unlike)
+        currentUser.likedSongs.splice(existingIndex, 1);
+        showNotification('Removed from Liked Songs');
+        isNowLiked = false;
+    } else {
+        // ADD (Like)
+        currentUser.likedSongs.push(targetSong);
+        showNotification('Added to Liked Songs');
+        isNowLiked = true;
+    }
+
+    // 3. Save to Local Storage
     localStorage.setItem('galexUser', JSON.stringify(currentUser));
 
-    if (likedSongsContainer.classList.contains('active')) {
-        displayLikedSongs();
+    // 4. Update the Clicked Button Visuals
+    if (btnElement) {
+        btnElement.classList.toggle('liked', isNowLiked);
+        btnElement.innerHTML = isNowLiked ? '❤️' : '🤍';
     }
+
+    // 5. Sync changes across the entire UI
+    updateAllLikeButtons(targetSong.title, targetSong.artist, isNowLiked);
+}
+
+// Function to generate the HTML for a liked song item (was missing)
+function createSongElement(song, contextId, index) {
+    const li = document.createElement('li');
+    li.className = 'song-item';
+    li.dataset.index = index;
+    li.dataset.context = contextId; // 'liked_songs'
+    
+    // Play from Liked Songs context
+    li.onclick = () => playSong('liked_songs', index);
+
+    li.innerHTML = `
+        <div class="song-number">${index + 1}</div>
+        <img src="${song.cover}" alt="${song.title}" class="song-cover">
+        <div class="song-info">
+            <div class="song-title">${song.title}</div>
+            <div class="song-details">${song.album} • ${song.duration} • ${song.artist}</div>
+        </div>
+        <button class="like-btn liked" onclick="removeFromLiked('${song.title.replace(/'/g, "\\'")}', '${song.artist.replace(/'/g, "\\'")}', event)">
+            ❤️
+        </button>
+    `;
+    return li;
 }
 
 function loadLikedSongs() {
     if (currentUser && currentUser.likedSongs) {
-        Object.keys(songsData).forEach(artistId => {
-            songsData[artistId].forEach((song, index) => {
-                const isLiked = currentUser.likedSongs.some(s => s.title === song.title && s.artist === song.artist);
-                const songElement = document.querySelector(`.song-item[data-artist="${artistId}"][data-index="${index}"]`);
-                if (songElement) {
-                    const likeBtn = songElement.querySelector('.like-btn');
-                    if (likeBtn) {
-                        likeBtn.classList.toggle('liked', isLiked);
-                        likeBtn.innerHTML = isLiked ? '❤️' : '🤍';
-                    }
-                }
-            });
+        // Sync hearts on initial load
+        currentUser.likedSongs.forEach(song => {
+             updateAllLikeButtons(song.title, song.artist, true);
         });
     }
 }
 
 function displayLikedSongs() {
-    likedSongsList.innerHTML = '';
-
+    const list = document.getElementById('likedSongsList');
+    const emptyMsg = document.getElementById('emptyLiked');
+    
+    list.innerHTML = ''; // Clear current list
+    
+    // Check if user exists and has songs
     if (!currentUser || !currentUser.likedSongs || currentUser.likedSongs.length === 0) {
-        emptyLiked.style.display = 'block';
+        if(emptyMsg) emptyMsg.style.display = 'block';
         return;
     }
 
-    emptyLiked.style.display = 'none';
+    if(emptyMsg) emptyMsg.style.display = 'none';
 
+    // Loop through liked songs
     currentUser.likedSongs.forEach((song, index) => {
-        const li = document.createElement('li');
-        li.className = 'song-item';
-        
-        // Use 'liked_songs' as the context ID
-        li.onclick = () => {
-            playSong('liked_songs', index);
-        };
-
-        li.innerHTML = `
-            <div class="song-number">${index + 1}</div>
-            <img src="${song.cover}" alt="${song.title}" class="song-cover">
-            <div class="song-info">
-                <div class="song-title">${song.title}</div>
-                <div class="song-details">${song.album} • ${song.duration} • ${song.artist}</div>
-            </div>
-            <button class="like-btn liked" onclick="removeFromLiked('${song.title}', '${song.artist}', event)">
-                ❤️
-            </button>
-        `;
-
-        likedSongsList.appendChild(li);
+        // We pass 'liked_songs' as the context ID here
+        const item = createSongElement(song, 'liked_songs', index);
+        list.appendChild(item);
     });
 }
 
 function removeFromLiked(songTitle, songArtist, event) {
-    event.stopPropagation();
+    if (event) event.stopPropagation();
 
     if (!currentUser || !currentUser.likedSongs) return;
 
+    // Remove from array
     currentUser.likedSongs = currentUser.likedSongs.filter(
         s => !(s.title === songTitle && s.artist === songArtist)
     );
 
     localStorage.setItem('galexUser', JSON.stringify(currentUser));
+    
+    // Refresh the list immediately
     displayLikedSongs();
+    
     showNotification(`Removed "${songTitle}" from liked songs`);
 
-    Object.keys(songsData).forEach(artistId => {
-        songsData[artistId].forEach((song, index) => {
-            if (song.title === songTitle && song.artist === songArtist) {
-                const songElement = document.querySelector(`.song-item[data-artist="${artistId}"][data-index="${index}"]`);
-                if (songElement) {
-                    const likeBtn = songElement.querySelector('.like-btn');
-                    likeBtn.classList.remove('liked');
-                    likeBtn.innerHTML = '🤍';
-                }
-            }
-        });
-    });
+    // Update the heart icons on the main artist pages to "unliked" (white heart)
+    updateAllLikeButtons(songTitle, songArtist, false);
 }
 
-function playSong(artistId, songIndex) {
-    let songs;
+// Helper function to update hearts everywhere (Artist lists and Player)
+function updateAllLikeButtons(title, artist, isLiked) {
+    // 1. Update Artist Lists
+    // Iterate through all rendered songs to find matches
+    const allSongItems = document.querySelectorAll('.song-item');
+    allSongItems.forEach(item => {
+        const titleDiv = item.querySelector('.song-title');
+        // Simple check by title (could be more robust with data attributes if needed)
+        if (titleDiv && titleDiv.textContent === title) {
+            const btn = item.querySelector('.like-btn');
+            if (btn) {
+                btn.classList.toggle('liked', isLiked);
+                btn.innerHTML = isLiked ? '❤️' : '🤍';
+            }
+        }
+    });
+
+    // 2. Update Player Heart (if this song is currently playing)
+    if (currentSong && currentSong.title === title) {
+        const playerHeart = document.querySelector('#playerLikeBtn i');
+        if(playerHeart) {
+            playerHeart.className = isLiked ? 'fas fa-heart' : 'far fa-heart';
+            playerHeart.style.color = isLiked ? '#e91e63' : '#b0b0d0';
+        }
+    }
+}
+
+// ==========================================
+// FIXED LIKE FUNCTIONALITY END
+// ==========================================
+
+function playSong(contextId, index) {
+    currentArtist = contextId; // Tracks where we are playing from
     
-    // If we are already shuffling the current context, keep using shuffled playlist
-    if (shuffleMode && shuffledPlaylist.length && currentArtist === artistId) {
-        songs = shuffledPlaylist;
+    let songs;
+
+    // FIX: Check if we are playing from Liked Songs or an Artist Playlist
+    if (contextId === 'liked_songs') {
+        if (!currentUser || !currentUser.likedSongs) {
+            showNotification("Please login to play liked songs");
+            return;
+        }
+        songs = currentUser.likedSongs;
     } else {
-        songs = getContextSongs(artistId);
+        // Normal artist playback
+        songs = songsData[contextId];
     }
 
-    if (!songs || !songs[songIndex]) return;
+    // Safety check if song exists at that index
+    if (!songs || !songs[index]) {
+        console.error("Song not found");
+        return;
+    }
 
-    const song = songs[songIndex];
-
-    currentSong = song;
-    currentSongIndex = songIndex;
-    currentArtist = artistId;
-
-    document.getElementById('playerTitle').textContent = song.title;
-    document.getElementById('playerArtist').textContent = `${song.artist} • ${song.album}`;
-    document.getElementById('playerCover').src = song.cover;
-
-    // --- NEW: Set the background image for the blur effect ---
-    playerContainer.style.setProperty('--player-bg', `url('${song.cover}')`);
-    // --------------------------------------------------------
-
-    document.querySelector('.play-btn').innerHTML = '<div class="loading"></div>';
-
-    audioPlayer.src = song.audio;
-
-    playerContainer.classList.remove('hidden');
-    updateQueueDisplay();
-
-    audioPlayer.play().then(() => {
-        document.querySelector('.play-btn').innerHTML = '<i class="fas fa-pause"></i>';
-        document.getElementById('playerCover').classList.add('playing');
-    }).catch(e => {
-        console.error('Play error:', e);
-        showNotification('Error playing audio. Please try again.');
-        document.querySelector('.play-btn').innerHTML = '<i class="fas fa-play"></i>';
-        document.getElementById('playerCover').classList.remove('playing');
-    });
-
-    document.querySelectorAll('.song-item').forEach(item => {
-        item.classList.remove('active');
-    });
-
-    if (artistId === 'liked_songs') {
-         const likedItems = document.querySelectorAll('#likedSongsList .song-item');
-         if (likedItems[songIndex]) likedItems[songIndex].classList.add('active');
+    // Handle Shuffle Logic
+    if (shuffleMode) {
+        if (shuffledPlaylist.length === 0 || !shuffledPlaylist.includes(songs[index])) {
+            originalPlaylist = [...songs];
+            createShuffledPlaylist(); 
+            // Find the clicked song in the shuffled list
+            const shuffledIndex = shuffledPlaylist.findIndex(s => s.title === songs[index].title);
+            currentSongIndex = shuffledIndex !== -1 ? shuffledIndex : 0;
+            currentSong = shuffledPlaylist[currentSongIndex];
+        } else {
+            currentSongIndex = index;
+            currentSong = shuffledPlaylist[currentSongIndex];
+        }
     } else {
-        const activeSong = document.querySelector(`.song-item[data-artist="${artistId}"][data-index="${songIndex}"]`);
-        if (activeSong) activeSong.classList.add('active');
+        currentSongIndex = index;
+        currentSong = songs[index];
+    }
+
+    // Load and Play
+    if(currentSong.url) {
+        audioPlayer.src = currentSong.url;
+        audioPlayer.play().then(() => {
+            isPlaying = true;
+            updatePlayerUI();
+            updateQueueDisplay();
+        }).catch(e => {
+            console.error("Playback failed", e);
+            showNotification("Error playing song url");
+        });
+    } else {
+        showNotification("Song URL missing");
+    }
+}
+
+// Function to update Player UI (Cover, Title, etc) - Added missing function
+function updatePlayerUI() {
+    if (!currentSong) return;
+    
+    const playerCover = document.getElementById('playerCover');
+    const playerTitle = document.getElementById('playerTitle');
+    const playerArtist = document.getElementById('playerArtist');
+    const playerLikeBtn = document.getElementById('playerLikeBtn');
+
+    if(playerCover) playerCover.src = currentSong.cover;
+    if(playerTitle) playerTitle.textContent = currentSong.title;
+    if(playerArtist) playerArtist.textContent = currentSong.artist;
+
+    // Update Player Like Button State
+    if (playerLikeBtn) {
+        const isLiked = currentUser && currentUser.likedSongs && 
+            currentUser.likedSongs.some(s => s.title === currentSong.title && s.artist === currentSong.artist);
+        
+        const icon = playerLikeBtn.querySelector('i');
+        if (icon) {
+            icon.className = isLiked ? 'fas fa-heart' : 'far fa-heart';
+            icon.style.color = isLiked ? '#e91e63' : '#b0b0d0';
+        }
+        
+        // Add click handler for player like button
+        playerLikeBtn.onclick = (e) => toggleCurrentSongLike(e);
     }
 }
 
@@ -1194,9 +1235,7 @@ function setupKeyboardShortcuts() {
             case 'l':
             case 'L':
                 e.preventDefault();
-                if (currentSong) {
-                    toggleCurrentSongLike();
-                }
+                toggleCurrentSongLike();
                 break;
             case 'Escape':
                 if (searchResults.classList.contains('active')) {
@@ -1208,38 +1247,14 @@ function setupKeyboardShortcuts() {
     });
 }
 
-function toggleCurrentSongLike() {
-    if (!currentUser || !currentSong || !currentArtist) return;
+function toggleCurrentSongLike(e) {
+    if(e) e.stopPropagation();
+    
+    if (!currentUser || !currentSong) return;
 
-    const songs = shuffleMode && shuffledPlaylist.length ? shuffledPlaylist : getContextSongs(currentArtist);
-    const songIndex = songs.findIndex(
-        song => song.title === currentSong.title && song.artist === currentSong.artist
-    );
-
-    if (songIndex !== -1) {
-        if (currentArtist === 'liked_songs') {
-             // Removing from liked songs while playing from liked songs context
-             const fakeEvent = {
-                 target: document.createElement('div'), // dummy
-                 stopPropagation: () => { }
-             };
-             removeFromLiked(currentSong.title, currentSong.artist, fakeEvent);
-        } else {
-             // Normal toggle
-             const songElement = document.querySelector(`.song-item[data-artist="${currentArtist}"][data-index="${songIndex}"]`);
-             if (songElement) {
-                 const likeBtn = songElement.querySelector('.like-btn');
-                 const fakeEvent = {
-                     target: likeBtn,
-                     stopPropagation: () => { }
-                 };
-                 toggleLikeSong(currentArtist, songIndex, fakeEvent);
-             }
-        }
-    }
+    // Use the player context 'player' to target currentSong logic in our main toggle function
+    toggleLikeSong('player', 0, null);
 }
-
-
 
 // Add this NEW helper function
 function applyTheme(isDark) {
@@ -1252,10 +1267,4 @@ function applyTheme(isDark) {
 
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
-
 window.removeFromLiked = removeFromLiked;
-
-
-
-
-
