@@ -788,6 +788,7 @@ function getArtistName(artistId) {
 }
 
 function populateSongLists() {
+    playerContainer.style.display = 'flex';
     Object.keys(songsData).forEach(artistId => {
         const container = document.getElementById(artistId + 'songs');
         if (!container) return;
@@ -1268,5 +1269,6 @@ function applyTheme(isDark) {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
 
 
