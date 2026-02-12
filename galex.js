@@ -1102,7 +1102,7 @@ function playSong(contextId, index) {
 
     // Load and Play
     if(currentSong.audio) {
-        audioPlayer.src = currentSong.url;
+        audioPlayer.src = currentSong.audio;
         audioPlayer.play().then(() => {
             isPlaying = true;
             updatePlayerUI();
@@ -1268,4 +1268,5 @@ function applyTheme(isDark) {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
 
