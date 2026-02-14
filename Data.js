@@ -4079,6 +4079,70 @@ const songsData = {
             cover: 'https://i.pinimg.com/736x/22/78/cf/2278cfc04354f368e8830d55439a7078.jpg',
             duration: '0:00',
             audio: 'songs/Yaavum Neeye.mp3'
+        },
+        {
+            title: 'Kannamoochi Yenada(Duet)',
+            artist: 'ARR',
+            album: 'Kandukondain Kandukondain',
+            cover: 'https://i.pinimg.com/736x/36/95/fa/3695fa077ed21192aef80d73f70c21a0.jpg',
+            duration: '0:00',
+            audio: 'songs/Kannamoochi-YenadaDuet.mp3'
+        },
+        {
+            title: 'Konjum Mainakkale',
+            artist: 'ARR',
+            album: 'Kandukondain Kandukondain',
+            cover: 'https://i.pinimg.com/736x/36/95/fa/3695fa077ed21192aef80d73f70c21a0.jpg',
+            duration: '0:00',
+            audio: 'songs/Konjum-Mainakkale.mp3'
+        },
+        {
+            title: 'Enge Enathu Kavithai',
+            artist: 'ARR',
+            album: 'Kandukondain Kandukondain',
+            cover: 'https://i.pinimg.com/736x/36/95/fa/3695fa077ed21192aef80d73f70c21a0.jpg',
+            duration: '0:00',
+            audio: 'songs/Enge-Enathu-Kavithai.mp3'
+        },
+        {
+            title: 'Suttum-Vizhi',
+            artist: 'ARR',
+            album: 'Kandukondain Kandukondain',
+            cover: 'https://i.pinimg.com/736x/36/95/fa/3695fa077ed21192aef80d73f70c21a0.jpg',
+            duration: '0:00',
+            audio: 'songs/Suttum-Vizhi.mp3'
+        },
+        {
+            title: 'Kannamoochi Yenada',
+            artist: 'ARR',
+            album: 'Kandukondain Kandukondain',
+            cover: 'https://i.pinimg.com/736x/36/95/fa/3695fa077ed21192aef80d73f70c21a0.jpg',
+            duration: '0:00',
+            audio: 'songs/Kannamoochi-Yenada.mp3'
+        },
+        {
+            title: 'Smayiyai',
+            artist: 'ARR',
+            album: 'Kandukondain Kandukondain',
+            cover: 'https://i.pinimg.com/736x/36/95/fa/3695fa077ed21192aef80d73f70c21a0.jpg',
+            duration: '0:00',
+            audio: 'songs/Smayiyai.mp3'
+        },
+        {
+            title: 'Enna Solla Pogirai',
+            artist: 'ARR',
+            album: 'Kandukondain Kandukondain',
+            cover: 'https://i.pinimg.com/736x/36/95/fa/3695fa077ed21192aef80d73f70c21a0.jpg',
+            duration: '0:00',
+            audio: 'songs/Enna-Solla-Pogirai.mp3'
+        },
+        {
+            title: 'Kandukondain Kandukondain',
+            artist: 'ARR',
+            album: 'Kandukondain Kandukondain',
+            cover: 'https://i.pinimg.com/736x/36/95/fa/3695fa077ed21192aef80d73f70c21a0.jpg',
+            duration: '0:00',
+            audio: 'songs/Kandukondain-Kandukondain.mp3'
         }
     ],
     'aniruth': [
@@ -5513,6 +5577,62 @@ const songsData = {
             duration: '0:00',
             cover: 'https://img.nowrunning.com/content/movie/0-2007/ThottiJaya/poster.jpg',
             audio: 'songs/Theme-Music.mp3'
+        },
+        {
+            title: 'Mercury Mele',
+            artist: 'Harris Jayaraj',
+            album: 'Majunu',
+            duration: '0:00',
+            cover: 'https://www.bing.com/th/id/OIP.NpVtbkIA52kS26XVCsmNrwHaHa?w=184&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2',
+            audio: 'songs/Mercury-Mele.mp3'
+        },
+        {
+            title: 'Gulmohar Malare Bit',
+            artist: 'Harris Jayaraj',
+            album: 'Majunu',
+            duration: '0:00',
+            cover: 'https://www.bing.com/th/id/OIP.NpVtbkIA52kS26XVCsmNrwHaHa?w=184&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2',
+            audio: 'songs/Gulmohar-Malare-Bit.mp3'
+        },
+        {
+            title: 'Pinju Thendrale',
+            artist: 'Harris Jayaraj',
+            album: 'Majunu',
+            duration: '0:00',
+            cover: 'https://www.bing.com/th/id/OIP.NpVtbkIA52kS26XVCsmNrwHaHa?w=184&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2',
+            audio: 'songs/Pinju-Thendrale.mp3'
+        },
+        {
+            title: 'Hari Gori',
+            artist: 'Harris Jayaraj',
+            album: 'Majunu',
+            duration: '0:00',
+            cover: 'https://www.bing.com/th/id/OIP.NpVtbkIA52kS26XVCsmNrwHaHa?w=184&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2',
+            audio: 'songs/Hari-Gori.mp3'
+        },
+        {
+            title: 'Pada Pada Pattaampoochi',
+            artist: 'Harris Jayaraj',
+            album: 'Majunu',
+            duration: '0:00',
+            cover: 'https://www.bing.com/th/id/OIP.NpVtbkIA52kS26XVCsmNrwHaHa?w=184&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2',
+            audio: 'songs/Pada-Pada-Pattaampoochi.mp3'
+        },
+        {
+            title: 'Gulmohar Malare',
+            artist: 'Harris Jayaraj',
+            album: 'Majunu',
+            duration: '0:00',
+            cover: 'https://www.bing.com/th/id/OIP.NpVtbkIA52kS26XVCsmNrwHaHa?w=184&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2',
+            audio: 'songs/Gulmohar-Malare.mp3'
+        },
+        {
+            title: 'Mudhal Kanave',
+            artist: 'Harris Jayaraj',
+            album: 'Majunu',
+            duration: '0:00',
+            cover: 'https://www.bing.com/th/id/OIP.NpVtbkIA52kS26XVCsmNrwHaHa?w=184&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2',
+            audio: 'songs/Mudhal-Kanave.mp3'
         }
     ],
     'srikanthdeva': [
@@ -5795,6 +5915,46 @@ const songsData = {
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/79/c7/43/79c7436abc7718faf41a9f3192bb8a24.jpg',
             audio: 'songs/Pazhaya-Soru.mp3'
+        },
+        {
+            title: 'Pattam Poochi',
+            artist: 'srikanthdeva',
+            album: 'Thenavattu',
+            duration: '0:00',
+            cover: 'https://th.bing.com/th/id/OIP.ErOkiU7IkoGzuUO4ghq-4gAAAA?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Pattam-Poochi-MassTamilan.dev.mp3'
+        },
+        {
+            title: 'Onnu Rendu',
+            artist: 'srikanthdeva',
+            album: 'Thenavattu',
+            duration: '0:00',
+            cover: 'https://th.bing.com/th/id/OIP.ErOkiU7IkoGzuUO4ghq-4gAAAA?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Onnu-Rendu-MassTamilan.dev.mp3'
+        },
+        {
+            title: 'Enakkena Piranthavalae',
+            artist: 'srikanthdeva',
+            album: 'Thenavattu',
+            duration: '0:00',
+            cover: 'https://th.bing.com/th/id/OIP.ErOkiU7IkoGzuUO4ghq-4gAAAA?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Enakkena-Piranthavalae-MassTamilan.dev.mp3'
+        },
+        {
+            title: 'Engae Irunthai',
+            artist: 'srikanthdeva',
+            album: 'Thenavattu',
+            duration: '0:00',
+            cover: 'https://th.bing.com/th/id/OIP.ErOkiU7IkoGzuUO4ghq-4gAAAA?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Engae-Irunthai-MassTamilan.dev.mp3'
+        },
+        {
+            title: 'Usilampatti Santhaiyilae',
+            artist: 'srikanthdeva',
+            album: 'Thenavattu',
+            duration: '0:00',
+            cover: 'https://th.bing.com/th/id/OIP.ErOkiU7IkoGzuUO4ghq-4gAAAA?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+            audio: 'songs/Usilampatti-Santhaiyilae-MassTamilan.dev.mp3'
         }
     ],
     'vijay': [
@@ -5941,7 +6101,63 @@ const songsData = {
             duration: '0:00',
             cover: 'https://i.pinimg.com/1200x/36/ef/d1/36efd13ab86220f9698d74391e711a89.jpg',
             audio: 'songs/Yendhan-Kan-Munne-MassTamilan.fm.mp3'
+        },,
+        {
+            title: 'Ennavale Ennavale',
+            artist: 'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover: 'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio: 'songs/Ennavale-Ennavale.mp3'
         },
+        {
+            title: 'Malligaiye Malligaiye',
+            artist: 'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover: 'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio: 'songs/Malligaiye-Malligaiye.mp3'
+        },
+        {
+            title: 'Manisha Manisha',
+            artist: 'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover: 'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio: 'songs/Manisha-Manisha.mp3'
+        },
+        {
+            title: 'Pottu Vaithu',
+            artist: 'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover: 'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio: 'songs/Pottu-Vaithu.mp3'
+        },
+        {
+            title: 'Un Marbil',
+            artist: 'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover: 'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio: 'songs/Un-Marbil.mp3'
+        },
+        {
+            title: 'Unnai Ninaithu naan',
+            artist: 'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover: 'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio: 'songs/Unnai-Ninaithu-naan.mp3'
+        },
+        {
+            title: 'Vanna Nilave',
+            artist: 'Deva',
+            album: 'Ninaithen Vandhai',
+            duration: '5:36',
+            cover: 'https://i.pinimg.com/1200x/61/00/b4/6100b40eb05ec6533bb25053c99b3626.jpg',
+            audio: 'songs/Vanna-Nilave.mp3'
+        }
     ],
     'ajith': [
         {
@@ -6781,6 +6997,110 @@ const songsData = {
             duration: '0:00',
             cover: 'https://i.pinimg.com/736x/8f/16/d0/8f16d0be43085ed6cf3384d42057c917.jpg',
             audio: 'songs/Vellerikka-Pinju-Vellerikka.mp3'
+        },
+        {
+            title: 'Thiruda Thirudi Theme',
+            artist: 'Dhina',
+            album: 'Thiruda Thirudi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/d6/67/cfd667e5a5920f75eb28213cd78eefe6.jpg',
+            audio: 'songs/Thiruda Thirudi Theme.mp3'
+        },
+        {
+            title: 'Ayurveda Azhagi',
+            artist: 'Dhina',
+            album: 'Thiruda Thirudi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/d6/67/cfd667e5a5920f75eb28213cd78eefe6.jpg',
+            audio: 'songs/Ayurveda-Azhagi.mp3'
+        },
+        {
+            title: 'Aaha Koosuthu Mutham',
+            artist: 'Dhina',
+            album: 'Thiruda Thirudi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/d6/67/cfd667e5a5920f75eb28213cd78eefe6.jpg',
+            audio: 'songs/Aaha-Koosuthu-Mutham.mp3'
+        },
+        {
+            title: 'Unna Paartha',
+            artist: 'Dhina',
+            album: 'Thiruda Thirudi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/d6/67/cfd667e5a5920f75eb28213cd78eefe6.jpg',
+            audio: 'songs/Unna-Paartha.mp3'
+        },
+        {
+            title: 'Vandar Kuzhazhi',
+            artist: 'Dhina',
+            album: 'Thiruda Thirudi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/d6/67/cfd667e5a5920f75eb28213cd78eefe6.jpg',
+            audio: 'songs/Vandar-Kuzhazhi.mp3'
+        },
+        {
+            title: 'Azhaga Irukanga',
+            artist: 'Dhina',
+            album: 'Thiruda Thirudi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/d6/67/cfd667e5a5920f75eb28213cd78eefe6.jpg',
+            audio: 'songs/Azhaga-Irukanga.mp3'
+        },
+        {
+            title: 'Manmatha Raasa',
+            artist: 'Dhina',
+            album: 'Thiruda Thirudi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/1200x/cf/d6/67/cfd667e5a5920f75eb28213cd78eefe6.jpg',
+            audio: 'songs/Manmatha-Raasa.mp3'
+        },
+        {
+            title: 'Yendi Padhagathi',
+            artist: 'M Ghibran',
+            album: 'Naiyandi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/6f/a0/40/6fa040ee7bd7e5867e0eaab0397aa0f1.jpg',
+            audio: 'songs/Yendi-Padhagathi.mp3'
+        },
+        {
+            title: 'Marriage Marketil',
+            artist: 'M Ghibran',
+            album: 'Naiyandi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/6f/a0/40/6fa040ee7bd7e5867e0eaab0397aa0f1.jpg',
+            audio: 'songs/Marriage-Marketil.mp3'
+        },
+        {
+            title: 'Inikka Inikka',
+            artist: 'M Ghibran',
+            album: 'Naiyandi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/6f/a0/40/6fa040ee7bd7e5867e0eaab0397aa0f1.jpg',
+            audio: 'songs/Inikka-Inikka.mp3'
+        },
+        {
+            title: 'Munnadi Pora Pulla',
+            artist: 'M Ghibran',
+            album: 'Naiyandi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/6f/a0/40/6fa040ee7bd7e5867e0eaab0397aa0f1.jpg',
+            audio: 'songs/Munnadi-Pora-Pulla.mp3'
+        },
+        {
+            title: 'Ae Le Le Etti Parthale',
+            artist: 'M Ghibran',
+            album: 'Naiyandi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/6f/a0/40/6fa040ee7bd7e5867e0eaab0397aa0f1.jpg',
+            audio: 'songs/Ae-Le-Le-Etti-Parthale.mp3'
+        },
+        {
+            title: 'Teddy Bear',
+            artist: 'M Ghibran',
+            album: 'Naiyandi',
+            duration: '0:00',
+            cover: 'https://i.pinimg.com/736x/6f/a0/40/6fa040ee7bd7e5867e0eaab0397aa0f1.jpg',
+            audio: 'songs/Teddy-Bear.mp3'
         }
     ],
     'vikram': [],
