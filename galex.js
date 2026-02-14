@@ -1257,6 +1257,19 @@ function toggleCurrentSongLike(e) {
     toggleLikeSong('player', 0, null);
 }
 
+function updatePlayerUI() {
+    if (!currentSong) return;
+
+    document.getElementById('playerTitle').textContent = currentSong.title;
+    document.getElementById('playerArtist').textContent = currentSong.artist;
+
+    const coverImg = document.getElementById('playerCover');
+    coverImg.src = currentSong.cover;
+    const playerContainer = document.getElementById('playerContainer');
+    playerContainer.style.setProperty('--player-bg', `url('${currentSong.cover}')`);
+}
+
+
 // Add this NEW helper function
 function applyTheme(isDark) {
     if (isDark) {
@@ -1269,6 +1282,7 @@ function applyTheme(isDark) {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
 
 
 
