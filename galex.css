@@ -464,20 +464,22 @@ body.light-mode .player-container.fullscreen {
 .player-container::before {
     content: '';
     position: absolute;
-    top: -50px; /* Negative margins help hide white edges from blur */
-    left: 50px;
+    /* Use negative values on ALL sides to hide blurred edges */
+    top: -50px;
+    left: -50px;
+    /* Changed from 50px to -50px */
     right: -50px;
     bottom: -50px;
-    
-    /* Variable we will set in JS */
+
+    /* This variable is now being set by your JS */
     background-image: var(--player-bg);
     background-size: cover;
     background-position: center;
-    
-    /* heavy blur and darkening for readability */
-    filter: blur(20px) brightness(0.4); 
-    z-index: -1; /* Place behind the controls */
-    transition: background-image 0.5s ease; /* Smooth transition between songs */
+
+    /* Blur and Darken */
+    filter: blur(30px) brightness(0.5);
+    z-index: -1;
+    transition: background-image 0.5s ease-in-out;
 }
 
 /* Exit Fullscreen Button */
@@ -1618,3 +1620,4 @@ body.light-mode .song-item:hover {
     height: 8px;
     border-radius: 4px;
 }
+
