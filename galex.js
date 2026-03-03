@@ -1,3 +1,4 @@
+const scriptURL = "https://script.google.com/macros/s/AKfycbwfTFXyTy7JkHJ751JZm3TH3-X6QdyjkdD3D8fga3gTaVaH4B4mc-4M1-93ev_WEQo/exec";
 const account = document.getElementById('account');
 const loginBtn = document.getElementById('loginBtn');
 const logoutBtn = document.getElementById('logoutBtn');
@@ -203,73 +204,104 @@ function setupEventListeners() {
         }
     };
 
-    // Signup
-    document.getElementById('signupSubmit').onclick = () => {
-        const user = {
-            username: document.getElementById('signupUsername').value.trim(),
-            email: document.getElementById('signupEmail').value.trim().toLowerCase(),
-            password: document.getElementById('signupPassword').value
-        };
+   // ====================== SIGNUP ======================
+document.getElementById('signupSubmit').onclick = async () => {
 
-        if (!user.username || !user.email || !user.password) {
-            showNotification('Please fill all fields');
-            return;
+    const username = document.getElementById('signupUsername').value.trim();
+    const email = document.getElementById('signupEmail').value.trim().toLowerCase();
+    const password = document.getElementById('signupPassword').value;
+
+    if (!username || !email || !password) {
+        showNotification("Fill all fields");
+        return;
+    }
+
+    try {
+        const response = await fetch(scriptURL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                action: "signup",
+                username: username,
+                email: email,
+                password: password
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.status === "exists") {
+            showNotification("Email already registered");
+        } 
+        else if (result.status === "success") {
+            showNotification("Account created successfully! Please login.");
+
+            // Switch to login form
+            signupDiv.classList.remove('show');
+            loginDiv.classList.add('show');
+        } 
+        else {
+            showNotification("Signup failed");
         }
 
-        if (user.password.length < 6) {
-            showNotification('Password must be at least 6 characters');
-            return;
-        }
+    } catch (error) {
+        console.error("Signup error:", error);
+        showNotification("Server error");
+    }
+};
 
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(user.email)) {
-            showNotification('Please enter a valid email address');
-            return;
-        }
 
-        const existingUser = localStorage.getItem('galexUser');
-        if (existingUser) {
-            const parsedUser = JSON.parse(existingUser);
-            if (parsedUser.email === user.email) {
-                showNotification('Email already registered. Please login.');
-                return;
-            }
-        }
+// ====================== LOGIN ======================
+document.getElementById('loginSubmit').onclick = async () => {
 
-        user.likedSongs = [];
-        localStorage.setItem('galexUser', JSON.stringify(user));
-        showNotification('Account created successfully! Please login.');
-        signupDiv.classList.remove('show');
-        loginDiv.classList.add('show');
-    };
+    const email = document.getElementById('loginEmail').value.trim().toLowerCase();
+    const password = document.getElementById('loginPassword').value;
 
-    // Login
-    document.getElementById('loginSubmit').onclick = () => {
-        const savedUser = JSON.parse(localStorage.getItem('galexUser'));
-        const email = document.getElementById('loginEmail').value.trim().toLowerCase();
-        const password = document.getElementById('loginPassword').value;
+    if (!email || !password) {
+        showNotification("Fill all fields");
+        return;
+    }
 
-        if (!email || !password) {
-            showNotification('Please fill all fields');
-            return;
-        }
+    try {
+        const response = await fetch(scriptURL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                action: "login",
+                email: email,
+                password: password
+            })
+        });
 
-        if (!savedUser) {
-            showNotification('No account found. Please sign up first.');
-            return;
-        }
+        const result = await response.json();
 
-        if (email === savedUser.email && password === savedUser.password) {
-            currentUser = savedUser;
+        if (result.status === "success") {
+
+            currentUser = {
+                username: result.username,
+                email: email,
+                likedSongs: []
+            };
+
+            localStorage.setItem("galexUser", JSON.stringify(currentUser));
+
             closeAccountModal();
             updateUIForLoggedInUser();
-            loadLikedSongs();
-            showNotification(`Welcome back, ${currentUser.username}!`);
-        } else {
-            showNotification('Invalid email or password');
-        }
-    };
+            showNotification("Welcome " + result.username);
 
+        } else {
+            showNotification("Invalid email or password");
+        }
+
+    } catch (error) {
+        console.error("Login error:", error);
+        showNotification("Error connecting to server");
+    }
+};
     // Artist selection (Static cards)
     const artistIds = ['hiphopadhi', 'GVPrakash', 'vijayantony', 'Deva', 'ilaiyaraja', 'yuvan', 'ARR', 'unnikrishnan', 'unnimenan', 'SPB', 'aniruth', 'harrisjayaraj', 'dImman', 'janaki', 'chithra', 'mano', 'anuradha', 'srikanthdeva'];
     
@@ -1282,6 +1314,7 @@ function applyTheme(isDark) {
 // Make functions available globally
 window.toggleLikeSong = toggleLikeSong;
 window.removeFromLiked = removeFromLiked;
+
 
 
 
